@@ -1,0 +1,35 @@
+{
+    "name": "a3go",
+    "version": "0.1.0",
+    "description": "Autonomous 3-dimensional Go research: a self-contained 3D-Go engine + self-play stack for an autonomous Flywheel research agent.",
+    "private": true,
+    "scripts": {
+        "test": "tsx test/engine3d.test.ts",
+        "selfplay": "tsx src/selfplay/experiments/exp_mcts_vs_random.ts",
+        "exp:mcts-vs-random": "tsx src/selfplay/experiments/exp_mcts_vs_random.ts",
+        "exp:komi": "tsx src/selfplay/experiments/exp_komi_mcts.ts",
+        "exp:boards": "tsx src/selfplay/experiments/exp_boards_mcts.ts",
+        "exp:ladders": "tsx src/selfplay/experiments/exp_ladders.ts",
+        "lint": "eslint src/ test/",
+        "lint:fix": "eslint --fix src/ test/",
+        "prettier": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+        "prettier:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
+        "checks": "npm run lint && npm run prettier:check"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@eslint/compat": "^1.4.0",
+        "@eslint/eslintrc": "^3.3.1",
+        "@eslint/js": "9.38.0",
+        "@types/node": "^24.9.1",
+        "@typescript-eslint/eslint-plugin": "^8.46.2",
+        "@typescript-eslint/parser": "^8.46.2",
+        "eslint": "9.38.0",
+        "eslint-config-prettier": "10.1.8",
+        "eslint-plugin-prettier": ">=5.2.1",
+        "globals": "^16.4.0",
+        "prettier": "3.8.2",
+        "tsx": "^4.22.4",
+        "typescript": "=5.5.4"
+    }
+}

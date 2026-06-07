@@ -1,0 +1,34 @@
+a3go
+Copyright (c) 2026 Theo
+
+This product is licensed under the MIT License (see LICENSE) for a3go-authored
+code: the documentation under docs/, the build/lint/test configuration, the
+public API barrels (src/engine/index.ts, src/selfplay/index.ts), and the
+experiments under src/selfplay/experiments/.
+
+---
+
+This product includes vendored source code from the "goban" project
+(https://github.com/theo-kirby/goban, a fork of https://github.com/online-go/goban),
+which is licensed under the Apache License, Version 2.0.
+
+    Copyright (C) Online-Go.com
+    Licensed under the Apache License, Version 2.0.
+    You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+
+The following files are vendored from goban and retain their Apache-2.0 license
+headers. See src/engine/VENDORED.md for the exact source commit and re-sync
+instructions.
+
+  3D Go engine (src/engine/):
+    - Topology.ts
+    - BoardState3D.ts
+    - Scorer3D.ts
+    - GobanError.ts
+    - formats/JGOF.ts
+
+The self-play stack (src/selfplay/agents.ts, playGame.ts, match.ts, mcts.ts)
+and the engine test harness (test/engine3d.test.ts) were also originally
+authored in the goban project. a3go owns this code and may modify it freely;
+divergence from upstream is logged in src/engine/VENDORED.md.
