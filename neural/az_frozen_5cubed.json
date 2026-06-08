@@ -1,0 +1,42 @@
+{
+  "n": 5,
+  "sims": 48,
+  "games": 48,
+  "seed_ckpt": "best_distill5strong_5cubed.pt",
+  "promotions": 2,
+  "history": [
+    {
+      "iter": 0,
+      "best_vs_ref": 0.5,
+      "event": "seed"
+    },
+    {
+      "iter": 1,
+      "cand_vs_best": 0.696,
+      "cand_vs_ref": 0.7,
+      "best_vs_ref": 0.5,
+      "buffer": 240,
+      "promoted": true,
+      "secs": 923.1
+    },
+    {
+      "iter": 2,
+      "cand_vs_best": 0.611,
+      "cand_vs_ref": 0.735,
+      "best_vs_ref": 0.7,
+      "buffer": 240,
+      "promoted": true,
+      "secs": 700.2
+    },
+    {
+      "iter": 3,
+      "cand_vs_best": 0.571,
+      "cand_vs_ref": 0.667,
+      "best_vs_ref": 0.735,
+      "buffer": 240,
+      "promoted": false,
+      "secs": 634.6
+    }
+  ],
+  "secs": 2257.9
+}

@@ -1,0 +1,4 @@
+# INFRA-3(frozen) n=5^3 seed=best_distill5strong_5cubed.pt (64x6) iters=8 games=48 sims=48 cuda
+  it1: cand_vs_best=0.696 cand_vs_ref=0.700 best_vs_ref=0.500 -> PROMOTE (923.1s)
+  it2: cand_vs_best=0.611 cand_vs_ref=0.735 best_vs_ref=0.700 -> PROMOTE (700.2s)
+  it3: cand_vs_best=0.571 cand_vs_ref=0.667 best_vs_ref=0.735 -> keep (634.6s)

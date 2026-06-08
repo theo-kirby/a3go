@@ -8,3 +8,8 @@
   it6: cand_vs_best=0.500 cand_vs_cls=0.792 best_vs_cls=0.652 -> keep (827.8s)
   it7: cand_vs_best=0.635 cand_vs_cls=0.667 best_vs_cls=0.652 -> PROMOTE (790.4s)
   it8: cand_vs_best=0.407 cand_vs_cls=0.364 best_vs_cls=0.667 -> keep (765.9s)
+  it9: cand_vs_best=0.491 cand_vs_cls=0.318 best_vs_cls=0.667 -> keep (855.4s)
+  it10: cand_vs_best=0.167 cand_vs_cls=0.500 best_vs_cls=0.667 -> keep (736.5s)
+
+final best vs classical@48: 0.667  -> best_az_4cubed.pt
+wrote az_selfplay_4cubed.json (8168.3s)

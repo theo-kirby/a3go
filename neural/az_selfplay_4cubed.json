@@ -80,7 +80,25 @@
       "buffer": 400,
       "promoted": false,
       "secs": 765.9
+    },
+    {
+      "iter": 9,
+      "cand_vs_best": 0.491,
+      "cand_wr_vs_classical": 0.318,
+      "best_wr_vs_classical": 0.667,
+      "buffer": 400,
+      "promoted": false,
+      "secs": 855.4
+    },
+    {
+      "iter": 10,
+      "cand_vs_best": 0.167,
+      "cand_wr_vs_classical": 0.5,
+      "best_wr_vs_classical": 0.667,
+      "buffer": 400,
+      "promoted": false,
+      "secs": 736.5
     }
   ],
-  "secs": 6576.4
+  "secs": 8168.3
 }
