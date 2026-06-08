@@ -1,0 +1,87 @@
+{
+  "results": [
+    {
+      "shape": [
+        1,
+        1,
+        1
+      ],
+      "cells": 1,
+      "value_komi0": 0,
+      "fair_komi": 0,
+      "winner_komi0": "draw",
+      "memo_positions": 3,
+      "memo_secs": 0.0,
+      "exact_value": 0,
+      "exact_nodes": 3,
+      "exact_secs": 0.0,
+      "memo_matches_exact": true
+    },
+    {
+      "shape": [
+        2,
+        1,
+        1
+      ],
+      "cells": 2,
+      "value_komi0": 2,
+      "fair_komi": 2,
+      "winner_komi0": "black",
+      "memo_positions": 15,
+      "memo_secs": 0.0,
+      "exact_value": 0,
+      "exact_nodes": 27,
+      "exact_secs": 0.001,
+      "memo_matches_exact": false
+    },
+    {
+      "shape": [
+        2,
+        2,
+        1
+      ],
+      "cells": 4,
+      "value_komi0": 4,
+      "fair_komi": 4,
+      "winner_komi0": "black",
+      "memo_positions": 255,
+      "memo_secs": 0.011,
+      "exact_value": 1,
+      "exact_nodes": 2385,
+      "exact_secs": 0.06,
+      "memo_matches_exact": false
+    },
+    {
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "cells": 8,
+      "value_komi0": 5,
+      "fair_komi": 5,
+      "winner_komi0": "black",
+      "memo_positions": 30039,
+      "memo_secs": 1.883,
+      "exact_value": null,
+      "exact_nodes": ">8000000",
+      "memo_matches_exact": null
+    },
+    {
+      "shape": [
+        3,
+        2,
+        1
+      ],
+      "cells": 6,
+      "value_komi0": 6,
+      "fair_komi": 6,
+      "winner_komi0": "black",
+      "memo_positions": 2553,
+      "memo_secs": 0.109,
+      "exact_value": null,
+      "exact_nodes": ">8000000",
+      "memo_matches_exact": null
+    }
+  ]
+}

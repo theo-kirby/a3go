@@ -1,0 +1,7 @@
+  16/96 games, 1255 examples (B/W/draw 8/7/1)
+  32/96 games, 2457 examples (B/W/draw 16/15/1)
+  48/96 games, 3757 examples (B/W/draw 28/19/1)
+  64/96 games, 5015 examples (B/W/draw 39/22/3)
+  80/96 games, 6327 examples (B/W/draw 46/30/4)
+  96/96 games, 7607 examples (B/W/draw 56/35/5)
+saved distill_p192.npz: X(7607, 3, 4, 4, 4) P(7607, 65) Z(7607,)  games=96 playouts=192 B/W/draw=56/35/5

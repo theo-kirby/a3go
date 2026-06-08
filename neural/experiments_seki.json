@@ -1,0 +1,76 @@
+{
+  "experiment": "Q6 seki in 3D vs 2D",
+  "method": "bounded minimax capture solver (exact over engine rules) + simple-eye detector; seki = both groups uncapturable AND neither alive by two eyes",
+  "cases": [
+    {
+      "black_capturable": false,
+      "white_capturable": false,
+      "black_simple_eyes": 0,
+      "white_simple_eyes": 0,
+      "both_alive": true,
+      "seki": true,
+      "status": "SEKI (mutual life, no two eyes)",
+      "name": "A: 2D slice (4x3x1) \u2014 eyeless walls share exactly 2 dame",
+      "shape": [
+        4,
+        3,
+        1
+      ],
+      "empties": 2
+    },
+    {
+      "black_capturable": false,
+      "white_capturable": false,
+      "black_simple_eyes": 0,
+      "white_simple_eyes": 0,
+      "both_alive": true,
+      "seki": true,
+      "status": "SEKI (mutual life, no two eyes)",
+      "name": "B: 3D-opened (4x3x2) \u2014 same walls, dame box gains z-liberties",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "empties": 4
+    },
+    {
+      "black_capturable": true,
+      "white_capturable": false,
+      "black_simple_eyes": 0,
+      "white_simple_eyes": 0,
+      "both_alive": false,
+      "seki": false,
+      "status": "not-seki (a group is capturable)",
+      "name": "C control: lone black stone vs white \u2014 capturable sanity",
+      "shape": [
+        3,
+        3,
+        1
+      ],
+      "empties": 7
+    },
+    {
+      "name": "D control: two-eye detector sanity (4x4x1)",
+      "shape": [
+        4,
+        4,
+        1
+      ],
+      "black_simple_eyes": 2,
+      "eyes": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "alive_by_two_eyes": true
+    }
+  ]
+}

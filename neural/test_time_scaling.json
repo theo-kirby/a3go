@@ -1,0 +1,139 @@
+{
+  "games_per_point": 60,
+  "note": "net@S vs fixed low-sim baseline, color-balanced temp=0.4. 7^3@1024 omitted (redundant; @512 already saturated at 1.000).",
+  "boards": [
+    {
+      "n": 4,
+      "arch": "64x6",
+      "baseline_sims": 48,
+      "curve": [
+        {
+          "sims": 48,
+          "winrate": 0.5,
+          "ci95": [
+            0.377,
+            0.623
+          ]
+        },
+        {
+          "sims": 96,
+          "winrate": 0.684,
+          "ci95": [
+            0.558,
+            0.788
+          ]
+        },
+        {
+          "sims": 192,
+          "winrate": 0.772,
+          "ci95": [
+            0.651,
+            0.86
+          ]
+        },
+        {
+          "sims": 384,
+          "winrate": 0.786,
+          "ci95": [
+            0.667,
+            0.871
+          ]
+        },
+        {
+          "sims": 768,
+          "winrate": 0.898,
+          "ci95": [
+            0.796,
+            0.952
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "arch": "64x6",
+      "baseline_sims": 48,
+      "curve": [
+        {
+          "sims": 48,
+          "winrate": 0.419,
+          "ci95": [
+            0.303,
+            0.545
+          ]
+        },
+        {
+          "sims": 96,
+          "winrate": 0.615,
+          "ci95": [
+            0.489,
+            0.728
+          ]
+        },
+        {
+          "sims": 192,
+          "winrate": 0.907,
+          "ci95": [
+            0.807,
+            0.958
+          ]
+        },
+        {
+          "sims": 384,
+          "winrate": 0.93,
+          "ci95": [
+            0.836,
+            0.972
+          ]
+        },
+        {
+          "sims": 768,
+          "winrate": 0.982,
+          "ci95": [
+            0.909,
+            0.997
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "arch": "64x6",
+      "baseline_sims": 64,
+      "curve": [
+        {
+          "sims": 64,
+          "winrate": 0.364,
+          "ci95": [
+            0.254,
+            0.49
+          ]
+        },
+        {
+          "sims": 128,
+          "winrate": 0.722,
+          "ci95": [
+            0.598,
+            0.819
+          ]
+        },
+        {
+          "sims": 256,
+          "winrate": 0.867,
+          "ci95": [
+            0.759,
+            0.931
+          ]
+        },
+        {
+          "sims": 512,
+          "winrate": 1.0,
+          "ci95": [
+            0.94,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

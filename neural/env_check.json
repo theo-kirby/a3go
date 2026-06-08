@@ -1,0 +1,13 @@
+{
+  "torch": "2.11.0+cu128",
+  "cuda_available": true,
+  "device": "NVIDIA GeForce RTX 5090",
+  "compute_capability": [12, 0],
+  "arch": "Blackwell (sm_120)",
+  "driver": "580.159.03",
+  "vram_mib": 32607,
+  "gpu_matmul_2048_ok": true,
+  "uv": "0.9.25",
+  "python": "3.12.3",
+  "wheel_index": "https://download.pytorch.org/whl/cu128"
+}

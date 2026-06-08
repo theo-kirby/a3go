@@ -1,0 +1,77 @@
+{
+  "boardSize": 3,
+  "iters": 6,
+  "gamesPerIter": 30,
+  "sims": 32,
+  "evalGames": 40,
+  "device": "cuda",
+  "totalSecs": 534.0,
+  "history": [
+    {
+      "iter": 1,
+      "examples": 826,
+      "selfplay_blackwins": 13,
+      "selfplay_whitewins": 10,
+      "selfplay_draws": 7,
+      "loss": 2.9033,
+      "winrate_vs_random": 0.8621,
+      "winrate_vs_gen0": 0.5172,
+      "secs": 41.1
+    },
+    {
+      "iter": 2,
+      "examples": 453,
+      "selfplay_blackwins": 4,
+      "selfplay_whitewins": 5,
+      "selfplay_draws": 21,
+      "loss": 2.4896,
+      "winrate_vs_random": 0.7857,
+      "winrate_vs_gen0": 0.12,
+      "secs": 26.9
+    },
+    {
+      "iter": 3,
+      "examples": 345,
+      "selfplay_blackwins": 4,
+      "selfplay_whitewins": 3,
+      "selfplay_draws": 23,
+      "loss": 2.4378,
+      "winrate_vs_random": 0.8095,
+      "winrate_vs_gen0": 0.0588,
+      "secs": 38.2
+    },
+    {
+      "iter": 4,
+      "examples": 282,
+      "selfplay_blackwins": 4,
+      "selfplay_whitewins": 3,
+      "selfplay_draws": 23,
+      "loss": 2.0304,
+      "winrate_vs_random": 0.7619,
+      "winrate_vs_gen0": 0.2,
+      "secs": 148.7
+    },
+    {
+      "iter": 5,
+      "examples": 271,
+      "selfplay_blackwins": 4,
+      "selfplay_whitewins": 7,
+      "selfplay_draws": 19,
+      "loss": 1.8391,
+      "winrate_vs_random": 0.9286,
+      "winrate_vs_gen0": 0.0588,
+      "secs": 135.5
+    },
+    {
+      "iter": 6,
+      "examples": 251,
+      "selfplay_blackwins": 6,
+      "selfplay_whitewins": 4,
+      "selfplay_draws": 20,
+      "loss": 1.783,
+      "winrate_vs_random": 0.7826,
+      "winrate_vs_gen0": 0.125,
+      "secs": 143.7
+    }
+  ]
+}

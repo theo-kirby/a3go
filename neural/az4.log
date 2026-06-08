@@ -1,0 +1,10 @@
+# INFRA-3 AZ self-play n=4^3 seed=best_distill_big_4cubed.pt (64x6) iters=10 games=80 sims=48 cuda
+  seed champion vs classical@48: 0.652 (anchor)
+  it1: cand_vs_best=0.189 cand_vs_cls=0.429 best_vs_cls=0.652 -> keep (809.6s)
+  it2: cand_vs_best=0.500 cand_vs_cls=0.458 best_vs_cls=0.652 -> keep (832.9s)
+  it3: cand_vs_best=0.712 cand_vs_cls=0.571 best_vs_cls=0.652 -> keep (803.2s)
+  it4: cand_vs_best=0.732 cand_vs_cls=0.583 best_vs_cls=0.652 -> keep (835.2s)
+  it5: cand_vs_best=0.474 cand_vs_cls=0.500 best_vs_cls=0.652 -> keep (911.4s)
+  it6: cand_vs_best=0.500 cand_vs_cls=0.792 best_vs_cls=0.652 -> keep (827.8s)
+  it7: cand_vs_best=0.635 cand_vs_cls=0.667 best_vs_cls=0.652 -> PROMOTE (790.4s)
+  it8: cand_vs_best=0.407 cand_vs_cls=0.364 best_vs_cls=0.667 -> keep (765.9s)

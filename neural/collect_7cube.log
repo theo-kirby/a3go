@@ -1,0 +1,1 @@
+C++ collect n=7 games=64 playouts=96: 33809 examples in 901.1s (14.08s/game wall, 14 workers) -> distill_7cubed.npz

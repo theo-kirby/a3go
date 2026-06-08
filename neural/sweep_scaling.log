@@ -1,0 +1,6 @@
+{"net_sims": 48, "cls_playouts": 48, "net_winrate": 0.25, "ci95": [0.12, 0.449], "decided": 24, "net_wins": 6, "beats": false, "secs": 162.1}
+{"net_sims": 128, "cls_playouts": 48, "net_winrate": 0.174, "ci95": [0.07, 0.371], "decided": 23, "net_wins": 4, "beats": false, "secs": 196.1}
+{"net_sims": 256, "cls_playouts": 48, "net_winrate": 0.292, "ci95": [0.149, 0.492], "decided": 24, "net_wins": 7, "beats": false, "secs": 188.0}
+{"net_sims": 128, "cls_playouts": 128, "net_winrate": 0.261, "ci95": [0.125, 0.465], "decided": 23, "net_wins": 6, "beats": false, "secs": 521.6}
+{"net_sims": 256, "cls_playouts": 128, "net_winrate": 0.042, "ci95": [0.007, 0.202], "decided": 24, "net_wins": 1, "beats": false, "secs": 473.0}
+DONE

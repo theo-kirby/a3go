@@ -1,0 +1,22 @@
+{
+  "boardSize": 3,
+  "iters": 1,
+  "gamesPerIter": 3,
+  "sims": 10,
+  "evalGames": 40,
+  "device": "cuda",
+  "totalSecs": 80.7,
+  "history": [
+    {
+      "iter": 1,
+      "examples": 101,
+      "selfplay_blackwins": 2,
+      "selfplay_whitewins": 1,
+      "selfplay_draws": 0,
+      "loss": 3.1074,
+      "winrate_vs_random": 0.875,
+      "winrate_vs_gen0": 0.2759,
+      "secs": 80.7
+    }
+  ]
+}

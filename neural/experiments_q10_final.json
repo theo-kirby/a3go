@@ -1,0 +1,21 @@
+{
+  "experiment": "Q10 final strength (4^3)",
+  "ckpt": "best_batched_4cubed.pt",
+  "games_per_match": 200,
+  "sims": 48,
+  "final_vs_random_winrate": 0.8894736842105263,
+  "gen0_vs_random_winrate": 0.6180904522613065,
+  "final_vs_gen0_winrate": 0.6521739130434783,
+  "final_vs_random_ci95": [
+    0.89,
+    0.839,
+    0.926
+  ],
+  "final_vs_gen0_ci95": [
+    0.65,
+    0.582,
+    0.713
+  ],
+  "beats_random_decisively": true,
+  "beats_gen0_decisively": true
+}

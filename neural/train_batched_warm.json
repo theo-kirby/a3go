@@ -1,0 +1,216 @@
+{
+  "boardSize": 4,
+  "iters": 10,
+  "gamesPerIter": 80,
+  "sims": 64,
+  "evalGames": 32,
+  "device": "cuda",
+  "bufferMax": 40000,
+  "replayBuffer": true,
+  "gating": true,
+  "batchedSelfPlay": true,
+  "promotions": 5,
+  "totalSecs": 2832.2,
+  "history": [
+    {
+      "iter": 1,
+      "buffer": 5669,
+      "loss": 1.6814,
+      "cand_vs_best": 0.778,
+      "promoted": true,
+      "promotions": 1,
+      "best_vs_random": 0.969,
+      "best_vs_gen0": 0.517,
+      "selfplay_bwd": [
+        51,
+        17,
+        12
+      ],
+      "secs": 282.9,
+      "t_selfplay": 132.0,
+      "t_train": 0.8,
+      "t_eval": 150.2,
+      "games_per_sec": 0.61
+    },
+    {
+      "iter": 2,
+      "buffer": 11414,
+      "loss": 1.151,
+      "cand_vs_best": 0.448,
+      "promoted": false,
+      "promotions": 1,
+      "best_vs_random": 0.969,
+      "best_vs_gen0": 0.724,
+      "selfplay_bwd": [
+        56,
+        21,
+        3
+      ],
+      "secs": 285.9,
+      "t_selfplay": 131.3,
+      "t_train": 0.7,
+      "t_eval": 153.9,
+      "games_per_sec": 0.61
+    },
+    {
+      "iter": 3,
+      "buffer": 17332,
+      "loss": 1.4924,
+      "cand_vs_best": 0.667,
+      "promoted": true,
+      "promotions": 2,
+      "best_vs_random": 1.0,
+      "best_vs_gen0": 0.655,
+      "selfplay_bwd": [
+        57,
+        16,
+        7
+      ],
+      "secs": 292.9,
+      "t_selfplay": 134.3,
+      "t_train": 1.0,
+      "t_eval": 157.6,
+      "games_per_sec": 0.6
+    },
+    {
+      "iter": 4,
+      "buffer": 23313,
+      "loss": 1.3568,
+      "cand_vs_best": 0.643,
+      "promoted": true,
+      "promotions": 3,
+      "best_vs_random": 0.938,
+      "best_vs_gen0": 0.655,
+      "selfplay_bwd": [
+        58,
+        19,
+        3
+      ],
+      "secs": 295.5,
+      "t_selfplay": 144.4,
+      "t_train": 1.3,
+      "t_eval": 149.7,
+      "games_per_sec": 0.55
+    },
+    {
+      "iter": 5,
+      "buffer": 29181,
+      "loss": 1.1308,
+      "cand_vs_best": 0.538,
+      "promoted": false,
+      "promotions": 3,
+      "best_vs_random": 1.0,
+      "best_vs_gen0": 0.714,
+      "selfplay_bwd": [
+        48,
+        23,
+        9
+      ],
+      "secs": 281.1,
+      "t_selfplay": 130.5,
+      "t_train": 1.7,
+      "t_eval": 148.9,
+      "games_per_sec": 0.61
+    },
+    {
+      "iter": 6,
+      "buffer": 34860,
+      "loss": 1.2353,
+      "cand_vs_best": 0.44,
+      "promoted": false,
+      "promotions": 3,
+      "best_vs_random": 0.903,
+      "best_vs_gen0": 0.667,
+      "selfplay_bwd": [
+        53,
+        16,
+        11
+      ],
+      "secs": 278.0,
+      "t_selfplay": 124.8,
+      "t_train": 2.0,
+      "t_eval": 151.2,
+      "games_per_sec": 0.64
+    },
+    {
+      "iter": 7,
+      "buffer": 40000,
+      "loss": 1.2618,
+      "cand_vs_best": 0.414,
+      "promoted": false,
+      "promotions": 3,
+      "best_vs_random": 0.935,
+      "best_vs_gen0": 0.633,
+      "selfplay_bwd": [
+        63,
+        13,
+        4
+      ],
+      "secs": 271.5,
+      "t_selfplay": 122.2,
+      "t_train": 2.3,
+      "t_eval": 147.0,
+      "games_per_sec": 0.65
+    },
+    {
+      "iter": 8,
+      "buffer": 40000,
+      "loss": 1.3386,
+      "cand_vs_best": 0.742,
+      "promoted": true,
+      "promotions": 4,
+      "best_vs_random": 0.875,
+      "best_vs_gen0": 0.615,
+      "selfplay_bwd": [
+        55,
+        20,
+        5
+      ],
+      "secs": 296.3,
+      "t_selfplay": 133.1,
+      "t_train": 2.3,
+      "t_eval": 160.9,
+      "games_per_sec": 0.6
+    },
+    {
+      "iter": 9,
+      "buffer": 40000,
+      "loss": 1.0244,
+      "cand_vs_best": 0.552,
+      "promoted": true,
+      "promotions": 5,
+      "best_vs_random": 0.9,
+      "best_vs_gen0": 0.517,
+      "selfplay_bwd": [
+        54,
+        17,
+        9
+      ],
+      "secs": 278.6,
+      "t_selfplay": 121.2,
+      "t_train": 2.3,
+      "t_eval": 155.1,
+      "games_per_sec": 0.66
+    },
+    {
+      "iter": 10,
+      "buffer": 40000,
+      "loss": 0.9195,
+      "cand_vs_best": 0.52,
+      "promoted": false,
+      "promotions": 5,
+      "best_vs_random": 0.906,
+      "best_vs_gen0": 0.536,
+      "selfplay_bwd": [
+        48,
+        20,
+        12
+      ],
+      "secs": 269.5,
+      "t_selfplay": 124.7,
+      "t_train": 2.3,
+      "t_eval": 142.5,
+      "games_per_sec": 0.64
+    }
+  ]
+}

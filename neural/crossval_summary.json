@@ -1,0 +1,9 @@
+{
+  "method": "replay TS-dumped seeded random games in the Python port; compare Tromp-Taylor breakdown (komi 0) field-by-field",
+  "results": [
+    {"boardSize": 3, "games": 60, "matched": 60, "seed": 777, "pass": true},
+    {"boardSize": 4, "games": 60, "matched": 60, "seed": 12345, "pass": true}
+  ],
+  "fields_compared": ["blackStones","whiteStones","blackTerritory","whiteTerritory","neutral","diff","winner"],
+  "verdict": "Python engine port is behaviorally equivalent to the 48/48-tested TS reference engine on these fixtures"
+}

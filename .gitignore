@@ -83,3 +83,14 @@ ipython_config.py
 
 # Editors / OS
 .DS_Store
+
+# Flywheel scratch (node payloads, ids)
+experiments/.fly/
+
+# Neural phase (Python / uv)
+neural/.venv/
+neural/__pycache__/
+neural/*.pt
+neural/fixture_*.json
+neural/*_result.json
+neural/crossval_result.json

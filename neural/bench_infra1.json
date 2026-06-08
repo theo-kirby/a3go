@@ -1,0 +1,149 @@
+{
+  "device": "cuda",
+  "results": [
+    {
+      "n": 4,
+      "ckpt": "best_distill_big_4cubed.pt",
+      "arch": "64x6",
+      "B": 64,
+      "sims": 64,
+      "move_total_s": 0.344,
+      "ms_per_move_per_game": 5.38,
+      "sims_per_s_agg": 11904.6,
+      "fwd_ms_batch": 0.74,
+      "gpu_forward_frac": 0.138
+    },
+    {
+      "n": 4,
+      "ckpt": "best_distill_big_4cubed.pt",
+      "arch": "64x6",
+      "B": 64,
+      "sims": 256,
+      "move_total_s": 1.32,
+      "ms_per_move_per_game": 20.62,
+      "sims_per_s_agg": 12413.8,
+      "fwd_ms_batch": 0.74,
+      "gpu_forward_frac": 0.144
+    },
+    {
+      "n": 4,
+      "ckpt": "best_distill_big_4cubed.pt",
+      "arch": "64x6",
+      "B": 256,
+      "sims": 64,
+      "move_total_s": 1.276,
+      "ms_per_move_per_game": 4.99,
+      "sims_per_s_agg": 12835.6,
+      "fwd_ms_batch": 1.03,
+      "gpu_forward_frac": 0.051
+    },
+    {
+      "n": 4,
+      "ckpt": "best_distill_big_4cubed.pt",
+      "arch": "64x6",
+      "B": 256,
+      "sims": 256,
+      "move_total_s": 4.835,
+      "ms_per_move_per_game": 18.89,
+      "sims_per_s_agg": 13555.5,
+      "fwd_ms_batch": 1.03,
+      "gpu_forward_frac": 0.054
+    },
+    {
+      "n": 5,
+      "ckpt": "best_distill5strong_5cubed.pt",
+      "arch": "64x6",
+      "B": 64,
+      "sims": 64,
+      "move_total_s": 0.383,
+      "ms_per_move_per_game": 5.98,
+      "sims_per_s_agg": 10704.3,
+      "fwd_ms_batch": 0.7,
+      "gpu_forward_frac": 0.116
+    },
+    {
+      "n": 5,
+      "ckpt": "best_distill5strong_5cubed.pt",
+      "arch": "64x6",
+      "B": 64,
+      "sims": 256,
+      "move_total_s": 1.403,
+      "ms_per_move_per_game": 21.93,
+      "sims_per_s_agg": 11674.9,
+      "fwd_ms_batch": 0.7,
+      "gpu_forward_frac": 0.127
+    },
+    {
+      "n": 5,
+      "ckpt": "best_distill5strong_5cubed.pt",
+      "arch": "64x6",
+      "B": 256,
+      "sims": 64,
+      "move_total_s": 1.445,
+      "ms_per_move_per_game": 5.64,
+      "sims_per_s_agg": 11339.7,
+      "fwd_ms_batch": 1.37,
+      "gpu_forward_frac": 0.061
+    },
+    {
+      "n": 5,
+      "ckpt": "best_distill5strong_5cubed.pt",
+      "arch": "64x6",
+      "B": 256,
+      "sims": 256,
+      "move_total_s": 5.286,
+      "ms_per_move_per_game": 20.65,
+      "sims_per_s_agg": 12397.6,
+      "fwd_ms_batch": 1.37,
+      "gpu_forward_frac": 0.066
+    },
+    {
+      "n": 7,
+      "ckpt": "best_distill7_7cubed.pt",
+      "arch": "64x6",
+      "B": 32,
+      "sims": 128,
+      "move_total_s": 0.473,
+      "ms_per_move_per_game": 14.79,
+      "sims_per_s_agg": 8652.9,
+      "fwd_ms_batch": 0.91,
+      "gpu_forward_frac": 0.246
+    },
+    {
+      "n": 7,
+      "ckpt": "best_distill7_7cubed.pt",
+      "arch": "64x6",
+      "B": 32,
+      "sims": 512,
+      "move_total_s": 1.934,
+      "ms_per_move_per_game": 60.45,
+      "sims_per_s_agg": 8469.7,
+      "fwd_ms_batch": 0.91,
+      "gpu_forward_frac": 0.24
+    },
+    {
+      "n": 7,
+      "ckpt": "best_distill7_7cubed.pt",
+      "arch": "64x6",
+      "B": 128,
+      "sims": 128,
+      "move_total_s": 1.678,
+      "ms_per_move_per_game": 13.11,
+      "sims_per_s_agg": 9766.7,
+      "fwd_ms_batch": 1.95,
+      "gpu_forward_frac": 0.149
+    },
+    {
+      "n": 7,
+      "ckpt": "best_distill7_7cubed.pt",
+      "arch": "64x6",
+      "B": 128,
+      "sims": 512,
+      "move_total_s": 6.764,
+      "ms_per_move_per_game": 52.85,
+      "sims_per_s_agg": 9688.3,
+      "fwd_ms_batch": 1.95,
+      "gpu_forward_frac": 0.147
+    }
+  ]
+}

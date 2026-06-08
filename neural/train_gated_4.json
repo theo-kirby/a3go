@@ -1,0 +1,133 @@
+{
+  "boardSize": 4,
+  "iters": 8,
+  "gamesPerIter": 24,
+  "sims": 32,
+  "evalGames": 24,
+  "device": "cuda",
+  "replayBuffer": true,
+  "gating": true,
+  "totalSecs": 3867.2,
+  "history": [
+    {
+      "iter": 1,
+      "buffer": 1666,
+      "loss": 4.4127,
+      "cand_vs_best": 0.286,
+      "promoted": false,
+      "best_vs_random": 0.667,
+      "best_vs_gen0": 0.304,
+      "selfplay_bwd": [
+        16,
+        8,
+        0
+      ],
+      "secs": 683.5
+    },
+    {
+      "iter": 2,
+      "buffer": 3286,
+      "loss": 3.5608,
+      "cand_vs_best": 0.238,
+      "promoted": false,
+      "best_vs_random": 0.667,
+      "best_vs_gen0": 0.591,
+      "selfplay_bwd": [
+        10,
+        13,
+        1
+      ],
+      "secs": 685.6
+    },
+    {
+      "iter": 3,
+      "buffer": 4851,
+      "loss": 3.6376,
+      "cand_vs_best": 0.25,
+      "promoted": false,
+      "best_vs_random": 0.792,
+      "best_vs_gen0": 0.524,
+      "selfplay_bwd": [
+        15,
+        6,
+        3
+      ],
+      "secs": 214.5
+    },
+    {
+      "iter": 4,
+      "buffer": 6544,
+      "loss": 3.8819,
+      "cand_vs_best": 0.333,
+      "promoted": false,
+      "best_vs_random": 0.583,
+      "best_vs_gen0": 0.182,
+      "selfplay_bwd": [
+        14,
+        10,
+        0
+      ],
+      "secs": 151.6
+    },
+    {
+      "iter": 5,
+      "buffer": 8173,
+      "loss": 3.4295,
+      "cand_vs_best": 0.476,
+      "promoted": false,
+      "best_vs_random": 0.708,
+      "best_vs_gen0": 0.375,
+      "selfplay_bwd": [
+        10,
+        11,
+        3
+      ],
+      "secs": 412.3
+    },
+    {
+      "iter": 6,
+      "buffer": 9942,
+      "loss": 3.5986,
+      "cand_vs_best": 0.4,
+      "promoted": false,
+      "best_vs_random": 0.625,
+      "best_vs_gen0": 0.542,
+      "selfplay_bwd": [
+        16,
+        8,
+        0
+      ],
+      "secs": 871.9
+    },
+    {
+      "iter": 7,
+      "buffer": 11585,
+      "loss": 3.445,
+      "cand_vs_best": 0.368,
+      "promoted": false,
+      "best_vs_random": 0.792,
+      "best_vs_gen0": 0.696,
+      "selfplay_bwd": [
+        11,
+        13,
+        0
+      ],
+      "secs": 707.3
+    },
+    {
+      "iter": 8,
+      "buffer": 12000,
+      "loss": 3.4364,
+      "cand_vs_best": 0.391,
+      "promoted": false,
+      "best_vs_random": 0.708,
+      "best_vs_gen0": 0.364,
+      "selfplay_bwd": [
+        13,
+        10,
+        1
+      ],
+      "secs": 140.5
+    }
+  ]
+}

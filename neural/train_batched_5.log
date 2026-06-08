@@ -1,0 +1,10 @@
+# M5 batched AZ — 5^3, 8 iters x 28 games, sims=48, buffer=30000, eval=16, cuda
+  it 1: loss=3.6794 cand_vs_best=0.2 kept(#0) vs_random=0.533 vs_gen0=0.438 sp=0.14g/s (600s)
+  it 2: loss=3.4621 cand_vs_best=0.154 kept(#0) vs_random=0.625 vs_gen0=0.571 sp=0.16g/s (468s)
+  it 3: loss=3.3696 cand_vs_best=0.0 kept(#0) vs_random=0.812 vs_gen0=0.538 sp=0.14g/s (504s)
+  it 4: loss=2.4688 cand_vs_best=0.133 kept(#0) vs_random=0.75 vs_gen0=0.562 sp=0.15g/s (491s)
+  it 5: loss=3.2025 cand_vs_best=0.154 kept(#0) vs_random=0.5 vs_gen0=0.375 sp=0.12g/s (543s)
+  it 6: loss=2.77 cand_vs_best=0.067 kept(#0) vs_random=0.625 vs_gen0=0.5 sp=0.14g/s (494s)
+  it 7: loss=2.7022 cand_vs_best=0.214 kept(#0) vs_random=0.812 vs_gen0=0.438 sp=0.13g/s (511s)
+  it 8: loss=3.2446 cand_vs_best=0.133 kept(#0) vs_random=0.688 vs_gen0=0.312 sp=0.15g/s (494s)
+Wrote -> train_batched_5.json  (promotions=0/8)

@@ -1,0 +1,43 @@
+{
+  "boardSize": 3,
+  "iters": 2,
+  "gamesPerIter": 3,
+  "sims": 8,
+  "evalGames": 6,
+  "device": "cuda",
+  "replayBuffer": true,
+  "gating": true,
+  "totalSecs": 3.8,
+  "history": [
+    {
+      "iter": 1,
+      "buffer": 90,
+      "loss": 2.7349,
+      "cand_vs_best": 0.167,
+      "promoted": false,
+      "best_vs_random": 1.0,
+      "best_vs_gen0": 0.6,
+      "selfplay_bwd": [
+        2,
+        1,
+        0
+      ],
+      "secs": 2.2
+    },
+    {
+      "iter": 2,
+      "buffer": 193,
+      "loss": 2.8256,
+      "cand_vs_best": 0.2,
+      "promoted": false,
+      "best_vs_random": 0.833,
+      "best_vs_gen0": 0.833,
+      "selfplay_bwd": [
+        1,
+        2,
+        0
+      ],
+      "secs": 1.7
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "milestone": "M5 — batched game-parallel MCTS self-play",
+  "board": "4^3",
+  "baseline_batch1_games_per_sec": 0.05,
+  "batched_games_per_sec": 1.11,
+  "speedup_x": 22.2,
+  "baseline_source": "train_gated_4.json: 192 games / 3867 s (sims=32)",
+  "microbench_eval_ms_per_pos": {"batch_1": 0.254, "batch_8": 0.0313, "batch_32": 0.0079, "batch_128": 0.0020, "batch_256": 0.0012, "batch_512": 0.0008},
+  "microbench_note": "batch=256 is 210x cheaper/pos than batch=1; after batching, pure-Python legal_moves (0.199ms) is the residual wall",
+  "engine_fast_path": "legal_moves: empty-neighbour + no-enemy points skip the capture/suicide floodfill, gated by a cheap superko-hash check (a non-capturing move CAN still hit superko)",
+  "equivalence_test": "test_engine_fast.py: 460/460 positions match brute-force legal_moves across 3^3/4^3/5^3",
+  "crossval_after_changes": "60/60 vs TS reference on both 3^3 and 4^3 fixtures",
+  "lesson": "caching self.grid in a local broke correctness: _is_legal rebinds self.grid to a fresh snapshot, leaving the cached ref stale/dirty — caught by the equivalence test before trusting the engine"
+}

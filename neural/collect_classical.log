@@ -1,0 +1,13 @@
+  16/192 games, 1151 examples (B/W/draw 11/5/0)
+  32/192 games, 2450 examples (B/W/draw 17/12/3)
+  48/192 games, 3625 examples (B/W/draw 24/21/3)
+  64/192 games, 4717 examples (B/W/draw 36/25/3)
+  80/192 games, 5915 examples (B/W/draw 46/31/3)
+  96/192 games, 7116 examples (B/W/draw 55/36/5)
+  112/192 games, 8337 examples (B/W/draw 65/41/6)
+  128/192 games, 9587 examples (B/W/draw 71/49/8)
+  144/192 games, 10851 examples (B/W/draw 79/57/8)
+  160/192 games, 12196 examples (B/W/draw 86/65/9)
+  176/192 games, 13372 examples (B/W/draw 96/71/9)
+  192/192 games, 14476 examples (B/W/draw 104/79/9)
+saved distill_4cubed.npz: X(14476, 3, 4, 4, 4) P(14476, 65) Z(14476,)  games=192 playouts=128 B/W/draw=104/79/9

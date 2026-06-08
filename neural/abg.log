@@ -1,0 +1,10 @@
+# ALGO-1 Gumbel A/B n=4^3 G=40, 5 matchups
+
+=== Gumbel A/B (win-rate of Gumbel side), n=4^3, 304s ===
+  gumbel8_vs_puct8        : 0.378 [0.241,0.539]  (14/37)
+  gumbel16_vs_puct16      : 0.359 [0.227,0.516]  (14/39)
+  gumbel32_vs_puct32      : 0.556 [0.396,0.705]  (20/36)
+  gumbel64_vs_puct64      : 0.538 [0.386,0.684]  (21/39)
+  gumbel16_vs_puct32      : 0.462 [0.316,0.614]  (18/39)
+
+wrote ab_gumbel_4cubed.json

@@ -1,0 +1,37 @@
+{
+  "board": "4^3 empty, champion 64x6 net opening policy",
+  "value_empty": 0.06,
+  "pass_prob": 0.01495,
+  "classes": {
+    "corner": {
+      "count": 8,
+      "total_policy_mass": 0.1232,
+      "mean_per_point": 0.0154,
+      "per_point_x_count": 0.1232
+    },
+    "edge": {
+      "count": 24,
+      "total_policy_mass": 0.3675,
+      "mean_per_point": 0.01531,
+      "per_point_x_count": 0.3675
+    },
+    "face": {
+      "count": 24,
+      "total_policy_mass": 0.3707,
+      "mean_per_point": 0.01544,
+      "per_point_x_count": 0.3707
+    },
+    "interior": {
+      "count": 8,
+      "total_policy_mass": 0.1236,
+      "mean_per_point": 0.01545,
+      "per_point_x_count": 0.1236
+    }
+  },
+  "preference_by_mean_per_point": [
+    "interior",
+    "face",
+    "corner",
+    "edge"
+  ]
+}

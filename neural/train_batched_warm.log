@@ -1,0 +1,13 @@
+# warm-started from best_distill_4cubed.pt
+# M5 batched AZ — 4^3, 10 iters x 80 games, sims=64, buffer=40000, eval=32, cuda
+  it 1: loss=1.6814 cand_vs_best=0.778 PROMOTED(#1) vs_random=0.969 vs_gen0=0.517 sp=0.61g/s (283s)
+  it 2: loss=1.151 cand_vs_best=0.448 kept(#1) vs_random=0.969 vs_gen0=0.724 sp=0.61g/s (286s)
+  it 3: loss=1.4924 cand_vs_best=0.667 PROMOTED(#2) vs_random=1.0 vs_gen0=0.655 sp=0.6g/s (293s)
+  it 4: loss=1.3568 cand_vs_best=0.643 PROMOTED(#3) vs_random=0.938 vs_gen0=0.655 sp=0.55g/s (296s)
+  it 5: loss=1.1308 cand_vs_best=0.538 kept(#3) vs_random=1.0 vs_gen0=0.714 sp=0.61g/s (281s)
+  it 6: loss=1.2353 cand_vs_best=0.44 kept(#3) vs_random=0.903 vs_gen0=0.667 sp=0.64g/s (278s)
+  it 7: loss=1.2618 cand_vs_best=0.414 kept(#3) vs_random=0.935 vs_gen0=0.633 sp=0.65g/s (272s)
+  it 8: loss=1.3386 cand_vs_best=0.742 PROMOTED(#4) vs_random=0.875 vs_gen0=0.615 sp=0.6g/s (296s)
+  it 9: loss=1.0244 cand_vs_best=0.552 PROMOTED(#5) vs_random=0.9 vs_gen0=0.517 sp=0.66g/s (279s)
+  it 10: loss=0.9195 cand_vs_best=0.52 kept(#5) vs_random=0.906 vs_gen0=0.536 sp=0.64g/s (270s)
+Wrote -> train_batched_warm.json  (promotions=5/10)

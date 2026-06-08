@@ -1,0 +1,52 @@
+{
+  "n": 4,
+  "games": 40,
+  "results": [
+    {
+      "matchup": "gumbel8_vs_puct8",
+      "gumbel_winrate": 0.378,
+      "decided": 37,
+      "ci95": [
+        0.241,
+        0.539
+      ]
+    },
+    {
+      "matchup": "gumbel16_vs_puct16",
+      "gumbel_winrate": 0.359,
+      "decided": 39,
+      "ci95": [
+        0.227,
+        0.516
+      ]
+    },
+    {
+      "matchup": "gumbel32_vs_puct32",
+      "gumbel_winrate": 0.556,
+      "decided": 36,
+      "ci95": [
+        0.396,
+        0.705
+      ]
+    },
+    {
+      "matchup": "gumbel64_vs_puct64",
+      "gumbel_winrate": 0.538,
+      "decided": 39,
+      "ci95": [
+        0.386,
+        0.684
+      ]
+    },
+    {
+      "matchup": "gumbel16_vs_puct32",
+      "gumbel_winrate": 0.462,
+      "decided": 39,
+      "ci95": [
+        0.316,
+        0.614
+      ]
+    }
+  ],
+  "secs": 304.5
+}

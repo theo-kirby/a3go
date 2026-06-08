@@ -1,0 +1,4 @@
+  16/48 games, 2166 examples (B/W/draw 10/6/0)
+  32/48 games, 4357 examples (B/W/draw 15/16/1)
+  48/48 games, 6717 examples (B/W/draw 24/23/1)
+saved distill_5cubed.npz: X(6717, 3, 5, 5, 5) P(6717, 126) Z(6717,)  games=48 playouts=40 B/W/draw=24/23/1

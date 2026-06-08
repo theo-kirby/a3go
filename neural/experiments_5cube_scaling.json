@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "net_sims": 128,
+      "cls_playouts": 48,
+      "net_winrate": 0.217,
+      "ci95": [
+        0.097,
+        0.419
+      ],
+      "decided": 23,
+      "net_wins": 5,
+      "beats": false
+    },
+    {
+      "net_sims": 256,
+      "cls_playouts": 48,
+      "net_winrate": 0.417,
+      "ci95": [
+        0.245,
+        0.612
+      ],
+      "decided": 24,
+      "net_wins": 10,
+      "beats": false
+    }
+  ]
+}
