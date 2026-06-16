@@ -1,0 +1,13 @@
+# INFRA-3(cls-mp) n=5^3 seed=best_distill5strong_5cubed.pt (64x6) iters=8 games=80 sims=48 cuda
+  seed champion vs classical@48: 0.194 (anchor, 32 games)
+  it1: cand_vs_best=0.804 cand_vs_cls=0.406 best_vs_cls=0.194 -> PROMOTE (879.1s)
+  it2: cand_vs_best=0.271 cand_vs_cls=-1.000 best_vs_cls=0.406 -> keep (573.9s)
+  it3: cand_vs_best=0.354 cand_vs_cls=-1.000 best_vs_cls=0.406 -> keep (554.5s)
+  it4: cand_vs_best=0.200 cand_vs_cls=-1.000 best_vs_cls=0.406 -> keep (568.3s)
+  it5: cand_vs_best=0.370 cand_vs_cls=-1.000 best_vs_cls=0.406 -> keep (532.9s)
+  it6: cand_vs_best=0.231 cand_vs_cls=-1.000 best_vs_cls=0.406 -> keep (593.2s)
+  it7: cand_vs_best=0.360 cand_vs_cls=-1.000 best_vs_cls=0.406 -> keep (562.7s)
+  it8: cand_vs_best=0.411 cand_vs_cls=-1.000 best_vs_cls=0.406 -> keep (566.2s)
+
+final best vs classical@48: 0.406 (1 promotions) -> best_az_cls5_5cubed.pt
+wrote az_cls5_5cubed.json (4830.8s)

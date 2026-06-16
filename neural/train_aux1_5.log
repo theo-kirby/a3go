@@ -1,0 +1,10 @@
+=== 5cubed training lambda=0.0 -> best_own5_l00.pt ===
+  ep40: loss=3.623 pacc=0.0506 vmse=0.0144 omse=0.9783 oacc=0.4977
+best holdout policy acc = 0.0618 -> best_own5_l00.pt  (best_own5_l00_train.json)
+=== 5cubed training lambda=1.0 -> best_own5_l10.pt ===
+  ep40: loss=3.647 pacc=0.0382 vmse=0.0173 omse=0.0439 oacc=0.9851
+best holdout policy acc = 0.0584 -> best_own5_l10.pt  (best_own5_l10_train.json)
+=== 5cubed training lambda=1.5 -> best_own5_l15.pt ===
+  ep40: loss=3.671 pacc=0.0360 vmse=0.0156 omse=0.0405 oacc=0.9860
+best holdout policy acc = 0.0551 -> best_own5_l15.pt  (best_own5_l15_train.json)
+ALL_TRAIN5_DONE

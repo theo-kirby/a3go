@@ -1,0 +1,16 @@
+=== eval lambda-tag 00 at net_sims=48 vs cls@48 n=128 ===
+  "decided": 123,
+  "net_wins": 58,
+  "net_winrate": 0.472,
+  "winrate_ci95": [
+=== eval lambda-tag 10 at net_sims=48 vs cls@48 n=128 ===
+  "decided": 123,
+  "net_wins": 57,
+  "net_winrate": 0.463,
+  "winrate_ci95": [
+=== eval lambda-tag 15 at net_sims=48 vs cls@48 n=128 ===
+  "decided": 123,
+  "net_wins": 58,
+  "net_winrate": 0.472,
+  "winrate_ci95": [
+ALL_EVAL_DONE

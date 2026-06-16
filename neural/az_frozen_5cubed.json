@@ -36,7 +36,52 @@
       "buffer": 240,
       "promoted": false,
       "secs": 634.6
+    },
+    {
+      "iter": 4,
+      "cand_vs_best": 0.524,
+      "cand_vs_ref": 0.457,
+      "best_vs_ref": 0.735,
+      "buffer": 240,
+      "promoted": false,
+      "secs": 593.8
+    },
+    {
+      "iter": 5,
+      "cand_vs_best": 0.523,
+      "cand_vs_ref": 0.3,
+      "best_vs_ref": 0.735,
+      "buffer": 240,
+      "promoted": false,
+      "secs": 707.3
+    },
+    {
+      "iter": 6,
+      "cand_vs_best": 0.359,
+      "cand_vs_ref": 0.077,
+      "best_vs_ref": 0.735,
+      "buffer": 240,
+      "promoted": false,
+      "secs": 619.1
+    },
+    {
+      "iter": 7,
+      "cand_vs_best": 0.529,
+      "cand_vs_ref": 0.419,
+      "best_vs_ref": 0.735,
+      "buffer": 240,
+      "promoted": false,
+      "secs": 589.2
+    },
+    {
+      "iter": 8,
+      "cand_vs_best": 0.51,
+      "cand_vs_ref": 0.429,
+      "best_vs_ref": 0.735,
+      "buffer": 240,
+      "promoted": false,
+      "secs": 566.9
     }
   ],
-  "secs": 2257.9
+  "secs": 5334.2
 }

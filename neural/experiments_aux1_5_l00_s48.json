@@ -1,0 +1,21 @@
+{
+  "experiment": "AUX-1 ownership-net vs classical random-rollout MCTS (parallel, equal budget)",
+  "ckpt": "best_own5_l00.pt",
+  "channels": 64,
+  "blocks": 6,
+  "boardSize": 5,
+  "games": 128,
+  "decided": 119,
+  "draws": 9,
+  "net_sims": 48,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 19,
+  "net_winrate": 0.16,
+  "winrate_ci95": [
+    0.105,
+    0.236
+  ],
+  "beats_classical_decisively": false
+}

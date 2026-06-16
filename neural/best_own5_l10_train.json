@@ -1,0 +1,352 @@
+{
+  "npz": "distill_own_5cubed.npz",
+  "n": 5,
+  "epochs": 40,
+  "batch": 256,
+  "lr": 0.001,
+  "lambda": 1.0,
+  "channels": 64,
+  "blocks": 6,
+  "train_examples": 8010,
+  "holdout_examples": 890,
+  "best_holdout_policy_acc": 0.0584,
+  "best_epoch_stats": {
+    "epoch": 36,
+    "train_loss": 3.6981,
+    "holdout_policy_acc": 0.0584,
+    "holdout_value_mse": 0.0141,
+    "holdout_own_mse": 0.0588,
+    "holdout_own_acc": 0.9808
+  },
+  "final": {
+    "epoch": 40,
+    "train_loss": 3.6466,
+    "holdout_policy_acc": 0.0382,
+    "holdout_value_mse": 0.0173,
+    "holdout_own_mse": 0.0439,
+    "holdout_own_acc": 0.9851
+  },
+  "secs": 21.8,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 5.6886,
+      "holdout_policy_acc": 0.0056,
+      "holdout_value_mse": 0.6304,
+      "holdout_own_mse": 0.9101,
+      "holdout_own_acc": 0.6391
+    },
+    {
+      "epoch": 2,
+      "train_loss": 5.2865,
+      "holdout_policy_acc": 0.018,
+      "holdout_value_mse": 0.0504,
+      "holdout_own_mse": 0.6436,
+      "holdout_own_acc": 0.7444
+    },
+    {
+      "epoch": 3,
+      "train_loss": 4.6812,
+      "holdout_policy_acc": 0.0247,
+      "holdout_value_mse": 0.0227,
+      "holdout_own_mse": 0.454,
+      "holdout_own_acc": 0.8322
+    },
+    {
+      "epoch": 4,
+      "train_loss": 4.4767,
+      "holdout_policy_acc": 0.0191,
+      "holdout_value_mse": 0.019,
+      "holdout_own_mse": 0.3017,
+      "holdout_own_acc": 0.8915
+    },
+    {
+      "epoch": 5,
+      "train_loss": 4.6183,
+      "holdout_policy_acc": 0.036,
+      "holdout_value_mse": 0.0241,
+      "holdout_own_mse": 0.2026,
+      "holdout_own_acc": 0.9309
+    },
+    {
+      "epoch": 6,
+      "train_loss": 4.1786,
+      "holdout_policy_acc": 0.0382,
+      "holdout_value_mse": 0.0238,
+      "holdout_own_mse": 0.1513,
+      "holdout_own_acc": 0.9507
+    },
+    {
+      "epoch": 7,
+      "train_loss": 4.131,
+      "holdout_policy_acc": 0.0371,
+      "holdout_value_mse": 0.0185,
+      "holdout_own_mse": 0.1469,
+      "holdout_own_acc": 0.951
+    },
+    {
+      "epoch": 8,
+      "train_loss": 3.9231,
+      "holdout_policy_acc": 0.0281,
+      "holdout_value_mse": 0.0213,
+      "holdout_own_mse": 0.1591,
+      "holdout_own_acc": 0.9473
+    },
+    {
+      "epoch": 9,
+      "train_loss": 3.805,
+      "holdout_policy_acc": 0.0326,
+      "holdout_value_mse": 0.0253,
+      "holdout_own_mse": 0.1397,
+      "holdout_own_acc": 0.954
+    },
+    {
+      "epoch": 10,
+      "train_loss": 4.0761,
+      "holdout_policy_acc": 0.0551,
+      "holdout_value_mse": 0.019,
+      "holdout_own_mse": 0.0957,
+      "holdout_own_acc": 0.9687
+    },
+    {
+      "epoch": 11,
+      "train_loss": 4.1142,
+      "holdout_policy_acc": 0.0449,
+      "holdout_value_mse": 0.0283,
+      "holdout_own_mse": 0.0937,
+      "holdout_own_acc": 0.9699
+    },
+    {
+      "epoch": 12,
+      "train_loss": 3.8573,
+      "holdout_policy_acc": 0.0461,
+      "holdout_value_mse": 0.0164,
+      "holdout_own_mse": 0.0858,
+      "holdout_own_acc": 0.973
+    },
+    {
+      "epoch": 13,
+      "train_loss": 4.0406,
+      "holdout_policy_acc": 0.0517,
+      "holdout_value_mse": 0.0191,
+      "holdout_own_mse": 0.0723,
+      "holdout_own_acc": 0.9775
+    },
+    {
+      "epoch": 14,
+      "train_loss": 3.6756,
+      "holdout_policy_acc": 0.0337,
+      "holdout_value_mse": 0.0184,
+      "holdout_own_mse": 0.0838,
+      "holdout_own_acc": 0.9728
+    },
+    {
+      "epoch": 15,
+      "train_loss": 4.0106,
+      "holdout_policy_acc": 0.0337,
+      "holdout_value_mse": 0.0209,
+      "holdout_own_mse": 0.0872,
+      "holdout_own_acc": 0.9713
+    },
+    {
+      "epoch": 16,
+      "train_loss": 3.8446,
+      "holdout_policy_acc": 0.0416,
+      "holdout_value_mse": 0.0158,
+      "holdout_own_mse": 0.0685,
+      "holdout_own_acc": 0.9785
+    },
+    {
+      "epoch": 17,
+      "train_loss": 3.6601,
+      "holdout_policy_acc": 0.0416,
+      "holdout_value_mse": 0.0206,
+      "holdout_own_mse": 0.0622,
+      "holdout_own_acc": 0.9801
+    },
+    {
+      "epoch": 18,
+      "train_loss": 3.8543,
+      "holdout_policy_acc": 0.0449,
+      "holdout_value_mse": 0.017,
+      "holdout_own_mse": 0.0697,
+      "holdout_own_acc": 0.9769
+    },
+    {
+      "epoch": 19,
+      "train_loss": 3.7344,
+      "holdout_policy_acc": 0.0371,
+      "holdout_value_mse": 0.0247,
+      "holdout_own_mse": 0.0692,
+      "holdout_own_acc": 0.979
+    },
+    {
+      "epoch": 20,
+      "train_loss": 3.9298,
+      "holdout_policy_acc": 0.0472,
+      "holdout_value_mse": 0.0214,
+      "holdout_own_mse": 0.0617,
+      "holdout_own_acc": 0.981
+    },
+    {
+      "epoch": 21,
+      "train_loss": 3.8915,
+      "holdout_policy_acc": 0.0461,
+      "holdout_value_mse": 0.015,
+      "holdout_own_mse": 0.0528,
+      "holdout_own_acc": 0.9832
+    },
+    {
+      "epoch": 22,
+      "train_loss": 3.8546,
+      "holdout_policy_acc": 0.0393,
+      "holdout_value_mse": 0.0147,
+      "holdout_own_mse": 0.0551,
+      "holdout_own_acc": 0.9826
+    },
+    {
+      "epoch": 23,
+      "train_loss": 3.8258,
+      "holdout_policy_acc": 0.0416,
+      "holdout_value_mse": 0.0161,
+      "holdout_own_mse": 0.0526,
+      "holdout_own_acc": 0.9828
+    },
+    {
+      "epoch": 24,
+      "train_loss": 3.7764,
+      "holdout_policy_acc": 0.0449,
+      "holdout_value_mse": 0.0151,
+      "holdout_own_mse": 0.0704,
+      "holdout_own_acc": 0.9772
+    },
+    {
+      "epoch": 25,
+      "train_loss": 3.9503,
+      "holdout_policy_acc": 0.0438,
+      "holdout_value_mse": 0.0142,
+      "holdout_own_mse": 0.0493,
+      "holdout_own_acc": 0.984
+    },
+    {
+      "epoch": 26,
+      "train_loss": 3.8267,
+      "holdout_policy_acc": 0.0494,
+      "holdout_value_mse": 0.0151,
+      "holdout_own_mse": 0.0497,
+      "holdout_own_acc": 0.9842
+    },
+    {
+      "epoch": 27,
+      "train_loss": 3.5905,
+      "holdout_policy_acc": 0.0517,
+      "holdout_value_mse": 0.0143,
+      "holdout_own_mse": 0.0536,
+      "holdout_own_acc": 0.9825
+    },
+    {
+      "epoch": 28,
+      "train_loss": 3.6289,
+      "holdout_policy_acc": 0.0382,
+      "holdout_value_mse": 0.0166,
+      "holdout_own_mse": 0.0518,
+      "holdout_own_acc": 0.9832
+    },
+    {
+      "epoch": 29,
+      "train_loss": 3.9327,
+      "holdout_policy_acc": 0.0506,
+      "holdout_value_mse": 0.0146,
+      "holdout_own_mse": 0.0523,
+      "holdout_own_acc": 0.9825
+    },
+    {
+      "epoch": 30,
+      "train_loss": 3.8201,
+      "holdout_policy_acc": 0.0438,
+      "holdout_value_mse": 0.0164,
+      "holdout_own_mse": 0.0602,
+      "holdout_own_acc": 0.9801
+    },
+    {
+      "epoch": 31,
+      "train_loss": 3.6406,
+      "holdout_policy_acc": 0.0427,
+      "holdout_value_mse": 0.0131,
+      "holdout_own_mse": 0.0541,
+      "holdout_own_acc": 0.9817
+    },
+    {
+      "epoch": 32,
+      "train_loss": 3.6852,
+      "holdout_policy_acc": 0.0483,
+      "holdout_value_mse": 0.0172,
+      "holdout_own_mse": 0.0477,
+      "holdout_own_acc": 0.9841
+    },
+    {
+      "epoch": 33,
+      "train_loss": 3.6524,
+      "holdout_policy_acc": 0.0506,
+      "holdout_value_mse": 0.0152,
+      "holdout_own_mse": 0.0509,
+      "holdout_own_acc": 0.983
+    },
+    {
+      "epoch": 34,
+      "train_loss": 3.9102,
+      "holdout_policy_acc": 0.0494,
+      "holdout_value_mse": 0.0152,
+      "holdout_own_mse": 0.0524,
+      "holdout_own_acc": 0.9827
+    },
+    {
+      "epoch": 35,
+      "train_loss": 3.7974,
+      "holdout_policy_acc": 0.0382,
+      "holdout_value_mse": 0.0155,
+      "holdout_own_mse": 0.0447,
+      "holdout_own_acc": 0.9847
+    },
+    {
+      "epoch": 36,
+      "train_loss": 3.6981,
+      "holdout_policy_acc": 0.0584,
+      "holdout_value_mse": 0.0141,
+      "holdout_own_mse": 0.0588,
+      "holdout_own_acc": 0.9808
+    },
+    {
+      "epoch": 37,
+      "train_loss": 3.6941,
+      "holdout_policy_acc": 0.0438,
+      "holdout_value_mse": 0.0158,
+      "holdout_own_mse": 0.0458,
+      "holdout_own_acc": 0.9843
+    },
+    {
+      "epoch": 38,
+      "train_loss": 3.8466,
+      "holdout_policy_acc": 0.0371,
+      "holdout_value_mse": 0.0166,
+      "holdout_own_mse": 0.0481,
+      "holdout_own_acc": 0.9835
+    },
+    {
+      "epoch": 39,
+      "train_loss": 3.3938,
+      "holdout_policy_acc": 0.0472,
+      "holdout_value_mse": 0.0166,
+      "holdout_own_mse": 0.043,
+      "holdout_own_acc": 0.9856
+    },
+    {
+      "epoch": 40,
+      "train_loss": 3.6466,
+      "holdout_policy_acc": 0.0382,
+      "holdout_value_mse": 0.0173,
+      "holdout_own_mse": 0.0439,
+      "holdout_own_acc": 0.9851
+    }
+  ]
+}

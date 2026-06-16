@@ -346,3 +346,46 @@ class Board:
             "diff": diff,
             "winner": winner,
         }
+
+    def ownership_map(self) -> np.ndarray:
+        """AUX-1: per-voxel Tromp-Taylor owner of the (terminal) board, in
+        absolute black-positive convention: +1 = Black owns (stone or
+        single-color territory), -1 = White owns, 0 = neutral/dame.
+
+        Reuses the score_tromp_taylor flood-fill so ownership is consistent with
+        the area score. Caller signs it per side-to-move when used as a target.
+        """
+        own = np.zeros((self.w, self.h, self.d), dtype=np.int8)
+        own[self.grid == BLACK] = 1
+        own[self.grid == WHITE] = -1
+        visited = np.zeros_like(self.grid, dtype=bool)
+        for x in range(self.w):
+            for y in range(self.h):
+                for z in range(self.d):
+                    if visited[x, y, z] or self.grid[x, y, z] != EMPTY:
+                        continue
+                    stack = [(x, y, z)]
+                    visited[x, y, z] = True
+                    cells = [(x, y, z)]
+                    borders: set[int] = set()
+                    while stack:
+                        cx, cy, cz = stack.pop()
+                        for nx, ny, nz in self._neighbors(cx, cy, cz):
+                            v = self.grid[nx, ny, nz]
+                            if v == EMPTY:
+                                if not visited[nx, ny, nz]:
+                                    visited[nx, ny, nz] = True
+                                    stack.append((nx, ny, nz))
+                                    cells.append((nx, ny, nz))
+                            else:
+                                borders.add(int(v))
+                    if borders == {BLACK}:
+                        val = 1
+                    elif borders == {WHITE}:
+                        val = -1
+                    else:
+                        val = 0
+                    if val:
+                        for cx, cy, cz in cells:
+                            own[cx, cy, cz] = val
+        return own

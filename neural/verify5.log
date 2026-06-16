@@ -1,0 +1,25 @@
+=== train seed=1 lambda=0.0 -> best_own5_l00_s1.pt ===
+best holdout policy acc = 0.0640 -> best_own5_l00_s1.pt  (best_own5_l00_s1_train.json)
+=== eval best_own5_l00_s1.pt @512 n=128 ===
+  "decided": 126,
+  "net_wins": 46,
+  "net_winrate": 0.365,
+=== train seed=1 lambda=1.0 -> best_own5_l10_s1.pt ===
+best holdout policy acc = 0.0652 -> best_own5_l10_s1.pt  (best_own5_l10_s1_train.json)
+=== eval best_own5_l10_s1.pt @512 n=128 ===
+  "decided": 125,
+  "net_wins": 39,
+  "net_winrate": 0.312,
+=== train seed=2 lambda=0.0 -> best_own5_l00_s2.pt ===
+best holdout policy acc = 0.0573 -> best_own5_l00_s2.pt  (best_own5_l00_s2_train.json)
+=== eval best_own5_l00_s2.pt @512 n=128 ===
+  "decided": 128,
+  "net_wins": 39,
+  "net_winrate": 0.305,
+=== train seed=2 lambda=1.0 -> best_own5_l10_s2.pt ===
+best holdout policy acc = 0.0562 -> best_own5_l10_s2.pt  (best_own5_l10_s2_train.json)
+=== eval best_own5_l10_s2.pt @512 n=128 ===
+  "decided": 128,
+  "net_wins": 49,
+  "net_winrate": 0.383,
+ALL_VERIFY5_DONE

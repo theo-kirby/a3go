@@ -1,0 +1,17 @@
+=== training lambda=0.0 -> best_own4_l00.pt ===
+  ep35: loss=3.410 pacc=0.1234 vmse=0.0564 omse=0.9637 oacc=0.5004
+  ep40: loss=2.354 pacc=0.1146 vmse=0.0465 omse=0.9637 oacc=0.5004
+best holdout policy acc = 0.1322 -> best_own4_l00.pt  (best_own4_l00_train.json)
+=== training lambda=0.3 -> best_own4_l03.pt ===
+  ep35: loss=3.713 pacc=0.1173 vmse=0.1893 omse=0.9619 oacc=0.6771
+  ep40: loss=2.492 pacc=0.1207 vmse=0.0450 omse=0.1786 oacc=0.9395
+best holdout policy acc = 0.1329 -> best_own4_l03.pt  (best_own4_l03_train.json)
+=== training lambda=1.0 -> best_own4_l10.pt ===
+  ep35: loss=3.768 pacc=0.1170 vmse=0.0446 omse=0.3230 oacc=0.8920
+  ep40: loss=2.670 pacc=0.1170 vmse=0.0458 omse=0.0952 oacc=0.9689
+best holdout policy acc = 0.1430 -> best_own4_l10.pt  (best_own4_l10_train.json)
+=== training lambda=1.5 -> best_own4_l15.pt ===
+  ep35: loss=3.897 pacc=0.1139 vmse=0.0608 omse=0.7089 oacc=0.7726
+  ep40: loss=2.589 pacc=0.1295 vmse=0.0456 omse=0.0816 oacc=0.9737
+best holdout policy acc = 0.1295 -> best_own4_l15.pt  (best_own4_l15_train.json)
+ALL_TRAIN_DONE

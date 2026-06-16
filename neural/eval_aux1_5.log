@@ -1,0 +1,17 @@
+=== 5cubed eval lambda-tag 00 net_sims=512 vs cls@48 n=128 ===
+  "decided": 127,
+  "net_wins": 40,
+  "net_winrate": 0.315,
+=== 5cubed eval lambda-tag 10 net_sims=512 vs cls@48 n=128 ===
+  "decided": 126,
+  "net_wins": 61,
+  "net_winrate": 0.484,
+=== 5cubed eval lambda-tag 00 net_sims=48 vs cls@48 n=128 ===
+  "decided": 119,
+  "net_wins": 19,
+  "net_winrate": 0.16,
+=== 5cubed eval lambda-tag 10 net_sims=48 vs cls@48 n=128 ===
+  "decided": 122,
+  "net_wins": 22,
+  "net_winrate": 0.18,
+ALL_EVAL5_DONE

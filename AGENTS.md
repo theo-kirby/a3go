@@ -27,6 +27,10 @@ their Apache-2.0 headers; new a3go code is MIT (see `LICENSE` and `NOTICE`).
    run it.
 4. **[docs/FLYWHEEL.md](./docs/FLYWHEEL.md)** — how to record findings as a
    durable research graph.
+5. **[docs/DIRECTIONS.md](./docs/DIRECTIONS.md)** — Phase-3 frontier-EXPANSION
+   catalog: the menu of STAGED research directions (KataGo/autogo/online-go-
+   inspired) with a what-may-work priority guide. Read before picking the next
+   execution pass; the live status table is the EXPANSION index flywheel node.
 
 Frozen upstream engine references live in
 [docs/upstream/](./docs/upstream/) (historical; for the *why* of the engine).
