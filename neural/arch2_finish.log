@@ -1,0 +1,142 @@
+=== ARCH2 train seed 0 ===
+# train_arch2 distill_softpol_5cubed.npz: A3GoNetBR ch=64 blk=8 cb=48 params=1131045 T=4.0 W=8.0 prune=0.02 train 47611 holdout 5290 seed=0 cuda
+  ep1: loss=32.861 top1=0.0414 top3=0.1251 vmse=0.6054
+  ep5: loss=31.974 top1=0.0433 top3=0.1216 vmse=0.0947
+  ep10: loss=28.984 top1=0.0605 top3=0.1478 vmse=0.0538
+  ep15: loss=30.780 top1=0.0573 top3=0.1338 vmse=0.0464
+  ep20: loss=29.628 top1=0.0493 top3=0.1378 vmse=0.0373
+  ep25: loss=30.140 top1=0.0594 top3=0.1435 vmse=0.0353
+  ep30: loss=31.397 top1=0.0418 top3=0.1180 vmse=0.0342
+  ep35: loss=29.183 top1=0.0529 top3=0.1372 vmse=0.0389
+  ep40: loss=31.137 top1=0.0561 top3=0.1333 vmse=0.0416
+best holdout top1 = 0.0907 params=1131045 -> best_arch2_s0.pt
+=== ARCH2 train seed 1 ===
+# train_arch2 distill_softpol_5cubed.npz: A3GoNetBR ch=64 blk=8 cb=48 params=1131045 T=4.0 W=8.0 prune=0.02 train 47611 holdout 5290 seed=1 cuda
+  ep1: loss=32.797 top1=0.0476 top3=0.1144 vmse=0.6797
+  ep5: loss=29.706 top1=0.0580 top3=0.1391 vmse=0.0755
+  ep10: loss=30.206 top1=0.0597 top3=0.1499 vmse=0.0495
+  ep15: loss=29.707 top1=0.0777 top3=0.1836 vmse=0.0486
+  ep20: loss=29.221 top1=0.0862 top3=0.1945 vmse=0.0421
+  ep25: loss=30.748 top1=0.0605 top3=0.1622 vmse=0.0443
+  ep30: loss=30.357 top1=0.0647 top3=0.1726 vmse=0.0358
+  ep35: loss=28.601 top1=0.0406 top3=0.1083 vmse=0.0368
+  ep40: loss=29.298 top1=0.0526 top3=0.1497 vmse=0.0454
+best holdout top1 = 0.0862 params=1131045 -> best_arch2_s1.pt
+=== ARCH2 train seed 2 ===
+# train_arch2 distill_softpol_5cubed.npz: A3GoNetBR ch=64 blk=8 cb=48 params=1131045 T=4.0 W=8.0 prune=0.02 train 47611 holdout 5290 seed=2 cuda
+  ep1: loss=32.920 top1=0.0518 top3=0.1250 vmse=0.7002
+  ep5: loss=30.691 top1=0.0448 top3=0.1248 vmse=0.0861
+  ep10: loss=30.420 top1=0.0546 top3=0.1353 vmse=0.0575
+  ep15: loss=30.136 top1=0.0467 top3=0.1242 vmse=0.0539
+  ep20: loss=29.920 top1=0.0488 top3=0.1291 vmse=0.0412
+  ep25: loss=29.958 top1=0.0491 top3=0.1340 vmse=0.0362
+  ep30: loss=30.966 top1=0.0467 top3=0.1405 vmse=0.0490
+  ep35: loss=29.370 top1=0.0788 top3=0.1733 vmse=0.0412
+  ep40: loss=29.766 top1=0.0422 top3=0.1095 vmse=0.0387
+best holdout top1 = 0.0788 params=1131045 -> best_arch2_s2.pt
+=== ARCH2 eval seed 0 ===
+{
+  "experiment": "ARCH-2 BN-free nested-bottleneck net vs classical (equal budget)",
+  "ckpt": "best_arch2_s0.pt",
+  "arch": "nested-bottleneck-BNfree-rezero",
+  "channels": 64,
+  "blocks": 8,
+  "bottleneck": 48,
+  "boardSize": 5,
+  "games": 128,
+  "decided": 128,
+  "draws": 0,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 42,
+  "net_winrate": 0.328,
+  "winrate_ci95": [
+    0.253,
+    0.413
+  ],
+  "eval_secs": 2477.6,
+  "games_per_sec": 0.052,
+  "beats_classical_decisively": false
+}
+=== ARCH2 eval seed 1 ===
+{
+  "experiment": "ARCH-2 BN-free nested-bottleneck net vs classical (equal budget)",
+  "ckpt": "best_arch2_s1.pt",
+  "arch": "nested-bottleneck-BNfree-rezero",
+  "channels": 64,
+  "blocks": 8,
+  "bottleneck": 48,
+  "boardSize": 5,
+  "games": 128,
+  "decided": 127,
+  "draws": 1,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 34,
+  "net_winrate": 0.268,
+  "winrate_ci95": [
+    0.198,
+    0.351
+  ],
+  "eval_secs": 2721.7,
+  "games_per_sec": 0.047,
+  "beats_classical_decisively": false
+}
+=== ARCH2 eval seed 2 ===
+{
+  "experiment": "ARCH-2 BN-free nested-bottleneck net vs classical (equal budget)",
+  "ckpt": "best_arch2_s2.pt",
+  "arch": "nested-bottleneck-BNfree-rezero",
+  "channels": 64,
+  "blocks": 8,
+  "bottleneck": 48,
+  "boardSize": 5,
+  "games": 128,
+  "decided": 128,
+  "draws": 0,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 40,
+  "net_winrate": 0.312,
+  "winrate_ci95": [
+    0.239,
+    0.397
+  ],
+  "eval_secs": 2866.6,
+  "games_per_sec": 0.045,
+  "beats_classical_decisively": false
+}
+=== CLEAN SPEED (sequential, 24 games each) ===
+{
+  "experiment": "ARCH-2 BN-free nested-bottleneck net vs classical (equal budget)",
+  "ckpt": "best_arch2_s0.pt",
+  "arch": "nested-bottleneck-BNfree-rezero",
+  "channels": 64,
+  "blocks": 8,
+  "bottleneck": 48,
+  "boardSize": 5,
+  "games": 24,
+  "decided": 24,
+  "draws": 0,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 8,
+  "net_winrate": 0.333,
+  "winrate_ci95": [
+    0.18,
+    0.533
+  ],
+  "eval_secs": 579.7,
+  "games_per_sec": 0.041,
+  "beats_classical_decisively": false
+}
+BN-soft games/sec = 0.047
+ALL_ARCH2_DONE

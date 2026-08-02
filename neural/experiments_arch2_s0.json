@@ -1,0 +1,25 @@
+{
+  "experiment": "ARCH-2 BN-free nested-bottleneck net vs classical (equal budget)",
+  "ckpt": "best_arch2_s0.pt",
+  "arch": "nested-bottleneck-BNfree-rezero",
+  "channels": 64,
+  "blocks": 8,
+  "bottleneck": 48,
+  "boardSize": 5,
+  "games": 128,
+  "decided": 128,
+  "draws": 0,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 42,
+  "net_winrate": 0.328,
+  "winrate_ci95": [
+    0.253,
+    0.413
+  ],
+  "eval_secs": 2477.6,
+  "games_per_sec": 0.052,
+  "beats_classical_decisively": false
+}

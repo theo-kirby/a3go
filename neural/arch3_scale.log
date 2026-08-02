@@ -1,0 +1,15 @@
+=== TRAIN libs 96x8 + 128x10 (x3 seeds) Thu Jun 18 03:47:49 AM EDT 2026 ===
+  -- train libs 96x8 seed=0 03:47:49 --
+best holdout top1 = 0.0977 params=4079971 cfg=libs -> best_libs_96x8_s0.pt
+  -- train libs 96x8 seed=1 03:49:52 --
+best holdout top1 = 0.0834 params=4079971 cfg=libs -> best_libs_96x8_s1.pt
+  -- train libs 96x8 seed=2 03:51:55 --
+best holdout top1 = 0.0839 params=4079971 cfg=libs -> best_libs_96x8_s2.pt
+  -- train libs 128x10 seed=0 03:53:57 --
+best holdout top1 = 0.0883 params=8953507 cfg=libs -> best_libs_128x10_s0.pt
+  -- train libs 128x10 seed=1 03:58:29 --
+best holdout top1 = 0.1244 params=8953507 cfg=libs -> best_libs_128x10_s1.pt
+  -- train libs 128x10 seed=2 04:03:02 --
+best holdout top1 = 0.1004 params=8953507 cfg=libs -> best_libs_128x10_s2.pt
+=== EVAL libs 96x8 x3 vs classical@48 n=128 net@512 Thu Jun 18 04:07:34 AM EDT 2026 ===
+  -- eval libs 96x8 seed=0 04:07:34 --

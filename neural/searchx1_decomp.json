@@ -1,0 +1,68 @@
+{
+  "experiment": "SEARCHX-1 net-vs-search decomposition (libs 5^3)",
+  "n": 5,
+  "games_per_seed": 24,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "sims_sweep": [
+    1,
+    4,
+    16,
+    64
+  ],
+  "vs_random": {
+    "policy_only": {
+      "winrate_vs_random": 0.6135,
+      "ci95": [
+        0.501,
+        0.726
+      ]
+    },
+    "value_only_1ply": {
+      "winrate_vs_random": 0.5417,
+      "ci95": [
+        0.4266,
+        0.6568
+      ]
+    },
+    "mcts_sims1": {
+      "winrate_vs_random": 0.6135,
+      "ci95": [
+        0.501,
+        0.726
+      ]
+    },
+    "mcts_sims4": {
+      "winrate_vs_random": 0.8424,
+      "ci95": [
+        0.7582,
+        0.9266
+      ]
+    },
+    "mcts_sims16": {
+      "winrate_vs_random": 0.9438,
+      "ci95": [
+        0.8907,
+        0.997
+      ]
+    },
+    "mcts_sims64": {
+      "winrate_vs_random": 0.9583,
+      "ci95": [
+        0.9122,
+        1.0045
+      ]
+    }
+  },
+  "policy_only_vs_mcts64": {
+    "policy_winrate": 0.1463,
+    "ci95": [
+      0.0647,
+      0.2279
+    ]
+  },
+  "secs": 1574.0
+}

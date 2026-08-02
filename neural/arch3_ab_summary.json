@@ -1,0 +1,546 @@
+{
+  "experiment": "ARCH-3 richer input planes vs 3-plane baseline (5^3, net@512 vs cls@48, n=128/seed x3 pooled, identical data+soft-target+trunk)",
+  "protocol": {
+    "board": 5,
+    "net_sims": 512,
+    "cls_playouts": 48,
+    "cls_cap": 50,
+    "games_per_seed": 128,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "channel_layout": "0=B,1=W,2=stm,3=koban,4=lib1,5=lib2,6=lib3+,7=capture,8=last,9=2ndlast"
+  },
+  "strength": {
+    "base": {
+      "cfg": "base",
+      "wins": 117,
+      "decided": 384,
+      "winrate": 0.3047,
+      "ci95": [
+        0.2608,
+        0.3525
+      ],
+      "beats_classical": false,
+      "per_seed": [
+        {
+          "seed": 0,
+          "wr": 0.312,
+          "ci": [
+            0.239,
+            0.397
+          ],
+          "wins": 40,
+          "decided": 128,
+          "eval_secs": 2773.1,
+          "games_per_sec": 0.046
+        },
+        {
+          "seed": 1,
+          "wr": 0.32,
+          "ci": [
+            0.246,
+            0.405
+          ],
+          "wins": 41,
+          "decided": 128,
+          "eval_secs": 3059.8,
+          "games_per_sec": 0.042
+        },
+        {
+          "seed": 2,
+          "wr": 0.281,
+          "ci": [
+            0.211,
+            0.365
+          ],
+          "wins": 36,
+          "decided": 128,
+          "eval_secs": 2800.3,
+          "games_per_sec": 0.046
+        }
+      ],
+      "mean_games_per_sec": 0.0447
+    },
+    "all": {
+      "cfg": "all",
+      "wins": 157,
+      "decided": 382,
+      "winrate": 0.411,
+      "ci95": [
+        0.3628,
+        0.461
+      ],
+      "beats_classical": false,
+      "per_seed": [
+        {
+          "seed": 0,
+          "wr": 0.386,
+          "ci": [
+            0.306,
+            0.473
+          ],
+          "wins": 49,
+          "decided": 127,
+          "eval_secs": 2814.0,
+          "games_per_sec": 0.045
+        },
+        {
+          "seed": 1,
+          "wr": 0.391,
+          "ci": [
+            0.31,
+            0.477
+          ],
+          "wins": 50,
+          "decided": 128,
+          "eval_secs": 2688.5,
+          "games_per_sec": 0.048
+        },
+        {
+          "seed": 2,
+          "wr": 0.457,
+          "ci": [
+            0.373,
+            0.543
+          ],
+          "wins": 58,
+          "decided": 127,
+          "eval_secs": 2768.4,
+          "games_per_sec": 0.046
+        }
+      ],
+      "mean_games_per_sec": 0.0463
+    },
+    "koban": {
+      "cfg": "koban",
+      "wins": 106,
+      "decided": 382,
+      "winrate": 0.2775,
+      "ci95": [
+        0.235,
+        0.3244
+      ],
+      "beats_classical": false,
+      "per_seed": [
+        {
+          "seed": 0,
+          "wr": 0.281,
+          "ci": [
+            0.211,
+            0.365
+          ],
+          "wins": 36,
+          "decided": 128,
+          "eval_secs": 2879.3,
+          "games_per_sec": 0.044
+        },
+        {
+          "seed": 1,
+          "wr": 0.276,
+          "ci": [
+            0.205,
+            0.359
+          ],
+          "wins": 35,
+          "decided": 127,
+          "eval_secs": 3148.8,
+          "games_per_sec": 0.041
+        },
+        {
+          "seed": 2,
+          "wr": 0.276,
+          "ci": [
+            0.205,
+            0.359
+          ],
+          "wins": 35,
+          "decided": 127,
+          "eval_secs": 2997.8,
+          "games_per_sec": 0.043
+        }
+      ],
+      "mean_games_per_sec": 0.0427
+    },
+    "libs": {
+      "cfg": "libs",
+      "wins": 172,
+      "decided": 383,
+      "winrate": 0.4491,
+      "ci95": [
+        0.4,
+        0.4992
+      ],
+      "beats_classical": false,
+      "per_seed": [
+        {
+          "seed": 0,
+          "wr": 0.383,
+          "ci": [
+            0.303,
+            0.469
+          ],
+          "wins": 49,
+          "decided": 128,
+          "eval_secs": 3003.7,
+          "games_per_sec": 0.043
+        },
+        {
+          "seed": 1,
+          "wr": 0.422,
+          "ci": [
+            0.34,
+            0.508
+          ],
+          "wins": 54,
+          "decided": 128,
+          "eval_secs": 3022.3,
+          "games_per_sec": 0.042
+        },
+        {
+          "seed": 2,
+          "wr": 0.543,
+          "ci": [
+            0.457,
+            0.627
+          ],
+          "wins": 69,
+          "decided": 127,
+          "eval_secs": 2626.7,
+          "games_per_sec": 0.049
+        }
+      ],
+      "mean_games_per_sec": 0.0447
+    },
+    "capture": {
+      "cfg": "capture",
+      "wins": 127,
+      "decided": 382,
+      "winrate": 0.3325,
+      "ci95": [
+        0.2871,
+        0.3812
+      ],
+      "beats_classical": false,
+      "per_seed": [
+        {
+          "seed": 0,
+          "wr": 0.367,
+          "ci": [
+            0.289,
+            0.453
+          ],
+          "wins": 47,
+          "decided": 128,
+          "eval_secs": 3070.8,
+          "games_per_sec": 0.042
+        },
+        {
+          "seed": 1,
+          "wr": 0.291,
+          "ci": [
+            0.219,
+            0.376
+          ],
+          "wins": 37,
+          "decided": 127,
+          "eval_secs": 3407.3,
+          "games_per_sec": 0.038
+        },
+        {
+          "seed": 2,
+          "wr": 0.339,
+          "ci": [
+            0.262,
+            0.425
+          ],
+          "wins": 43,
+          "decided": 127,
+          "eval_secs": 3372.2,
+          "games_per_sec": 0.038
+        }
+      ],
+      "mean_games_per_sec": 0.0393
+    },
+    "history": {
+      "cfg": "history",
+      "wins": 135,
+      "decided": 379,
+      "winrate": 0.3562,
+      "ci95": [
+        0.3097,
+        0.4056
+      ],
+      "beats_classical": false,
+      "per_seed": [
+        {
+          "seed": 0,
+          "wr": 0.307,
+          "ci": [
+            0.234,
+            0.392
+          ],
+          "wins": 39,
+          "decided": 127,
+          "eval_secs": 3057.8,
+          "games_per_sec": 0.042
+        },
+        {
+          "seed": 1,
+          "wr": 0.306,
+          "ci": [
+            0.232,
+            0.392
+          ],
+          "wins": 38,
+          "decided": 124,
+          "eval_secs": 2828.7,
+          "games_per_sec": 0.045
+        },
+        {
+          "seed": 2,
+          "wr": 0.453,
+          "ci": [
+            0.37,
+            0.539
+          ],
+          "wins": 58,
+          "decided": 128,
+          "eval_secs": 3041.5,
+          "games_per_sec": 0.042
+        }
+      ],
+      "mean_games_per_sec": 0.043
+    }
+  },
+  "holdout": {
+    "base": {
+      "per_seed": [
+        {
+          "seed": 0,
+          "best_holdout_top1": 0.0843,
+          "final_value_mse": 0.0322,
+          "best_top3": 0.1836,
+          "in_planes": 3,
+          "params": 1413603
+        },
+        {
+          "seed": 1,
+          "best_holdout_top1": 0.0883,
+          "final_value_mse": 0.0273,
+          "best_top3": 0.2149,
+          "in_planes": 3,
+          "params": 1413603
+        },
+        {
+          "seed": 2,
+          "best_holdout_top1": 0.113,
+          "final_value_mse": 0.0283,
+          "best_top3": 0.2157,
+          "in_planes": 3,
+          "params": 1413603
+        }
+      ],
+      "mean_best_top1": 0.0952,
+      "mean_final_value_mse": 0.0293,
+      "in_planes": 3,
+      "params": 1413603
+    },
+    "all": {
+      "per_seed": [
+        {
+          "seed": 0,
+          "best_holdout_top1": 0.0775,
+          "final_value_mse": 0.0266,
+          "best_top3": 0.1856,
+          "in_planes": 10,
+          "params": 1425699
+        },
+        {
+          "seed": 1,
+          "best_holdout_top1": 0.0832,
+          "final_value_mse": 0.0231,
+          "best_top3": 0.1837,
+          "in_planes": 10,
+          "params": 1425699
+        },
+        {
+          "seed": 2,
+          "best_holdout_top1": 0.0817,
+          "final_value_mse": 0.0272,
+          "best_top3": 0.1998,
+          "in_planes": 10,
+          "params": 1425699
+        }
+      ],
+      "mean_best_top1": 0.0808,
+      "mean_final_value_mse": 0.0256,
+      "in_planes": 10,
+      "params": 1425699
+    },
+    "koban": {
+      "per_seed": [
+        {
+          "seed": 0,
+          "best_holdout_top1": 0.0669,
+          "final_value_mse": 0.0347,
+          "best_top3": 0.1779,
+          "in_planes": 4,
+          "params": 1415331
+        },
+        {
+          "seed": 1,
+          "best_holdout_top1": 0.076,
+          "final_value_mse": 0.0322,
+          "best_top3": 0.2002,
+          "in_planes": 4,
+          "params": 1415331
+        },
+        {
+          "seed": 2,
+          "best_holdout_top1": 0.0839,
+          "final_value_mse": 0.0316,
+          "best_top3": 0.1798,
+          "in_planes": 4,
+          "params": 1415331
+        }
+      ],
+      "mean_best_top1": 0.0756,
+      "mean_final_value_mse": 0.0328,
+      "in_planes": 4,
+      "params": 1415331
+    },
+    "libs": {
+      "per_seed": [
+        {
+          "seed": 0,
+          "best_holdout_top1": 0.0699,
+          "final_value_mse": 0.0291,
+          "best_top3": 0.166,
+          "in_planes": 6,
+          "params": 1418787
+        },
+        {
+          "seed": 1,
+          "best_holdout_top1": 0.0858,
+          "final_value_mse": 0.0282,
+          "best_top3": 0.1987,
+          "in_planes": 6,
+          "params": 1418787
+        },
+        {
+          "seed": 2,
+          "best_holdout_top1": 0.0837,
+          "final_value_mse": 0.0436,
+          "best_top3": 0.1953,
+          "in_planes": 6,
+          "params": 1418787
+        }
+      ],
+      "mean_best_top1": 0.0798,
+      "mean_final_value_mse": 0.0336,
+      "in_planes": 6,
+      "params": 1418787
+    },
+    "capture": {
+      "per_seed": [
+        {
+          "seed": 0,
+          "best_holdout_top1": 0.0817,
+          "final_value_mse": 0.0364,
+          "best_top3": 0.1879,
+          "in_planes": 4,
+          "params": 1415331
+        },
+        {
+          "seed": 1,
+          "best_holdout_top1": 0.0957,
+          "final_value_mse": 0.0327,
+          "best_top3": 0.1881,
+          "in_planes": 4,
+          "params": 1415331
+        },
+        {
+          "seed": 2,
+          "best_holdout_top1": 0.1168,
+          "final_value_mse": 0.0345,
+          "best_top3": 0.2197,
+          "in_planes": 4,
+          "params": 1415331
+        }
+      ],
+      "mean_best_top1": 0.0981,
+      "mean_final_value_mse": 0.0345,
+      "in_planes": 4,
+      "params": 1415331
+    },
+    "history": {
+      "per_seed": [
+        {
+          "seed": 0,
+          "best_holdout_top1": 0.0667,
+          "final_value_mse": 0.0385,
+          "best_top3": 0.1573,
+          "in_planes": 5,
+          "params": 1417059
+        },
+        {
+          "seed": 1,
+          "best_holdout_top1": 0.094,
+          "final_value_mse": 0.028,
+          "best_top3": 0.189,
+          "in_planes": 5,
+          "params": 1417059
+        },
+        {
+          "seed": 2,
+          "best_holdout_top1": 0.1049,
+          "final_value_mse": 0.0294,
+          "best_top3": 0.224,
+          "in_planes": 5,
+          "params": 1417059
+        }
+      ],
+      "mean_best_top1": 0.0885,
+      "mean_final_value_mse": 0.032,
+      "in_planes": 5,
+      "params": 1417059
+    }
+  },
+  "vs_base": {
+    "all": {
+      "delta_vs_base": 0.1063,
+      "ci_overlap_with_base": false,
+      "decisive_vs_base": true,
+      "beats_classical": false
+    },
+    "koban": {
+      "delta_vs_base": -0.0272,
+      "ci_overlap_with_base": true,
+      "decisive_vs_base": false,
+      "beats_classical": false
+    },
+    "libs": {
+      "delta_vs_base": 0.1444,
+      "ci_overlap_with_base": false,
+      "decisive_vs_base": true,
+      "beats_classical": false
+    },
+    "capture": {
+      "delta_vs_base": 0.0278,
+      "ci_overlap_with_base": true,
+      "decisive_vs_base": false,
+      "beats_classical": false
+    },
+    "history": {
+      "delta_vs_base": 0.0515,
+      "ci_overlap_with_base": true,
+      "decisive_vs_base": false,
+      "beats_classical": false
+    }
+  },
+  "any_decisive_vs_base": true,
+  "any_beats_classical": false
+}

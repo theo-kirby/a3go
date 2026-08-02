@@ -1,0 +1,44 @@
+{
+  "experiment": "REP-3 my/opp liberty split (group-health), 5^3, vs plain libs",
+  "train": {
+    "0": {
+      "best_top1": 0.0841,
+      "best": {
+        "epoch": 35,
+        "top1": 0.0841,
+        "vmse": 0.0583
+      }
+    },
+    "1": {
+      "best_top1": 0.0741,
+      "best": {
+        "epoch": 39,
+        "top1": 0.0741,
+        "vmse": 0.0432
+      }
+    },
+    "2": {
+      "best_top1": 0.1009,
+      "best": {
+        "epoch": 35,
+        "top1": 0.1009,
+        "vmse": 0.0402
+      }
+    }
+  },
+  "params": 1423971,
+  "screen": {
+    "split_winrate_vs_libs": 0.5585,
+    "per_seed": [
+      0.6129,
+      0.4688,
+      0.5938
+    ],
+    "ci95": [
+      0.4591,
+      0.6578
+    ],
+    "games_per_seed": 32,
+    "sims": 48
+  }
+}

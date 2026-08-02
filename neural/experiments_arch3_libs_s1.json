@@ -1,0 +1,24 @@
+{
+  "experiment": "ARCH-3 richer-input net vs classical (equal budget)",
+  "ckpt": "best_arch3_libs_s1.pt",
+  "cfg": "libs",
+  "channels": 64,
+  "blocks": 6,
+  "boardSize": 5,
+  "games": 128,
+  "decided": 128,
+  "draws": 0,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 54,
+  "net_winrate": 0.422,
+  "winrate_ci95": [
+    0.34,
+    0.508
+  ],
+  "eval_secs": 3022.3,
+  "games_per_sec": 0.042,
+  "beats_classical_decisively": false
+}

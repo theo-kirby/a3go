@@ -71,6 +71,15 @@ npm run checks           # eslint + prettier:check
   [src/engine/VENDORED.md](./src/engine/VENDORED.md)**.
 - **Record findings in Flywheel.** Results are durable graph nodes with attached
   artifacts — not just console output (see FLYWHEEL.md).
+- **Breadth over depth — expand the surface, don't grind.** The priority is
+  *widening the research frontier*: seed many new directions, out-of-the-box
+  approaches, and edge hypotheses as STAGED graph nodes — not committing hours of
+  wall-clock to long training runs on big models. Prefer cheap, fast probes
+  (minutes, not hours) that each resolve a node and open new branches. When a
+  question would need a long/expensive train to settle, **stage it as a hypothesis
+  with a crisp decision criterion and move on** rather than blocking on it; only
+  spend real compute on a direction the cheap signal already favors. A diverse
+  graph of pickable, well-posed bets is worth more than one deeply-ground result.
 
 ## Finish checklist (before committing)
 

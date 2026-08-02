@@ -1,0 +1,6 @@
+# SYMM-1 TTA n=5^3 sims=48 k=8 gp/seed=24 device=cuda
+  seed 0: symm-vs-plain winrate=0.5000 (154s)
+  seed 1: symm-vs-plain winrate=0.6522 (378s)
+  seed 2: symm-vs-plain winrate=0.5217 (533s)
+symm-vs-plain pooled winrate = 0.5580 [0.4433, 0.6727]  (>0.5 => free strength)
+wrote symm1_tta.json

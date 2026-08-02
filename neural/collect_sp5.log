@@ -1,0 +1,13 @@
+  32/384 games, 4236 examples (B/W/draw 15/16/1)
+  64/384 games, 8678 examples (B/W/draw 33/29/2)
+  96/384 games, 13016 examples (B/W/draw 52/41/3)
+  128/384 games, 17205 examples (B/W/draw 64/59/5)
+  160/384 games, 21669 examples (B/W/draw 82/73/5)
+  192/384 games, 26016 examples (B/W/draw 93/93/6)
+  224/384 games, 30523 examples (B/W/draw 112/105/7)
+  256/384 games, 35143 examples (B/W/draw 127/120/9)
+  288/384 games, 39517 examples (B/W/draw 147/131/10)
+  320/384 games, 43692 examples (B/W/draw 167/142/11)
+  352/384 games, 48342 examples (B/W/draw 182/158/12)
+  384/384 games, 52901 examples (B/W/draw 196/176/12)
+saved distill_softpol_5cubed.npz: X(52901, 3, 5, 5, 5) V(52901, 126) Z(52901,)  games=384 playouts=128 B/W/draw=196/176/12

@@ -1,0 +1,23 @@
+{
+  "experiment": "SYMM-1 arm-A cube-symmetry TTA inference (libs 5^3, no retrain)",
+  "n": 5,
+  "sims": 48,
+  "k_symms": 48,
+  "games_per_seed": 32,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "symm_winrate_vs_plain": 0.5312,
+  "per_seed": [
+    0.4062,
+    0.6562,
+    0.5312
+  ],
+  "ci95": [
+    0.4314,
+    0.6311
+  ],
+  "secs": 866.6
+}

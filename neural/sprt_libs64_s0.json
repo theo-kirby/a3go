@@ -1,0 +1,34 @@
+{
+  "experiment": "EVAL-1 SPRT-bounded net-vs-classical anchor",
+  "ckpt": "best_arch3_libs_s0.pt",
+  "cfg": "libs",
+  "channels": 64,
+  "blocks": 6,
+  "boardSize": 5,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "sprt": {
+    "p0": 0.5,
+    "p1": 0.55,
+    "alpha": 0.05,
+    "beta": 0.05,
+    "boundary_lo": -2.944,
+    "boundary_hi": 2.944,
+    "llr": -3.703,
+    "n_max": 256
+  },
+  "decision": "not_a_winner",
+  "played": 98,
+  "decided": 98,
+  "draws": 0,
+  "net_wins": 33,
+  "net_winrate": 0.337,
+  "winrate_ci95": [
+    0.251,
+    0.435
+  ],
+  "beats_classical_decisively": false,
+  "eval_secs": 3531.0,
+  "games_per_sec": 0.028
+}

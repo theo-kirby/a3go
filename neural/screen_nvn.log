@@ -1,0 +1,22 @@
+# net-vs-net screen n=5^3 sims=24 gp/seedpair=16 (3 seeds -> 48 games/pair) device=cuda
+  loaded 15 agents in 0s
+  base        vs libs       :  15/ 45 (0.333)  (218s)
+  base        vs all        :  24/ 46 (0.522)  (451s)
+  base        vs libs96x8   :  21/ 45 (0.467)  (638s)
+  base        vs libs128x10 :  19/ 44 (0.432)  (828s)
+  libs        vs all        :  26/ 46 (0.565)  (1049s)
+  libs        vs libs96x8   :  25/ 48 (0.521)  (1281s)
+  libs        vs libs128x10 :  25/ 47 (0.532)  (1499s)
+  all         vs libs96x8   :  18/ 46 (0.391)  (1763s)
+  all         vs libs128x10 :  30/ 47 (0.638)  (2038s)
+  libs96x8    vs libs128x10 :  33/ 46 (0.717)  (2261s)
+
+=== net-vs-net Elo (n=5^3, anchor base=0), 2261s ===
+  libs96x8        78.6  [   19.4,   143.4]
+  libs            70.9  [   17.7,   134.9]
+  all             25.2  [  -38.9,    89.9]
+  base             0.0  [    0.0,     0.0]
+  libs128x10     -11.0  [  -68.6,    51.3]
+
+sanity libs>base: True
+wrote screen_nvn_5cubed.json

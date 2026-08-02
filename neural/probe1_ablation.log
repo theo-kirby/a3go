@@ -1,0 +1,12 @@
+# PROBE-1 ablation n=5^3 sims=32 gp/seedpair=12 device=cuda
+Part A (forward-pass reliance, pooled 3 seeds):
+  ablate none   : policyKL=0.0000 valueMAE=0.0000 top1flip=0.0000
+  ablate 1lib   : policyKL=0.0423 valueMAE=0.0055 top1flip=0.1747
+  ablate 2lib   : policyKL=0.0306 valueMAE=0.0084 top1flip=0.2763
+  ablate 3plus  : policyKL=0.1550 valueMAE=0.0916 top1flip=0.7628
+  ablate alllib : policyKL=0.1756 valueMAE=0.0860 top1flip=0.7721
+  full vs ablate-1lib   : 19/33 full-wr=0.5758 [0.4071, 0.7444] (175s)
+  full vs ablate-2lib   : 15/34 full-wr=0.4412 [0.2743, 0.6081] (385s)
+  full vs ablate-3plus  : 17/31 full-wr=0.5484 [0.3732, 0.7236] (570s)
+  full vs ablate-alllib : 21/34 full-wr=0.6176 [0.4543, 0.781] (758s)
+wrote probe1_ablation.json (758.2s)

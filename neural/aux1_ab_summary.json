@@ -1,0 +1,69 @@
+{
+  "experiment": "AUX-1 per-voxel ownership head \u2014 pooled A/B (5^3, net_sims=512 vs classical@48, 3 seeds)",
+  "baseline_lambda0": {
+    "wins": 125,
+    "decided": 381,
+    "draws": 3,
+    "winrate": 0.3281,
+    "ci95": [
+      0.2829,
+      0.3767
+    ],
+    "files": [
+      "experiments_aux1_5_l00_s512.json",
+      "experiments_aux1_5_l00_s512_seed1.json",
+      "experiments_aux1_5_l00_s512_seed2.json"
+    ]
+  },
+  "ownership_lambda1.0": {
+    "wins": 149,
+    "decided": 379,
+    "draws": 5,
+    "winrate": 0.3931,
+    "ci95": [
+      0.3453,
+      0.4432
+    ],
+    "files": [
+      "experiments_aux1_5_l10_s512.json",
+      "experiments_aux1_5_l10_s512_seed1.json",
+      "experiments_aux1_5_l10_s512_seed2.json"
+    ]
+  },
+  "delta_winrate": 0.065,
+  "strength_ci_overlap": true,
+  "beats_baseline_decisively": false,
+  "either_beats_classical": false,
+  "train_metrics": {
+    "l00_s1": {
+      "lambda": 0.0,
+      "holdout_value_mse": 0.0248,
+      "holdout_own_mse": 0.9777,
+      "holdout_own_acc": 0.5031,
+      "holdout_policy_acc": 0.064
+    },
+    "l10_s1": {
+      "lambda": 1.0,
+      "holdout_value_mse": 0.0177,
+      "holdout_own_mse": 0.0435,
+      "holdout_own_acc": 0.9862,
+      "holdout_policy_acc": 0.0652
+    },
+    "l00_s2": {
+      "lambda": 0.0,
+      "holdout_value_mse": 0.0252,
+      "holdout_own_mse": 0.9803,
+      "holdout_own_acc": 0.496,
+      "holdout_policy_acc": 0.0573
+    },
+    "l10_s2": {
+      "lambda": 1.0,
+      "holdout_value_mse": 0.0228,
+      "holdout_own_mse": 0.0521,
+      "holdout_own_acc": 0.983,
+      "holdout_policy_acc": 0.0562
+    }
+  },
+  "verdict": "ownership head learns the territory map (own_acc~0.985 >> 0.8) but does NOT decisively lift 5^3 strength (pooled CIs overlap) nor value-MSE; negative for the strength/calibration hypothesis, positive deliverable (working ownership predictor for TOOL-3 / SCIENCE-2).",
+  "heatmap_sign_agreement_decided": 0.9274
+}

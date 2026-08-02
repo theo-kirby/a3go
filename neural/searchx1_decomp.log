@@ -1,0 +1,9 @@
+# SEARCHX-1 decomposition n=5^3 games=24 device=cuda
+  policy_only      vs random: 0.6135 [0.501, 0.726] (25s)
+  value_only_1ply  vs random: 0.5417 [0.4266, 0.6568] (97s)
+  mcts_sims1       vs random: 0.6135 [0.501, 0.726] (138s)
+  mcts_sims4       vs random: 0.8424 [0.7582, 0.9266] (214s)
+  mcts_sims16      vs random: 0.9438 [0.8907, 0.997] (423s)
+  mcts_sims64      vs random: 0.9583 [0.9122, 1.0045] (1210s)
+  policy_only vs mcts_sims64 (A=policy): 0.1463 [0.0647, 0.2279]
+wrote searchx1_decomp.json (1574.0s)

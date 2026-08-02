@@ -58,6 +58,12 @@ class Board:
         self._zob = _zob_table(self.w, self.h, self.d)
         self.zobrist = 0  # incremental positional hash (empty board = 0)
         self.history: set = {self._hash()}
+        # ARCH-3 (additive, rules-neutral): last two move locations for input
+        # history planes. (x,y,z) for a stone play, None for a pass / game start.
+        # Maintained by play/play_fast/pass_move; copied in clone. Does NOT touch
+        # grid/zobrist/superko, so crossval + legal-move equivalence are unaffected.
+        self.last_move = None
+        self.last_move2 = None
 
     # --- topology -----------------------------------------------------------
     def in_bounds(self, x: int, y: int, z: int) -> bool:
@@ -253,11 +259,15 @@ class Board:
             self.grid = snapshot
             raise
         self.history.add(h)
+        self.last_move2 = self.last_move
+        self.last_move = (x, y, z)
         self.player = other(self.player)
 
     def pass_move(self) -> None:
         # Pass changes only the side to move; positions are not added to superko
         # history (no stone placed).
+        self.last_move2 = self.last_move
+        self.last_move = None
         self.player = other(self.player)
 
     def play_fast(self, x: int, y: int, z: int) -> bool:
@@ -288,6 +298,8 @@ class Board:
             return False
         self.player = opp
         self.zobrist = new_zob  # keep the hash consistent for any later real play()
+        self.last_move2 = self.last_move
+        self.last_move = (x, y, z)
         return True
 
     def clone(self) -> "Board":
@@ -299,6 +311,8 @@ class Board:
         b._zob = self._zob  # shared read-only table (same shape)
         b.zobrist = self.zobrist
         b.history = set(self.history)
+        b.last_move = self.last_move
+        b.last_move2 = self.last_move2
         return b
 
     # --- scoring ------------------------------------------------------------

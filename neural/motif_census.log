@@ -1,0 +1,4 @@
+n=3^3: cap/play=0.1087 single-cap-ko=0.3167 self-atari=0.1056 koban/empty=0.00105 neutral=2.5 (2s)
+n=4^3: cap/play=0.0818 single-cap-ko=0.2281 self-atari=0.0781 koban/empty=0.00058 neutral=2.75 (25s)
+n=5^3: cap/play=0.0481 single-cap-ko=0.2366 self-atari=0.0413 koban/empty=7e-05 neutral=5.91 (169s)
+wrote motif_census.json (169.1s)

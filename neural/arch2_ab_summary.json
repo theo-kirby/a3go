@@ -1,0 +1,85 @@
+{
+  "experiment": "ARCH-2 BN-free nested-bottleneck + fixed-variance init vs BN-64x6 (5^3, net@512 vs cls@48, n=128, 3 seeds, identical data+soft-target)",
+  "arch2": {
+    "wins": 116,
+    "decided": 383,
+    "winrate": 0.3029,
+    "ci95": [
+      0.259,
+      0.3507
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "wr": 0.328,
+        "ci": [
+          0.253,
+          0.413
+        ]
+      },
+      {
+        "seed": 1,
+        "wr": 0.268,
+        "ci": [
+          0.198,
+          0.351
+        ]
+      },
+      {
+        "seed": 2,
+        "wr": 0.312,
+        "ci": [
+          0.239,
+          0.397
+        ]
+      }
+    ],
+    "params": 1131045,
+    "clean_games_per_sec": 0.041
+  },
+  "bn_baseline": {
+    "wins": 114,
+    "decided": 383,
+    "winrate": 0.2977,
+    "ci95": [
+      0.2541,
+      0.3453
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "wr": 0.352,
+        "ci": [
+          0.274,
+          0.438
+        ]
+      },
+      {
+        "seed": 1,
+        "wr": 0.25,
+        "ci": [
+          0.183,
+          0.332
+        ]
+      },
+      {
+        "seed": 2,
+        "wr": 0.291,
+        "ci": [
+          0.219,
+          0.376
+        ]
+      }
+    ],
+    "params": 1413603,
+    "clean_games_per_sec": 0.047
+  },
+  "strength_delta": 0.0052,
+  "strength_ci_overlap": true,
+  "arch2_beats_bn_decisively": false,
+  "param_ratio": 0.8,
+  "speed_ratio_arch2_over_bn": 0.872,
+  "either_beats_classical": false,
+  "init_note": "ReZero gamma=0 converged far too slowly (deep trunk gated off); fixed gamma0=0.3 needed for BN-free convergence in comparable epochs (node-flagged init risk, confirmed).",
+  "verdict": "STRENGTH PARITY (0.303 vs 0.298, CIs overlap) at ~20% fewer params, but 13% SLOWER per CPU eval game (more sequential layers) + weaker policy-top1 (value head carries parity). capacity-per-FLOP reduction yields NO wall-clock or strength win on this path; neither beats classical@5^3. Criterion NOT met. THIRD consecutive non-decisive branch."
+}

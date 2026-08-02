@@ -1,0 +1,42 @@
+# SPRT best_arch3_libs_s0.pt cfg=libs ch=64 blk=6 | H0 p=0.5 vs H1 p=0.55 | boundaries [-2.94, 2.94] n_max=256
+  decided= 14 wins=  4 wr=0.286 llr=-0.67  (500s)
+  decided= 28 wins=  7 wr=0.250 llr=-1.55  (1058s)
+  decided= 42 wins= 13 wr=0.310 llr=-1.82  (1606s)
+  decided= 56 wins= 19 wr=0.339 llr=-2.09  (2074s)
+  decided= 70 wins= 25 wr=0.357 llr=-2.36  (2581s)
+  decided= 84 wins= 31 wr=0.369 llr=-2.63  (3006s)
+  decided= 98 wins= 33 wr=0.337 llr=-3.70  (3531s)
+{
+  "experiment": "EVAL-1 SPRT-bounded net-vs-classical anchor",
+  "ckpt": "best_arch3_libs_s0.pt",
+  "cfg": "libs",
+  "channels": 64,
+  "blocks": 6,
+  "boardSize": 5,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "sprt": {
+    "p0": 0.5,
+    "p1": 0.55,
+    "alpha": 0.05,
+    "beta": 0.05,
+    "boundary_lo": -2.944,
+    "boundary_hi": 2.944,
+    "llr": -3.703,
+    "n_max": 256
+  },
+  "decision": "not_a_winner",
+  "played": 98,
+  "decided": 98,
+  "draws": 0,
+  "net_wins": 33,
+  "net_winrate": 0.337,
+  "winrate_ci95": [
+    0.251,
+    0.435
+  ],
+  "beats_classical_decisively": false,
+  "eval_secs": 3531.0,
+  "games_per_sec": 0.028
+}

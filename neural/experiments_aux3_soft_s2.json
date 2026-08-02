@@ -1,0 +1,19 @@
+{
+  "experiment": "Q10 neural net vs classical random-rollout MCTS (parallel, equal budget)",
+  "ckpt": "best_sp5_soft_s2.pt",
+  "boardSize": 5,
+  "games": 128,
+  "decided": 127,
+  "draws": 1,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 37,
+  "net_winrate": 0.291,
+  "winrate_ci95": [
+    0.219,
+    0.376
+  ],
+  "beats_classical_decisively": false
+}

@@ -1,0 +1,11 @@
+rep3 split selftest: PASS (live == derived-from-stack)
+# REP-3 train: in_planes=9 params=1423971 examples=52901 device=cuda
+  seed 0: best holdout top1=0.0841 {'epoch': 35, 'top1': 0.0841, 'vmse': 0.0583} (128s)
+  seed 1: best holdout top1=0.0741 {'epoch': 39, 'top1': 0.0741, 'vmse': 0.0432} (261s)
+  seed 2: best holdout top1=0.1009 {'epoch': 35, 'top1': 0.1009, 'vmse': 0.0402} (390s)
+  seed 0: split-vs-libs winrate=0.6129 (279s)
+  seed 1: split-vs-libs winrate=0.4688 (546s)
+  seed 2: split-vs-libs winrate=0.5938 (794s)
+
+split-vs-libs pooled = 0.5585 [0.4591, 0.6578] (>0.5 => ownership split helps)
+wrote rep3_split.json

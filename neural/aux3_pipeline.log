@@ -1,0 +1,194 @@
+=== datagen done, starting train+eval ===
+=== seed 0 HARD train ===
+# train_sp distill_softpol_5cubed.npz: mode=hard T=4.0 W=1.0 prune=0.02 train 47611 holdout 5290 n=5 ch=64x6 seed=0 cuda
+  ep1: loss=4.197 top1=0.1045 top3=0.2503 vmse=0.3254
+  ep5: loss=2.981 top1=0.2149 top3=0.4514 vmse=0.0518
+  ep10: loss=2.357 top1=0.1940 top3=0.4265 vmse=0.0384
+  ep15: loss=2.255 top1=0.1885 top3=0.4072 vmse=0.0391
+  ep20: loss=1.651 top1=0.1735 top3=0.3847 vmse=0.0385
+  ep25: loss=1.438 top1=0.1873 top3=0.4026 vmse=0.0562
+  ep30: loss=1.066 top1=0.1705 top3=0.3813 vmse=0.0470
+  ep35: loss=0.869 top1=0.1652 top3=0.3733 vmse=0.0363
+  ep40: loss=0.727 top1=0.1688 top3=0.3631 vmse=0.0399
+best holdout top1 = 0.2149 -> best_sp5_hard_s0.pt  (best_sp5_hard_s0_train.json)
+=== seed 0 SOFT train (T=4 W=8) ===
+# train_sp distill_softpol_5cubed.npz: mode=soft T=4.0 W=8.0 prune=0.02 train 47611 holdout 5290 n=5 ch=64x6 seed=0 cuda
+  ep1: loss=34.850 top1=0.0374 top3=0.1051 vmse=0.5386
+  ep5: loss=32.162 top1=0.0524 top3=0.1371 vmse=0.0559
+  ep10: loss=29.001 top1=0.0529 top3=0.1405 vmse=0.0457
+  ep15: loss=30.779 top1=0.0554 top3=0.1327 vmse=0.0383
+  ep20: loss=29.574 top1=0.0450 top3=0.1146 vmse=0.0436
+  ep25: loss=30.142 top1=0.0518 top3=0.1257 vmse=0.0343
+  ep30: loss=31.411 top1=0.0471 top3=0.1204 vmse=0.0331
+  ep35: loss=29.068 top1=0.0527 top3=0.1363 vmse=0.0329
+  ep40: loss=31.124 top1=0.0450 top3=0.1183 vmse=0.0395
+best holdout top1 = 0.0809 -> best_sp5_soft_s0.pt  (best_sp5_soft_s0_train.json)
+=== seed 1 HARD train ===
+# train_sp distill_softpol_5cubed.npz: mode=hard T=4.0 W=1.0 prune=0.02 train 47611 holdout 5290 n=5 ch=64x6 seed=1 cuda
+  ep1: loss=4.010 top1=0.1206 top3=0.2749 vmse=0.2967
+  ep5: loss=2.649 top1=0.2242 top3=0.4584 vmse=0.0479
+  ep10: loss=2.382 top1=0.2045 top3=0.4440 vmse=0.0420
+  ep15: loss=2.035 top1=0.1722 top3=0.3913 vmse=0.0400
+  ep20: loss=1.669 top1=0.1724 top3=0.3879 vmse=0.0354
+  ep25: loss=1.527 top1=0.1762 top3=0.3930 vmse=0.0292
+  ep30: loss=1.118 top1=0.1681 top3=0.3798 vmse=0.0298
+  ep35: loss=0.906 top1=0.1641 top3=0.3760 vmse=0.0306
+  ep40: loss=0.767 top1=0.1620 top3=0.3645 vmse=0.0343
+best holdout top1 = 0.2242 -> best_sp5_hard_s1.pt  (best_sp5_hard_s1_train.json)
+=== seed 1 SOFT train (T=4 W=8) ===
+# train_sp distill_softpol_5cubed.npz: mode=soft T=4.0 W=8.0 prune=0.02 train 47611 holdout 5290 n=5 ch=64x6 seed=1 cuda
+  ep1: loss=34.232 top1=0.0299 top3=0.0851 vmse=0.2025
+  ep5: loss=29.866 top1=0.0471 top3=0.1257 vmse=0.0549
+  ep10: loss=30.204 top1=0.0510 top3=0.1299 vmse=0.0385
+  ep15: loss=29.675 top1=0.0391 top3=0.1174 vmse=0.0322
+  ep20: loss=29.167 top1=0.0452 top3=0.1316 vmse=0.0325
+  ep25: loss=30.600 top1=0.0414 top3=0.1096 vmse=0.0325
+  ep30: loss=30.288 top1=0.0493 top3=0.1405 vmse=0.0357
+  ep35: loss=28.675 top1=0.0369 top3=0.0957 vmse=0.0446
+  ep40: loss=29.239 top1=0.0355 top3=0.1096 vmse=0.0370
+best holdout top1 = 0.1319 -> best_sp5_soft_s1.pt  (best_sp5_soft_s1_train.json)
+=== seed 2 HARD train ===
+# train_sp distill_softpol_5cubed.npz: mode=hard T=4.0 W=1.0 prune=0.02 train 47611 holdout 5290 n=5 ch=64x6 seed=2 cuda
+  ep1: loss=3.876 top1=0.0951 top3=0.2692 vmse=0.1950
+  ep5: loss=2.636 top1=0.2214 top3=0.4667 vmse=0.0509
+  ep10: loss=2.285 top1=0.2112 top3=0.4342 vmse=0.0429
+  ep15: loss=2.018 top1=0.1930 top3=0.4049 vmse=0.0414
+  ep20: loss=1.836 top1=0.1868 top3=0.4030 vmse=0.0370
+  ep25: loss=1.291 top1=0.1694 top3=0.3854 vmse=0.0375
+  ep30: loss=1.063 top1=0.1654 top3=0.3681 vmse=0.0447
+  ep35: loss=0.752 top1=0.1760 top3=0.3715 vmse=0.0377
+  ep40: loss=0.533 top1=0.1667 top3=0.3664 vmse=0.0431
+best holdout top1 = 0.2244 -> best_sp5_hard_s2.pt  (best_sp5_hard_s2_train.json)
+=== seed 2 SOFT train (T=4 W=8) ===
+# train_sp distill_softpol_5cubed.npz: mode=soft T=4.0 W=8.0 prune=0.02 train 47611 holdout 5290 n=5 ch=64x6 seed=2 cuda
+  ep1: loss=33.748 top1=0.0359 top3=0.0992 vmse=0.2749
+  ep5: loss=30.783 top1=0.0395 top3=0.1117 vmse=0.0556
+  ep10: loss=30.407 top1=0.0577 top3=0.1452 vmse=0.0471
+  ep15: loss=30.088 top1=0.0633 top3=0.1667 vmse=0.0423
+  ep20: loss=29.871 top1=0.0490 top3=0.1384 vmse=0.0349
+  ep25: loss=29.900 top1=0.0461 top3=0.1130 vmse=0.0424
+  ep30: loss=30.968 top1=0.0573 top3=0.1456 vmse=0.0317
+  ep35: loss=29.377 top1=0.0565 top3=0.1285 vmse=0.0337
+  ep40: loss=29.705 top1=0.0350 top3=0.1110 vmse=0.0302
+best holdout top1 = 0.0977 -> best_sp5_soft_s2.pt  (best_sp5_soft_s2_train.json)
+=== seed 0 HARD eval ===
+{
+  "experiment": "Q10 neural net vs classical random-rollout MCTS (parallel, equal budget)",
+  "ckpt": "best_sp5_hard_s0.pt",
+  "boardSize": 5,
+  "games": 128,
+  "decided": 128,
+  "draws": 0,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 39,
+  "net_winrate": 0.305,
+  "winrate_ci95": [
+    0.232,
+    0.389
+  ],
+  "beats_classical_decisively": false
+}
+=== seed 0 SOFT eval ===
+{
+  "experiment": "Q10 neural net vs classical random-rollout MCTS (parallel, equal budget)",
+  "ckpt": "best_sp5_soft_s0.pt",
+  "boardSize": 5,
+  "games": 128,
+  "decided": 128,
+  "draws": 0,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 45,
+  "net_winrate": 0.352,
+  "winrate_ci95": [
+    0.274,
+    0.438
+  ],
+  "beats_classical_decisively": false
+}
+=== seed 1 HARD eval ===
+{
+  "experiment": "Q10 neural net vs classical random-rollout MCTS (parallel, equal budget)",
+  "ckpt": "best_sp5_hard_s1.pt",
+  "boardSize": 5,
+  "games": 128,
+  "decided": 128,
+  "draws": 0,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 29,
+  "net_winrate": 0.227,
+  "winrate_ci95": [
+    0.163,
+    0.306
+  ],
+  "beats_classical_decisively": false
+}
+=== seed 1 SOFT eval ===
+{
+  "experiment": "Q10 neural net vs classical random-rollout MCTS (parallel, equal budget)",
+  "ckpt": "best_sp5_soft_s1.pt",
+  "boardSize": 5,
+  "games": 128,
+  "decided": 128,
+  "draws": 0,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 32,
+  "net_winrate": 0.25,
+  "winrate_ci95": [
+    0.183,
+    0.332
+  ],
+  "beats_classical_decisively": false
+}
+=== seed 2 HARD eval ===
+{
+  "experiment": "Q10 neural net vs classical random-rollout MCTS (parallel, equal budget)",
+  "ckpt": "best_sp5_hard_s2.pt",
+  "boardSize": 5,
+  "games": 128,
+  "decided": 127,
+  "draws": 1,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 35,
+  "net_winrate": 0.276,
+  "winrate_ci95": [
+    0.205,
+    0.359
+  ],
+  "beats_classical_decisively": false
+}
+=== seed 2 SOFT eval ===
+{
+  "experiment": "Q10 neural net vs classical random-rollout MCTS (parallel, equal budget)",
+  "ckpt": "best_sp5_soft_s2.pt",
+  "boardSize": 5,
+  "games": 128,
+  "decided": 127,
+  "draws": 1,
+  "net_sims": 512,
+  "classical_playouts": 48,
+  "classical_rollout_cap": 50,
+  "workers": 14,
+  "net_wins": 37,
+  "net_winrate": 0.291,
+  "winrate_ci95": [
+    0.219,
+    0.376
+  ],
+  "beats_classical_decisively": false
+}
+ALL_AUX3_DONE

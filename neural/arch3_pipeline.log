@@ -1,0 +1,77 @@
+=== PHASE 1: COLLECT Wed Jun 17 06:50:32 AM EDT 2026 ===
+  32/384 games, 4236 examples (B/W/draw 15/16/1)
+  64/384 games, 8678 examples (B/W/draw 33/29/2)
+  96/384 games, 13088 examples (B/W/draw 51/42/3)
+  128/384 games, 17200 examples (B/W/draw 64/59/5)
+  160/384 games, 21669 examples (B/W/draw 82/73/5)
+  192/384 games, 26016 examples (B/W/draw 93/93/6)
+  224/384 games, 30523 examples (B/W/draw 112/105/7)
+  256/384 games, 35143 examples (B/W/draw 127/120/9)
+  288/384 games, 39539 examples (B/W/draw 146/132/10)
+  320/384 games, 43692 examples (B/W/draw 167/142/11)
+  352/384 games, 48342 examples (B/W/draw 182/158/12)
+  384/384 games, 52901 examples (B/W/draw 196/176/12)
+saved distill_arch3_5cubed.npz: X(52901, 10, 5, 5, 5) V(52901, 126) Z(52901,)  games=384 playouts=128 planes=10 B/W/draw=196/176/12
+=== PHASE 2: TRAIN (6 cfg x 3 seeds) Wed Jun 17 08:33:47 AM EDT 2026 ===
+  -- train cfg=base seed=0 08:33:47 --
+best holdout top1 = 0.0843 params=1413603 cfg=base -> best_arch3_base_s0.pt
+  -- train cfg=base seed=1 08:35:46 --
+best holdout top1 = 0.0883 params=1413603 cfg=base -> best_arch3_base_s1.pt
+  -- train cfg=base seed=2 08:37:45 --
+best holdout top1 = 0.1130 params=1413603 cfg=base -> best_arch3_base_s2.pt
+  -- train cfg=all seed=0 08:39:44 --
+best holdout top1 = 0.0775 params=1425699 cfg=all -> best_arch3_all_s0.pt
+  -- train cfg=all seed=1 08:41:43 --
+best holdout top1 = 0.0832 params=1425699 cfg=all -> best_arch3_all_s1.pt
+  -- train cfg=all seed=2 08:43:42 --
+best holdout top1 = 0.0817 params=1425699 cfg=all -> best_arch3_all_s2.pt
+  -- train cfg=koban seed=0 08:45:41 --
+best holdout top1 = 0.0669 params=1415331 cfg=koban -> best_arch3_koban_s0.pt
+  -- train cfg=koban seed=1 08:47:40 --
+best holdout top1 = 0.0760 params=1415331 cfg=koban -> best_arch3_koban_s1.pt
+  -- train cfg=koban seed=2 08:49:39 --
+best holdout top1 = 0.0839 params=1415331 cfg=koban -> best_arch3_koban_s2.pt
+  -- train cfg=libs seed=0 08:51:37 --
+best holdout top1 = 0.0699 params=1418787 cfg=libs -> best_arch3_libs_s0.pt
+  -- train cfg=libs seed=1 08:53:36 --
+best holdout top1 = 0.0858 params=1418787 cfg=libs -> best_arch3_libs_s1.pt
+  -- train cfg=libs seed=2 08:55:35 --
+best holdout top1 = 0.0837 params=1418787 cfg=libs -> best_arch3_libs_s2.pt
+  -- train cfg=capture seed=0 08:57:33 --
+best holdout top1 = 0.0817 params=1415331 cfg=capture -> best_arch3_capture_s0.pt
+  -- train cfg=capture seed=1 08:59:32 --
+best holdout top1 = 0.0957 params=1415331 cfg=capture -> best_arch3_capture_s1.pt
+  -- train cfg=capture seed=2 09:01:30 --
+best holdout top1 = 0.1168 params=1415331 cfg=capture -> best_arch3_capture_s2.pt
+  -- train cfg=history seed=0 09:03:29 --
+best holdout top1 = 0.0667 params=1417059 cfg=history -> best_arch3_history_s0.pt
+  -- train cfg=history seed=1 09:05:28 --
+best holdout top1 = 0.0940 params=1417059 cfg=history -> best_arch3_history_s1.pt
+  -- train cfg=history seed=2 09:07:28 --
+best holdout top1 = 0.1049 params=1417059 cfg=history -> best_arch3_history_s2.pt
+=== PHASE 3: EVAL base + all (3 seeds, net@512 vs cls@48, n=128) Wed Jun 17 09:09:27 AM EDT 2026 ===
+  -- eval cfg=base seed=0 09:09:27 --
+  "games_per_sec": 0.046,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=base seed=1 09:55:40 --
+  "games_per_sec": 0.042,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=base seed=2 10:46:40 --
+  "games_per_sec": 0.046,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=all seed=0 11:33:20 --
+  "games_per_sec": 0.045,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=all seed=1 12:20:14 --
+  "games_per_sec": 0.048,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=all seed=2 13:05:03 --
+  "games_per_sec": 0.046,
+  "beats_classical_decisively": false
+}
+ARCH3_HEADLINE_DONE Wed Jun 17 01:51:11 PM EDT 2026

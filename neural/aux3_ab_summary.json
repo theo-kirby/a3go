@@ -1,0 +1,58 @@
+{
+  "experiment": "AUX-3 soft policy target (T=4, x8 weight, prune 0.02) vs hard (argmax, 1x) \u2014 5^3, net@512 vs cls@48, 3 seeds, plain A3GoNet 64x6",
+  "data": "distill_softpol_5cubed.npz (52901 ex, classical@128 teacher, raw visits)",
+  "hard": {
+    "wins": 103,
+    "decided": 383,
+    "draws": 1,
+    "winrate": 0.2689,
+    "ci95": [
+      0.227,
+      0.3155
+    ]
+  },
+  "soft": {
+    "wins": 114,
+    "decided": 383,
+    "draws": 1,
+    "winrate": 0.2977,
+    "ci95": [
+      0.2541,
+      0.3453
+    ]
+  },
+  "pooled_delta_winrate": 0.0288,
+  "strength_ci_overlap": true,
+  "soft_beats_hard_decisively": false,
+  "soft_higher_every_seed": true,
+  "soft_better_vmse_every_seed": true,
+  "either_beats_classical": false,
+  "per_seed": [
+    {
+      "seed": 0,
+      "hard_wr": 0.305,
+      "soft_wr": 0.352,
+      "soft_minus_hard": 0.047,
+      "hard_vmse": 0.0518,
+      "soft_vmse": 0.0405
+    },
+    {
+      "seed": 1,
+      "hard_wr": 0.227,
+      "soft_wr": 0.25,
+      "soft_minus_hard": 0.023,
+      "hard_vmse": 0.0479,
+      "soft_vmse": 0.0326
+    },
+    {
+      "seed": 2,
+      "hard_wr": 0.276,
+      "soft_wr": 0.291,
+      "soft_minus_hard": 0.015,
+      "hard_vmse": 0.0551,
+      "soft_vmse": 0.0342
+    }
+  ],
+  "note_top1": "holdout top1/top3-vs-argmax favors HARD by construction (it IS the hard objective); not a fair policy-quality metric. Meaningful signals = strength + value-MSE.",
+  "verdict": "Soft policy target gives a SMALL, CONSISTENT (all 3 seeds) strength edge (+2.9pp pooled) and BETTER value-MSE (all 3 seeds), but Wilson CIs OVERLAP -> NOT decisive. Neither arm beats classical at 5^3. Confirms with AUX-1: target/aux-representation tweaks give consistent-but-marginal gains; the 5^3 absolute-strength bottleneck is deeper (capacity/architecture/search), not the policy-target representation."
+}

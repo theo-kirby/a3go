@@ -1,0 +1,94 @@
+{
+  "experiment": "PROBE-1 input-plane ablation attribution (libs net, 5^3)",
+  "n": 5,
+  "sims": 32,
+  "games_per_seedpair": 12,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "ablations": {
+    "none": [],
+    "1lib": [
+      3
+    ],
+    "2lib": [
+      4
+    ],
+    "3plus": [
+      5
+    ],
+    "alllib": [
+      3,
+      4,
+      5
+    ]
+  },
+  "part_a_forward_reliance": {
+    "none": {
+      "policy_kl": 0.0,
+      "value_mae": 0.0,
+      "top1_flip_rate": 0.0
+    },
+    "1lib": {
+      "policy_kl": 0.0423,
+      "value_mae": 0.0055,
+      "top1_flip_rate": 0.1747
+    },
+    "2lib": {
+      "policy_kl": 0.0306,
+      "value_mae": 0.0084,
+      "top1_flip_rate": 0.2763
+    },
+    "3plus": {
+      "policy_kl": 0.155,
+      "value_mae": 0.0916,
+      "top1_flip_rate": 0.7628
+    },
+    "alllib": {
+      "policy_kl": 0.1756,
+      "value_mae": 0.086,
+      "top1_flip_rate": 0.7721
+    }
+  },
+  "part_b_strength_cost": {
+    "1lib": {
+      "full_winrate_vs_ablated": 0.5758,
+      "ci95": [
+        0.4071,
+        0.7444
+      ],
+      "full_wins": 19,
+      "decided": 33
+    },
+    "2lib": {
+      "full_winrate_vs_ablated": 0.4412,
+      "ci95": [
+        0.2743,
+        0.6081
+      ],
+      "full_wins": 15,
+      "decided": 34
+    },
+    "3plus": {
+      "full_winrate_vs_ablated": 0.5484,
+      "ci95": [
+        0.3732,
+        0.7236
+      ],
+      "full_wins": 17,
+      "decided": 31
+    },
+    "alllib": {
+      "full_winrate_vs_ablated": 0.6176,
+      "ci95": [
+        0.4543,
+        0.781
+      ],
+      "full_wins": 21,
+      "decided": 34
+    }
+  },
+  "secs": 758.2
+}

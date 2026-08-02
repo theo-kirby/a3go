@@ -1,0 +1,49 @@
+  -- eval cfg=koban seed=0 13:52:20 --
+  "games_per_sec": 0.044,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=koban seed=1 14:40:20 --
+  "games_per_sec": 0.041,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=koban seed=2 15:32:48 --
+  "games_per_sec": 0.043,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=libs seed=0 16:22:46 --
+  "games_per_sec": 0.043,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=libs seed=1 17:12:50 --
+  "games_per_sec": 0.042,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=libs seed=2 18:03:12 --
+  "games_per_sec": 0.049,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=capture seed=0 18:46:59 --
+  "games_per_sec": 0.042,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=capture seed=1 19:38:10 --
+  "games_per_sec": 0.038,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=capture seed=2 20:34:57 --
+  "games_per_sec": 0.038,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=history seed=0 21:31:09 --
+  "games_per_sec": 0.042,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=history seed=1 22:22:07 --
+  "games_per_sec": 0.045,
+  "beats_classical_decisively": false
+}
+  -- eval cfg=history seed=2 23:09:16 --
+  "games_per_sec": 0.042,
+  "beats_classical_decisively": false
+}
+ARCH3_ABLATION_DONE Wed Jun 17 11:59:57 PM EDT 2026
