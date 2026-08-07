@@ -6,6 +6,12 @@ created_at: '2026-08-07T20:34:44+00:00'
 parents:
 - royal-comet-4977
 summary: $0/local, breadth-over-depth directive, 10-field design gate, measurement ladder distilled; viz/play tooling delivered; known doc-drift list recorded.
+flywheel:
+  node_id: 8baa3d99-a366-5fce-a630-82f68f1d78ae
+  slug: super-water-4533
+  revision: 0
+  pushed_at: '2026-08-07T20:39:47+00:00'
+  content_sha256: bca0feacbbc533dffb84b2691e729416d9d5824968b014c7c691db81bf67566e
 ---
 Status: working
 

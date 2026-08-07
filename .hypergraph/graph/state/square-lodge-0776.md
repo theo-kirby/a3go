@@ -6,6 +6,12 @@ created_at: '2026-08-07T20:34:19+00:00'
 parents:
 - royal-comet-4977
 summary: Anchored Elo ladder + SPRT gate + GPU net-vs-net screen; standing n>=128 discipline born from the n=32 promotion scar.
+flywheel:
+  node_id: 7770e98b-5f40-5dd2-8602-01e2bc8dc7c3
+  slug: empty-math-4821
+  revision: 0
+  pushed_at: '2026-08-07T20:39:47+00:00'
+  content_sha256: d6d21956550d3bf06a017eef020f73a79df1bedcb024134dcc4ec9bd5d993d70
 ---
 Status: working
 

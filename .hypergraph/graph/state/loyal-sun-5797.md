@@ -6,6 +6,12 @@ created_at: '2026-08-07T20:33:57+00:00'
 parents:
 - royal-comet-4977
 summary: 'Search carries the strength: scaling amplifies with board size; M5 batched MCTS 22x; Gumbel negative on small boards; policy head is the headroom.'
+flywheel:
+  node_id: 70e627eb-b742-572c-9b8e-cb5adddbf3a8
+  slug: patient-rain-1986
+  revision: 0
+  pushed_at: '2026-08-07T20:39:47+00:00'
+  content_sha256: 1f7aee2b66686b5a467f40d6eefb6132779e0555b02a309d758ddef9f14416ed
 ---
 Status: working
 

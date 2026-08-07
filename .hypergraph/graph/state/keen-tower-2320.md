@@ -6,6 +6,12 @@ created_at: '2026-08-07T20:33:57+00:00'
 parents:
 - royal-comet-4977
 summary: Distill-then-scale is the proven path (0.085→0.612 on 4^3); liberty planes decisive on 5^3; capacity saturates past 96x8; aux heads learn but do not lift strength.
+flywheel:
+  node_id: 2ae256a3-7d30-502f-88fb-4a3364a9058c
+  slug: delicate-thunder-5530
+  revision: 0
+  pushed_at: '2026-08-07T20:39:47+00:00'
+  content_sha256: b650ef5432a0238b9abe5a638675a664ccbd94c7a35cddbd56412e5ade76e0ab
 ---
 Status: working
 

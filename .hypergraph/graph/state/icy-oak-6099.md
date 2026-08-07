@@ -6,6 +6,12 @@ created_at: '2026-08-07T20:34:44+00:00'
 parents:
 - royal-comet-4977
 summary: 'v1 cleared on 4^3 (0.612 vs classical); v2 gate unmet: S4 (7^3 decisive win) never attempted, S5 unmet everywhere, S3 stuck at 4 cells, 5^3 just below parity.'
+flywheel:
+  node_id: 71064143-ff3b-5efa-a567-53e6db82e819
+  slug: morning-wood-2636
+  revision: 0
+  pushed_at: '2026-08-07T20:39:47+00:00'
+  content_sha256: 20bb17d8ee1df9c49b60df684ddd6089e2fc49dc8fc52a5ca5784295dda9fa1f
 ---
 Status: open
 

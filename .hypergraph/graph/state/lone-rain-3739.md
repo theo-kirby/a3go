@@ -6,6 +6,12 @@ created_at: '2026-08-07T20:34:19+00:00'
 parents:
 - royal-comet-4977
 summary: 'Q1–Q10 characterized: komi ~0.5 on 4^3 only; ladders break in 3D; two-eye life + seki hold; ko prior corrected to 18–32%; no 4^3 opening preference; memoization unsound. Open tails: snapback, seki frequency, 9^3.'
+flywheel:
+  node_id: d0d1ea16-031f-5037-b612-5763e7b071f7
+  slug: still-lab-8821
+  revision: 0
+  pushed_at: '2026-08-07T20:39:47+00:00'
+  content_sha256: 22a5314f53bcf85898d6aa0fac51effb1530447aab5e652790bbcd0d48d81bf9
 ---
 Status: working
 

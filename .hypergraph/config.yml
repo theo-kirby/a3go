@@ -38,3 +38,15 @@ archive:
       slug: proud-king-2753
       note: EXPANSION index node — the legacy "system of record"
   note: frozen pre-adoption graph; artifacts live here
+
+# NEW mirror roots under this account (the archive above is read-only).
+# The epoch marker's local parent (crimson-rice-4497) is an archive node; on the
+# mirror it is parented to the record mirror root instead — the cross-epoch edge
+# exists only in the local node files.
+mirror_roots:
+  record:
+    node_id: e20a09e8-e9b6-58db-9321-511fa52fce77
+    slug: lively-feather-9068
+  state:
+    node_id: 1d824823-ffce-5ff5-a0c2-e7d9a3373daf
+    slug: gentle-mud-6897

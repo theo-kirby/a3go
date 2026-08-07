@@ -6,6 +6,12 @@ created_at: '2026-08-07T20:29:15+00:00'
 parents:
 - crimson-rice-4497
 summary: 'Adoption epoch marker: 108-node legacy Flywheel graph (purple-fog-6345 + proud-king-2753 union) imported verbatim as the record graph; archive frozen (artifacts stay there); state graph seeded by this pass; strictly-older nodes I2-exempt.'
+flywheel:
+  node_id: ddbb4d3e-7d3f-5011-bee6-44ab065d0574
+  slug: morning-scene-4603
+  revision: 0
+  pushed_at: '2026-08-07T20:39:47+00:00'
+  content_sha256: 67755e8c1996408d3db3c2837da1dcd503ac93eda40ae38c046dc2a5bf01c292
 ---
 ## What
 

@@ -6,6 +6,12 @@ created_at: '2026-08-07T20:33:39+00:00'
 parents:
 - royal-comet-4977
 summary: Three validated engines (TS 48/48, Python vectorized+Zobrist 3.5x on 7^3, C++ generator 60x) + classical self-play; C++ teacher untuned and weaker than Python.
+flywheel:
+  node_id: 5e0cc3ae-8dd1-5c8d-a576-c888b84f00de
+  slug: hidden-base-6660
+  revision: 0
+  pushed_at: '2026-08-07T20:39:47+00:00'
+  content_sha256: 9cb8458a00af0a67818b84a25015cf30468f1ac9bbf0a96b515739ad22ada2f5
 ---
 Status: working
 
