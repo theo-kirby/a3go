@@ -25,12 +25,15 @@ their Apache-2.0 headers; new a3go code is MIT (see `LICENSE` and `NOTICE`).
    questions (posed *without* answers).
 3. **[docs/CODEBASE.md](./docs/CODEBASE.md)** — engine + self-play API and how to
    run it.
-4. **[docs/FLYWHEEL.md](./docs/FLYWHEEL.md)** — how to record findings as a
-   durable research graph.
+4. **[.hypergraph/AGENTS.md](./.hypergraph/AGENTS.md)** — how to record findings
+   as a durable research graph (the Hypergraph protocol; supersedes the
+   Flywheel-native flow — [docs/FLYWHEEL.md](./docs/FLYWHEEL.md) is retained for
+   reading the frozen pre-adoption archive graph).
 5. **[docs/DIRECTIONS.md](./docs/DIRECTIONS.md)** — Phase-3 frontier-EXPANSION
    catalog: the menu of STAGED research directions (KataGo/autogo/online-go-
    inspired) with a what-may-work priority guide. Read before picking the next
-   execution pass; the live status table is the EXPANSION index flywheel node.
+   execution pass; the live status now lives in **[STATE.md](./STATE.md)** (the
+   generated frontier), not the legacy EXPANSION index node.
 
 Frozen upstream engine references live in
 [docs/upstream/](./docs/upstream/) (historical; for the *why* of the engine).
@@ -69,8 +72,12 @@ npm run checks           # eslint + prettier:check
 - **You own `src/engine`.** Modify it freely (the throughput hot path is a prime
   target), but **log every divergence from upstream in
   [src/engine/VENDORED.md](./src/engine/VENDORED.md)**.
-- **Record findings in Flywheel.** Results are durable graph nodes with attached
-  artifacts — not just console output (see FLYWHEEL.md).
+- **Record findings in the Hypergraph record graph.** Results are durable,
+  causally-parented record nodes with a `## State Impact` declaration — not just
+  console output (run the `hypergraph-record` skill; see
+  [.hypergraph/AGENTS.md](./.hypergraph/AGENTS.md)). Evidence files are committed
+  to the repo and referenced by path. The pre-adoption Flywheel graph is a frozen
+  archive: read it via FLYWHEEL.md if you need legacy artifacts, never write to it.
 - **Breadth over depth — expand the surface, don't grind.** The priority is
   *widening the research frontier*: seed many new directions, out-of-the-box
   approaches, and edge hypotheses as STAGED graph nodes — not committing hours of
@@ -80,10 +87,30 @@ npm run checks           # eslint + prettier:check
   with a crisp decision criterion and move on** rather than blocking on it; only
   spend real compute on a direction the cheap signal already favors. A diverse
   graph of pickable, well-posed bets is worth more than one deeply-ground result.
+  (Staged bets are decision record nodes whose `## State Impact` opens `open`
+  state nodes on the frontier — see `.hypergraph/AGENTS.md`.)
 
 ## Finish checklist (before committing)
 
 - [ ] `npm test` → **48/48 checks pass**
 - [ ] `npm run checks` → eslint + prettier clean
 - [ ] Any engine divergence logged in `src/engine/VENDORED.md`
-- [ ] New findings committed as Flywheel nodes with artifacts
+- [ ] New findings recorded as hypergraph record nodes (with evidence committed);
+      `hypergraph export` + `check` exit 0
+
+<!-- hypergraph:begin -->
+## Hypergraph protocol
+
+This repo's memory lives in two graphs under `.hypergraph/` (see `.hypergraph/AGENTS.md`):
+
+1. **Orient on arrival**: run the `hypergraph-orient` skill or read `STATE.md` —
+   the frontier (open/broken/blocked) is what matters now.
+2. **Record every unit of work** (features, fixes, experiments, dead ends,
+   decisions): the `hypergraph-record` skill — one causally-parented record node
+   with a `## State Impact` section. Unrecorded work is invisible to the project.
+3. **Never write state nodes**; declare impacts and let the
+   `hypergraph-reconcile` skill fold them. `STATE.md` is generated — never
+   hand-edit it.
+4. **Verify before finishing**: `hypergraph export` + `hypergraph check` must
+   exit 0.
+<!-- hypergraph:end -->

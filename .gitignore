@@ -94,3 +94,4 @@ neural/*.pt
 neural/fixture_*.json
 neural/*_result.json
 neural/crossval_result.json
+.hypergraph/cache/

@@ -1,0 +1,40 @@
+# Hypergraph per-project config — written by hypergraph-adopt (2026-08-07).
+project: a3go
+
+record_root:
+  node_id: 73d510e5-875e-59b2-ad07-f4711ee0b748
+  slug: purple-fog-6345
+
+state_root:
+  node_id: 203ee05a-a2b6-5797-b834-4e2d5fbb5ae8
+  slug: royal-comet-4977
+
+cache_dir: .hypergraph/cache
+
+state_md: STATE.md
+
+# Backend adapter the skills dispatch on (backend/INTERFACE.md).
+backend: local
+graph_dir: .hypergraph/graph
+
+# One-way mirror: local files canonical, Flywheel a regenerable projection under
+# NEW roots (this account). Never push into the archive graph below.
+mirror: flywheel
+
+# Adoption epoch (SPEC: Adoption epochs): record nodes created strictly before
+# the marker are legacy history, exempt from I2/template compliance in check.
+epoch:
+  marker: lively-orchard-3365
+
+# Frozen pre-adoption Flywheel graph. Purely documentary — but it is the only
+# pointer to legacy artifacts, which do not survive import to the local backend.
+archive:
+  backend: flywheel
+  roots:
+    - node_id: 73d510e5-875e-59b2-ad07-f4711ee0b748
+      slug: purple-fog-6345
+      note: campaign root (public, read-only for this account)
+    - node_id: f9f2bf74-2ce6-5488-b471-dc0b6c422b99
+      slug: proud-king-2753
+      note: EXPANSION index node — the legacy "system of record"
+  note: frozen pre-adoption graph; artifacts live here
