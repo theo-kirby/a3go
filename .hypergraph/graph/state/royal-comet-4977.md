@@ -18,5 +18,5 @@ Children mirror the campaign architecture. Statuses per SPEC I6; frontier = open
 
 ## Reconciliation
 
-- high_water_mark: lively-orchard-3365
-- reconciled_at: 2026-08-07T20:34:57+00:00
+- high_water_mark: icy-fjord-0022
+- reconciled_at: 2026-08-07T21:10:30+00:00
