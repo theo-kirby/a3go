@@ -1,0 +1,92 @@
+{
+  "experiment": "2d_boundary (GEO-1 precondition, d=1 endpoint)",
+  "seed": 20260807,
+  "games": 128,
+  "playouts": 512,
+  "topologySizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    19
+  ],
+  "pointsCompared": 646,
+  "checksRun": 16,
+  "checksFailed": 0,
+  "arms": [
+    {
+      "arm": "free",
+      "forcedFirstMove": null,
+      "games": 128,
+      "blackWins": 128,
+      "blackWinRate": 1,
+      "ci95": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "meanDiff": 6.3984375,
+      "fullBoardWins": 28,
+      "meanMoves": 10.359375,
+      "seconds": 31.139
+    },
+    {
+      "arm": "center(1,1)",
+      "forcedFirstMove": {
+        "x": 1,
+        "y": 1
+      },
+      "games": 128,
+      "blackWins": 128,
+      "blackWinRate": 1,
+      "ci95": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "meanDiff": 6.9140625,
+      "fullBoardWins": 39,
+      "meanMoves": 10.703125,
+      "seconds": 30.057
+    },
+    {
+      "arm": "edge(1,0)",
+      "forcedFirstMove": {
+        "x": 1,
+        "y": 0
+      },
+      "games": 128,
+      "blackWins": 128,
+      "blackWinRate": 1,
+      "ci95": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "meanDiff": 5.5078125,
+      "fullBoardWins": 44,
+      "meanMoves": 10.671875,
+      "seconds": 35.389
+    },
+    {
+      "arm": "corner(0,0)",
+      "forcedFirstMove": {
+        "x": 0,
+        "y": 0
+      },
+      "games": 128,
+      "blackWins": 1,
+      "blackWinRate": 0.0078125,
+      "ci95": [
+        0.0013803963628788857,
+        0.04292731834932121
+      ],
+      "meanDiff": -7.125,
+      "fullBoardWins": 1,
+      "meanMoves": 13.4453125,
+      "seconds": 38.315
+    }
+  ]
+}

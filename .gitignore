@@ -10,8 +10,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # Experiment outputs: run logs / result JSON are not committed (keep the dir).
+# Exception: files cited as evidence by hypergraph record nodes ARE committed
+# (.hypergraph/AGENTS.md — evidence referenced by path must live in the repo).
 experiments/*
 !experiments/.gitkeep
+!experiments/2d_boundary.json
 
 # ---------------------------------------------------------------------------
 # Python (reserved for the deferred neural/ phase — see neural/README.md)
