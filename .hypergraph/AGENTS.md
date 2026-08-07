@@ -31,7 +31,7 @@ committed markdown under `.hypergraph/graph/`:
    hypergraph check --record .hypergraph/cache/record.json \
        --state .hypergraph/cache/state.json --config .hypergraph/config.yml
    ```
-   Exit 0 required. The `hypergraph` CLI must be >=0.0.2 (adoption-epoch support); until 0.0.2 is on PyPI, use the dev checkout: `uv run /Users/theo/hypergraph/tools/hypergraph.py <subcommand> …`.
+   Exit 0 required. The `hypergraph` CLI must be >=0.0.2 (adoption-epoch support): `uvx --from hypergraph-protocol hypergraph <subcommand> …`.
    Then `git add .hypergraph/graph STATE.md` — an uncommitted node is no node.
 
 ## Adoption specifics
