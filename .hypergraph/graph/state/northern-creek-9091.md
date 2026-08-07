@@ -9,9 +9,9 @@ summary: 29 staged directions with design briefs; GEO-1 precondition cleared (d=
 flywheel:
   node_id: f2640f0d-ecb6-55d4-9cfe-519938c9d136
   slug: tight-bread-8914
-  revision: 0
-  pushed_at: '2026-08-07T20:39:47+00:00'
-  content_sha256: ea2edc6a883bd22ffb84aae7076a24acc6cf345d82525c92aed448c874b11eff
+  revision: 1
+  pushed_at: '2026-08-07T21:12:41+00:00'
+  content_sha256: 84ca12837e7d7e61a61a1ffa74cab1d272d486b4d80890cad91642030ffea042
 ---
 Status: open
 

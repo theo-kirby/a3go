@@ -9,9 +9,9 @@ summary: Three validated engines (TS 48/48, Python vectorized+Zobrist 3.5x on 7^
 flywheel:
   node_id: 5e0cc3ae-8dd1-5c8d-a576-c888b84f00de
   slug: hidden-base-6660
-  revision: 0
-  pushed_at: '2026-08-07T20:39:47+00:00'
-  content_sha256: 9cb8458a00af0a67818b84a25015cf30468f1ac9bbf0a96b515739ad22ada2f5
+  revision: 1
+  pushed_at: '2026-08-07T21:11:50+00:00'
+  content_sha256: 83fbc79f285c5ccd3ec9f3a7bac058f0d1d2f75c7d808dbc18a48670dee5d1e7
 ---
 Status: working
 
