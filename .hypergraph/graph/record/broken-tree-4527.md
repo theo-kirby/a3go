@@ -8,11 +8,17 @@ parents:
 - blue-boat-2948
 - mute-cloud-4824
 summary: RESOLVED. Profiling shows the batched GPU forward is only 3-11% of MCTS move time; BatchedMCTS (M5) already IS the game-parallel GPU inference server. PASS-11's 7^3 slowness was the CPU eval harness, not a missing server. Real keystone = the engine -> INFRA-2 (resolved 3.5x). No new build needed; C++/TensorRT routes deferred. $0/local.
-flywheel:
+origin:
+  backend: flywheel
   node_id: f6343208-8fd7-5f07-b265-e88f7f653c1b
   slug: broken-tree-4527
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 6eb32064-8565-548b-adde-b5e7459f9ff7
+  slug: red-recipe-9108
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: 6288a4f70a0b2763d4e233271d26c965352a3a9dee99773340a840fbfb18757a
 ---
 # INFRA-1 — GPU-batched MCTS inference server [RESOLVED — premise falsified]

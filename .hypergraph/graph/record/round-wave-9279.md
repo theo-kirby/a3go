@@ -7,11 +7,17 @@ parents:
 - frosty-grass-9317
 - lively-meadow-0948
 summary: 'autogo teacher-bootstrap, adapted: distill 192 classical self-play games (14.5k examples) into the 32x3 net via supervised learning. Result: distilled net beats the PASS-3 self-play net 0.722 head-to-head, beats random 0.889, and lifts vs-classical from 0.085 to 0.333 [0.217,0.475] at equal budget. Far more compute-efficient than cold-start self-play; not yet classical parity. Warm-start self-play running.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 4c377ef1-b3e8-5019-bc3c-a57424692b83
   slug: round-wave-9279
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b292206d-60e3-58eb-906d-0fcc463b622b
+  slug: wandering-bird-7928
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 39e28d2ca35829e8b53b97406c7fa30616cf14adc4472495b9847845d452989c
 ---
 # Distilling classical MCTS into the net (autogo transfer) — closes most of the gap

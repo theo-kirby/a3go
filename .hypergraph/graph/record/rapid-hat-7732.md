@@ -8,11 +8,17 @@ parents:
 - hidden-forest-3847
 - mute-cloud-4824
 summary: 'DELIVERED (test-time-scaling half of S1). Net-vs-net sim sweeps: more sims reliably beats fewer, and the effect grows with board size (4^3 needs ~16x sims to reach 0.90; 7^3 hits 1.00 by 512 sims, 8x). Matches the cross-board law (value MSE 0.044->0.006): search amplifies a calibrated value head. Implies the genuinely-3D 7^3 — not 4^3 — is where the net most likely dominates classical at all budgets. $0/local, GPU.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 75615ad2-12eb-5d2d-9a05-890c011c7f86
   slug: rapid-hat-7732
   revision: 3
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b94b7a1f-d6fa-51c7-ac30-566a299464d9
+  slug: rough-disk-0718
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: f3e3eb0c4d5623139d25f650ea8414b5c43de200ea366bfb1702c831139fff65
 ---
 # PROOF-2 — test-time search scaling of the distilled nets [DELIVERED]

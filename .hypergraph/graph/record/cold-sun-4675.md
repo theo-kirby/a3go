@@ -9,11 +9,17 @@ parents:
 - broad-hall-8962
 - proud-king-2753
 summary: 'Implement KataGo''s dynamic exploration: scale cPUCT by observed value variance and weight playouts by uncertainty (~75 Elo claimed). Needs the per-node variance estimate from AUX-4. Extends ALGO-1 Gumbel 4cf07501 and PROOF-1 ladder 3ac354fd.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 0844658b-97b8-5040-b6ec-4ee3c03a73e3
   slug: cold-sun-4675
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 87b31b94-d422-56ec-b5bb-5a197c0ea4da
+  slug: odd-poetry-7397
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: bbea8edb656b5f78bb5fb3b8fb8177fef5400a68dc526a604630574427281a80
 ---
 # SEARCH-3 — Variance-scaled cPUCT + uncertainty-weighted playouts [MED, ~75 Elo]

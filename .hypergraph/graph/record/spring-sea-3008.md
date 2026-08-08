@@ -6,11 +6,17 @@ created_at: '2026-06-18T11:52:27.875751+00:00'
 parents:
 - proud-king-2753
 summary: 'RESOLVED. Engine-only motif census 3³–7³: single-capture→ko-ban rate only 18–32% (not ~98%, falsifies the strong reading of 31dae43b); ko-ban density <0.1% of empty cells and falls with size → explains the PASS-18 ko-ban-plane null. Captures/self-atari fall with board size; liberty/atari motifs common (5–14%/move). 7³ classical self-play ~prohibitive (re-confirms data-gen wall).'
-flywheel:
+origin:
+  backend: flywheel
   node_id: a9982d50-b5d5-5639-bdf1-70d0f4de1b45
   slug: spring-sea-3008
   revision: 4
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 345f3542-23c5-58a7-9e7f-a03263c6edfd
+  slug: tiny-mouse-9092
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 042460d7ccb152fbe7363aff3a0d5b868d54936d7debf508fea15746861655b1
 ---
 # 3DSCI-2 — tactical-motif census across board sizes [RESOLVED]

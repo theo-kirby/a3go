@@ -7,11 +7,17 @@ parents:
 - hidden-forest-3847
 - mute-cloud-4824
 summary: 'DELIVERED (S2 first instance). Regularized Bradley-Terry Elo ladder on 4^3, 7 agents, bootstrap CIs, random=0. Headline: the net''s win over classical is BUDGET-BOUNDED on an anchored scale — net beats classical at 48 sims but cls@128 (849 Elo) beats net@128 (656) 27/30 and edges net@256 (784); classical''s sim-scaling is steeper on 4^3. Quantifies the S1 gap PROOF-2 must close. Fixed two methodology bugs (argmax degeneracy, BT divergence). $0/local.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 3ac354fd-ff3a-5e3a-be95-876b6c503d40
   slug: empty-lab-3357
   revision: 3
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 04344acf-a728-591f-82e5-71dddfaca352
+  slug: patient-shadow-0718
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: 58769ade3c2716d909f492a99d7f4d8ca1c4c561383753ff2ba7d722a432f98f
 ---
 # PROOF-1 — anchored Elo ladder [first instance DELIVERED on 4^3]

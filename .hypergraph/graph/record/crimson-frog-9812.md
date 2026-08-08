@@ -6,11 +6,17 @@ created_at: '2026-06-07T12:52:31.634886+00:00'
 parents:
 - purple-fog-6345
 summary: 'The major next thrust: a PyTorch policy/value net trained from self-play on the local RTX 5090 ($0). The only path to komi precision and the ''rising self-play strength'' half of the success bar. Contains the design brief; empirical children track milestones.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: c67f9da4-2149-5c1e-9d8f-91768caa6cfb
   slug: crimson-frog-9812
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 70186fe1-a9e6-5641-a99d-4ccdd46eb636
+  slug: young-star-7683
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: f8febf83e5b46fe2e01ba2e36c7b6369060d2099286344f10d87ef59e7007fec
 ---
 # Phase 2 — Neural self-play (AlphaZero-style)

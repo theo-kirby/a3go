@@ -6,11 +6,17 @@ created_at: '2026-06-07T12:52:29.560477+00:00'
 parents:
 - green-queen-4645
 summary: 'Follow-up to Q4: does seki (mutual life) occur in 3D and how often, and is there any compact 3D eye-shape that lives at a volume where the 2D analogue dies? Needs a two-group shared-liberty harness.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 9e7efc62-1eef-5f98-b4a4-097eba7a552c
   slug: icy-rain-9864
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 35f49dd2-1683-5fbc-8c5a-f75b9dfd69e3
+  slug: quiet-mode-6983
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: fc6785677bcbbc970ae0c08d8c4b944398aa5ac3f94fca648f46ae9d0eb824e0
 ---
 # Q6 — Seki & whether 3D changes minimal life (← Q4)

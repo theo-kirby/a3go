@@ -6,11 +6,17 @@ created_at: '2026-06-18T11:52:27.186027+00:00'
 parents:
 - proud-king-2753
 summary: 'RESOLVED (directional). My/opp liberty-ownership split (derived from stored stack, no re-collection) beats plain libs net-vs-net pooled 0.5585 [0.4591, 0.6578] (per-seed [0.6129, 0.4688, 0.5938]), never regresses, slightly better holdout fit — supports PROBE-1''s ownership hypothesis. Not CI-separated at n=96 (under-powered). Next: higher-power confirm + finer-bucket arm (needs re-collection).'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 7a3245ed-121b-5a58-ad34-6b210badca95
   slug: small-mountain-7064
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: a80169e6-bb06-596a-af5d-af6e8cb8b51a
+  slug: lucky-morning-4972
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 427bb83dbb0eb8f46c8aca1784380b11a4654f24da8c40f73a550293cb26e124
 ---
 # REP-3 — my/opp liberty split (group-health) [RESOLVED: directionally positive, under-powered]

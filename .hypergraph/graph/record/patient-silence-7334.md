@@ -6,11 +6,17 @@ created_at: '2026-06-18T11:52:25.426347+00:00'
 parents:
 - proud-king-2753
 summary: 'RESOLVED null (arm A). Cube-symmetry TTA-averaged inference vs plain libs: k=8 0.558 [.44,.67], k=48 retest 0.531 [.43,.63] — both include 0.5, high per-seed variance. Full 48-averaging does NOT help → no reliable free strength gain (net already ~symmetry-robust in expectation). Geometry validated 48/48. Pivot symmetry lever to arm-B 48× train-time augmentation.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 3f47168a-3f0c-5e7d-84a0-9a493d423f73
   slug: patient-silence-7334
   revision: 4
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b77945f2-b159-54ab-826f-448f4a8336a8
+  slug: dawn-moon-9298
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: f6bba3ba7e79bd617f1779315ea6e08e0aa3fb354aca39c52683823f16519887
 ---
 # SYMM-1 arm A — cube-symmetry TTA inference (libs 5³, no retrain) [RESOLVED]

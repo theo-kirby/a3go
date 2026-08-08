@@ -7,11 +7,17 @@ parents:
 - round-wave-9279
 - frosty-grass-9317
 summary: Swept distilled-net sims {48,128,256} vs classical {48,128}. Net stays ~0.25-0.29 vs classical regardless of budget, never near 0.5; net256-vs-cls128 collapses to 0.042 — deeper PUCT amplifies a miscalibrated value head. Test-time scaling is no free lunch on a weak net; bottleneck is net quality -> pivot to stronger-teacher distillation.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 9605fb9a-e859-56d3-9c36-7f0b3349ca05
   slug: dawn-block-6253
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: f94de1a7-0a15-554b-a82c-e5d615777fdb
+  slug: withered-shadow-2447
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 6f467baec98e9dfbab6146687556560e290151e8ef468991803c6f1b3ce0404f
 ---
 # Test-time sims scaling does NOT beat classical — and deeper neural search can HURT (value-head amplification)

@@ -8,11 +8,17 @@ parents:
 - delicate-breeze-7763
 - proud-king-2753
 summary: 'RESOLVED. Ownership aux head learns the territory map excellently (holdout own_acc 0.983-0.986, fresh-game sign-agreement 0.927 >> 0.8 bar) but does NOT decisively lift 5^3 strength (pooled 3-seed s512: baseline 0.328 vs ownership 0.393, +6.5pp, Wilson CIs OVERLAP; 1/3 seeds reverses) and value-MSE is only mixed/weakly favorable (s1 0.0248->0.0177, s2 0.0252->0.0228, but seed0 0.0144->0.0173). Decision criterion NOT met. Verdict: NEGATIVE for the strength/calibration hypothesis on 5^3, POSITIVE deliverable (a working ownership predictor that unblocks TOOL-3 heatmap + SCIENCE-2 life&death). Consistent with the campaign scar: the 5^3 bottleneck is the policy head (acc ~0.06) + absolute capacity, not aux regularization.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 665706e4-f3f0-5331-8031-f9b98412b79a
   slug: proud-star-4959
   revision: 4
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: cb7859d9-a716-5a9c-bb51-6c5dc72331e2
+  slug: summer-disk-4750
+  revision: 0
+  pushed_at: '2026-08-08T10:03:17+00:00'
   content_sha256: dac420e068b9d4b2464fb13d0795b761262a1ef3821d9325d92ad9bde0a8391a
 ---
 # AUX-1 — Per-voxel ownership / territory head [RESOLVED]

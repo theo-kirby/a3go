@@ -6,11 +6,17 @@ created_at: '2026-06-07T11:32:46.073104+00:00'
 parents:
 - purple-fog-6345
 summary: 'Open question: what komi balances N³ Go?'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 279b3238-a1de-50ad-9239-770ebf2070a5
   slug: crimson-voice-3644
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 6efbfef2-714a-5639-8eee-f0182ad7a0f6
+  slug: lively-disk-6022
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: d719bc855e5d3a7b0f96f4fafcc1110f30f35c701d6fcd5c3132275d801de2ed
 ---
 # Q1 — Fair komi

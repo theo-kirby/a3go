@@ -6,11 +6,17 @@ created_at: '2026-06-18T13:58:07.616242+00:00'
 parents:
 - proud-king-2753
 summary: 'Augment the MCTS with proven-win/loss propagation (MCTS-Solver): when a node is a forced terminal, back up ±∞ instead of a noisy value estimate, so solved subgames are played perfectly. 3D endgames and life-and-death are exactly where the value head is weakest (SEARCHX-1 said search carries strength) — exact backup is a cheap, principled strength lever.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: e45385fe-3584-5056-94e2-999cc48b294a
   slug: wispy-glitter-1456
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 28a082e8-4335-5c1c-9896-95fe834a0e11
+  slug: dry-water-2931
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: de91e85140d4162821b50073b778267284c204c1444442eeac2d192d5c4b5910
 ---
 # ALGO-S1 — MCTS-Solver (exact terminal backup)

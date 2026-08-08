@@ -8,11 +8,17 @@ parents:
 - soft-waterfall-3492
 - hidden-forest-3847
 summary: 'With a 9x-faster playout enabling a strong 5^3 teacher (21.8k examples), the distilled 64x6 net (value MSE 0.019) scales monotonically vs classical@48: 0.194(48)->0.217(128)->0.417(256)->0.500(512 sims). The recipe transfers to 5^3; 48 sims is just too few for 126 actions — the MCTS budget scales with board size, and neural sims are cheap. Earlier 5^3 losses were a search-depth artifact, not recipe failure.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: e7c35c64-dbcf-5a09-86c7-7f59f37d3377
   slug: bold-scene-5560
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 1891d3b4-6a64-5a99-879e-16e066481db8
+  slug: cool-paper-8596
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: d031a1f7276664e35303004241feb8d70fc65f41f2b8c1077511a6926f2e55f5
 ---
 # The recipe TRANSFERS to 5^3 — it reaches parity with classical; the MCTS budget just scales with board size

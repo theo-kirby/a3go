@@ -8,11 +8,17 @@ parents:
 - billowing-dew-3640
 - proud-king-2753
 summary: Add KataGo-style short-term value/score targets (predict value/score a few plies ahead, not only the final outcome) as a bias-variance lever for value calibration — and the variance estimate that uncertainty-weighted search (SEARCH-3) needs. Extends ALGO-2 792c4ec2 and INFRA-3 self-play 8a724b1c.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 4842d305-9e69-52f7-bf02-c9926031a385
   slug: broad-hall-8962
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 644608a3-ff7f-5af0-b67f-ce46243f163f
+  slug: weathered-poetry-6330
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: c73900ca1bc08210a07b6613db9c894c04b18b78c5ca61840bc140ea6a54e0f1
 ---
 # AUX-4 — Short-term value / score targets (bias-variance) [MED]

@@ -7,11 +7,17 @@ parents:
 - long-king-8643
 - mute-cloud-4824
 summary: On 4^3 the champion net has NO opening positional preference (corner=edge=face=interior), unlike 2D Go. Test whether that holds on 5^3/7^3/9^3, extract the strong net's actual opening moves, and quantify whether the high-liberty 3D center is genuinely more valuable. A core 'how is 3D Go different from 2D' result the thesis explicitly asks for.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 5e34766d-c790-54a6-a98c-29b2fdbf7bbb
   slug: throbbing-hall-2691
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b2ca7249-d21f-547e-b6a7-06ecdc890d86
+  slug: bitter-firefly-6962
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 0b83eb16561d7ec9f9c05ccd2549e7a8cd62a8cdbc8841eef7f08efd7d986af3
 ---
 # SCIENCE-1 — 3D opening theory & value of the center [MED]

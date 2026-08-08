@@ -7,11 +7,17 @@ parents:
 - still-dream-7550
 - silent-dew-2840
 summary: 'Parallel net-vs-classical (net on CPU x14 cores). Equal budget 48v48: net wins only 0.085 [0.034,0.199] vs classical random-rollout MCTS; vs 128-playout classical, 0.042 [0.012,0.14]. Despite beating random 0.89 and gen-0 0.65, the net is far below classical strength on 4^3. Lesson: self-play win-rate != absolute strength; anchor to a non-self baseline.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: a0e8a3f6-8dce-5d26-9d10-e34901d4a7e1
   slug: frosty-grass-9317
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 70cf7a47-2e44-59e7-af11-0f6c49ff977a
+  slug: summer-thunder-3443
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 96c4c86277e1cc506adb20dae787e7d4e51b72a81a25daa0873c97cf47c7213c
 ---
 # Q10 reality-check: neural net vs classical MCTS (the success bar's 2nd baseline leg)

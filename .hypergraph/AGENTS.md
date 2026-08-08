@@ -44,8 +44,13 @@ committed markdown under `.hypergraph/graph/`:
   logs, SGFs) were not imported — fetch them from the archive via Flywheel MCP
   (`docs/FLYWHEEL.md`) if needed. Never write to the archive.
 - **Mirror**: `mirror: flywheel` — local files are canonical; the reconcile pass
-  pushes to NEW mirror roots and runs `push --verify`. Mirror slugs differ from
-  local slugs; the mirror's "Hypergraph mirror slug legend" node maps them.
+  pushes to NEW mirror roots and runs `push --verify`. The mirror carries the
+  **whole** graph, imported history included, with the original topology: it
+  projects this repo, never the archive. Verify against the `mirror_roots:` export
+  **alone** — adding the archive anchors makes orphaned archive ids resolve and
+  hides a mirror that holds none of the graph. Mirror slugs differ from local
+  slugs; the "Hypergraph mirror slug legend" node maps them, and for imported
+  nodes it doubles as the archive→mirror map.
 - The legacy "EXPANSION index" workflow (live status table in a Flywheel node)
   is superseded: staged directions are `open` state nodes on the frontier;
   their history lives in the imported record nodes.

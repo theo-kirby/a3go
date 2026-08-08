@@ -7,11 +7,17 @@ parents:
 - crimson-frog-9812
 - crimson-voice-3644
 summary: 'Extends Q1 with Phase 2: the classical phase showed komi is variance-limited, not sample-limited. Can a lower-variance neural value head identify fair komi on 4³ to ±0.5?'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 719843c6-be43-513e-b212-80425af3d7ae
   slug: silent-fire-7633
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 01ab88f1-f78e-5398-894e-4e9b10051dc7
+  slug: purple-snow-9217
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: bd4e30615571d61dd298628e23419b88916a62ec99ecacd82773da921cb30b04
 ---
 # Q9 — Neural komi precision (← Q1, ← Phase 2)

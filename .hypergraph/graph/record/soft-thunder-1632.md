@@ -7,11 +7,17 @@ parents:
 - shrill-moon-6110
 - proud-king-2753
 summary: Extend the exact solver beyond the current 2×2×2 frontier by threading game history through a transposition table so memoization stays sound under superko (PROOF-3 proved position-only memo is unsound in 3D). The only path to a meaningful S3 oracle on bigger boards. Self-contained, theoretically clean, CPU-only. Extends PROOF-3 22d59c45.
-flywheel:
+origin:
+  backend: flywheel
   node_id: ebff5f9f-80c2-5716-a09a-c08141d933d7
   slug: soft-thunder-1632
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 159b640b-75a8-5a45-a3e1-1ab722422d0b
+  slug: round-violet-7813
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: b18aa4c7252213056695c89583782f467299db70c2ed4a5b3bd4ecd6acf99939
 ---
 # EVAL-2 — Superko-aware exact solver (history-threaded TT) — push S3 past 2×2×2 [MED, no GPU]

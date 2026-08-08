@@ -6,11 +6,17 @@ created_at: '2026-06-18T13:58:09.247432+00:00'
 parents:
 - proud-king-2753
 summary: 'A cheap robustness probe: take the existing 5³ net and evaluate it (via global-pool inference or as-is) on non-cube shapes the engine supports — slabs (5,5,2), bricks (5,4,3), bigger faces. Does cube-trained knowledge survive shape shift, or is it brittle? Tells us whether one net can serve the whole geometry family or each shape needs its own. Forward-pass/eval only.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: d1a8d69c-8881-5967-9976-85a7f143c191
   slug: crimson-rice-4497
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: d2fec089-5296-53a8-8bcf-b836390c18fe
+  slug: rough-poetry-7791
+  revision: 1
+  pushed_at: '2026-08-08T10:06:14+00:00'
   content_sha256: added42095f38e88bd44260ca5c8b740997877a309ea8626b8408ef41db3e9b4
 ---
 # ROBUST-1 — Non-cube shape generalization of a cube-trained net

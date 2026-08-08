@@ -6,11 +6,17 @@ created_at: '2026-06-07T12:52:28.077844+00:00'
 parents:
 - purple-fog-6345
 summary: 'Living frontier. PHASE 3: 9 nodes delivered (INFRA-1/2/3, PROOF-1/2/3, ALGO-1, TOOL-1/2). Engine 3.5x; net win budget-bounded on 4^3 but search scaling amplifies w/ board size (7^3 saturates); exact small-board truth + memo-unsound; Gumbel no-win 4^3; AZ anchored-gate validated (no robust 4^3 gain). Viz+play tooling built. Next: INFRA-3 on 5^3 (S5 retry), ALGO-2, SCALE, SCIENCE. Living frontier. PHASE 3 EXECUTING. PASS-13 delivered 6 frontier nodes (INFRA-1/2, PROOF-1/2/3, ALGO-1). Ignition list complete. Key results'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 6148c5c0-0a22-5e1e-96c9-5212982fda2e
   slug: snowy-term-0287
   revision: 16
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 1a4f397e-53e5-570a-b03c-ccddbfc1e31a
+  slug: long-thunder-2450
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: 0955bb9e96a3bf63f1320d3904e6c6d83bdfc6e9368ec1106dda42cf034b9835
 ---
 **P16 (frontier EXPANSION — seeding, not executed):** widened the Phase-3 frontier with **17 STAGED direction nodes** mined from **KataGo / autogo / online-go** — aux ownership/score/soft-policy heads, search Elo levers (optimistic policy, value-bias correction, variance-cPUCT), size-agnostic global-pooling + nested-bottleneck architecture, richer input planes (ko-ban for ubiquitous-3D-ko `31dae43b`), SPRT gate + n≥128 re-power audit, superko-aware exact solver (past PROOF-3's 2×2×2), train×test scaling-law surface, 3D game-review UI — under a new **EXPANSION index** `f9f2bf74-2ce6-5488-b471-dc0b6c422b99` + `docs/DIRECTIONS.md`. Recommended order: **aux targets first** (hit the komi-flat `2a2ca6b9` + policy-weak `0bc38c41` scars), then input-planes/capacity, SPRT alongside everything. No experiments run; no `neural/` code touched. [refs: KataGo `365b153f-75e1-54ee-9344-4794604da3a4`, online-go `ba69d0a3-f344-5413-8b0f-e4d65aa947bc`, autogo `b4fd8252`]

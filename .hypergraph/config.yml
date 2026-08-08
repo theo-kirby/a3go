@@ -26,23 +26,29 @@ mirror: flywheel
 epoch:
   marker: lively-orchard-3365
 
-# Frozen pre-adoption Flywheel graph. Purely documentary — but it is the only
-# pointer to legacy artifacts, which do not survive import to the local backend.
+# Frozen pre-adoption Flywheel graph — the graph this project forked from. The
+# checker doesn't read it; it is the only pointer to legacy artifacts (they do not
+# survive import to the local backend) and the source `hypergraph push --lineage`
+# renders the mirror record root's body from. This project never writes to it.
 archive:
   backend: flywheel
   roots:
     - node_id: 73d510e5-875e-59b2-ad07-f4711ee0b748
       slug: purple-fog-6345
+      title: 'a3go: autonomous three dimensional baud research campaign'
       note: campaign root (public, read-only for this account)
     - node_id: f9f2bf74-2ce6-5488-b471-dc0b6c422b99
       slug: proud-king-2753
+      title: Phase 3 — frontier EXPANSION (KataGo/autogo/online-go-inspired branches), LIVING
       note: EXPANSION index node — the legacy "system of record"
+  imported: 108
+  artifacts: retained-on-archive
   note: frozen pre-adoption graph; artifacts live here
 
-# NEW mirror roots under this account (the archive above is read-only).
-# The epoch marker's local parent (crimson-rice-4497) is an archive node; on the
-# mirror it is parented to the record mirror root instead — the cross-epoch edge
-# exists only in the local node files.
+# NEW mirror roots under this account (the archive above is read-only). The whole
+# imported history is re-published under these roots — the mirror projects this
+# repo, never the archive. Verify against these roots ALONE: splicing the archive
+# anchors into the verify export hides a mirror that holds none of the graph.
 mirror_roots:
   record:
     node_id: e20a09e8-e9b6-58db-9321-511fa52fce77

@@ -7,11 +7,17 @@ parents:
 - lively-meadow-0948
 - mute-cloud-4824
 summary: 'IMPLEMENTED + A/B''d. Faithful Gumbel (top-k + Sequential Halving). On 4^3 vs PUCT: behind at very low sims (8/16 -> 0.36-0.38), ~even at 32/64 (0.54-0.56); gumbel@16~puct@32 within noise. No clear strength-per-sim win — expected, since Gumbel targets large action spaces/weak policies and 4^3 (65 actions, strong distilled net) is the wrong regime. Correct impl; fair test = 7^3 (344 actions). Recorded to avoid re-trying on small boards. $0/local.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 4cf07501-9a4f-5aad-adf7-21c04d6d3709
   slug: divine-thunder-7666
   revision: 3
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 39ab8668-01f8-5940-b0c8-46353befbee5
+  slug: broken-lab-7631
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 842972d8135e459723f7b3f24bdef3525491b757b8ffb70e9cbb83de22c28678
 ---
 # ALGO-1 — Gumbel AlphaZero [IMPLEMENTED; honest negative on 4^3]

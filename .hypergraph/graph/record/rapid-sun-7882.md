@@ -6,11 +6,17 @@ created_at: '2026-06-18T11:52:29.845009+00:00'
 parents:
 - proud-king-2753
 summary: RESOLVED. On 5³ the raw net is weak — policy-only ~0.61 and value-only-1ply ~0.54 vs random; win-rate climbs sharply with MCTS sims. Search, not the prior, carries strength; with the value head well-calibrated (PROBE-2) this is genuine look-ahead. The policy (not value) is the lever with most headroom. Multi-board sweep needs cheap 4³/7³ libs nets.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 6551d432-c11e-52bf-9a6b-caf49ab6fe0c
   slug: rapid-sun-7882
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: c47f6634-0edf-51da-ba2f-e3e6933c4e30
+  slug: floral-truth-1986
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 614c4f9712e4c79c77e0549222515200c96e614587d7a02cb9266dbb632e4507
 ---
 # SEARCHX-1 — net-vs-search decomposition (libs 5³) [RESOLVED]

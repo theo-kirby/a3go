@@ -6,11 +6,17 @@ created_at: '2026-06-09T07:01:11.286674+00:00'
 parents:
 - mute-cloud-4824
 summary: 'Phase-3 EXPANSION menu (LIVING). PASS-20: 22 new STAGED directions across 3 batches (interp/symmetry/reps, tactical-knowledge LD/STRAT/DATA, geometry GEO/ALGO-S/ROBUST) = 40 total. 7 cheap probes RESOLVED: 3DSCI-2, PROBE-1 (≥3-lib group-health carries the win), PROBE-2, SEARCHX-1 (search carries 5³ strength), SYMM-1 (arm-A null), REP-3 my/opp split (directionally + 0.558, under-powered). Next: REP-3 higher-power confirm, GEO-1, ALGO-S1.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: f9f2bf74-2ce6-5488-b471-dc0b6c422b99
   slug: proud-king-2753
   revision: 22
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 9db59a03-8d75-54d5-ab46-3ac8c881ce36
+  slug: spring-cell-1087
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 4c75fe7ec1cd6dffd68d7d2f5ffa1108a210065b03dc5d788f4d6771b96c451e
 ---
 # Phase 3 — frontier EXPANSION (KataGo/autogo/online-go-inspired branches), LIVING

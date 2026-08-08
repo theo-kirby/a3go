@@ -6,11 +6,17 @@ created_at: '2026-06-18T11:52:24.188368+00:00'
 parents:
 - proud-king-2753
 summary: 'RESOLVED. Forward-pass reliance: the libs net depends most on the ≥3-LIBERTY (group-health) plane (KL 0.155, 76% top1-flip ≈ ablating all liberties), NOT the atari/1-lib plane (KL 0.04) — overturns the KataGo atari-prime-suspect prior. Strength (net-vs-net, low power): removing ALL liberties costs most (0.618); single planes recoverable/not CI-separated → liberties are a redundant set. Points refinement to REP-3 finer buckets/group-health over atari.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 67169cf2-5124-58f2-b3c3-f43baa726d78
   slug: square-heart-9657
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b0eb7ee3-7073-5362-85c8-3411db525749
+  slug: ancient-lake-3971
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: b1d46007e4518950d1e8727b85a37bf0df9a86b607c671bf876dcaa5398fedd9
 ---
 # PROBE-1 — input-plane ablation attribution (libs net, 5³) [RESOLVED]

@@ -7,11 +7,17 @@ parents:
 - crimson-frog-9812
 - broken-firefly-1068
 summary: 'Second AZ run: 4³, Dirichlet root noise, 6 gens. Draws dropped (4³ less drawish) but the agent gets WORSE — vs_random 0.74→0.57, vs_gen0→0.00 while loss falls 3.55→2.33. Classic catastrophic-forgetting signature from training on latest-gen-only + always-promote. Fix = replay buffer across gens + best-net gating (M4).'
-flywheel:
+origin:
+  backend: flywheel
   node_id: f35f453b-4ae8-5522-820e-81a1be7ca48c
   slug: gentle-lake-8649
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: ef98234b-f67b-52e9-a5bf-82955162c7b2
+  slug: bold-salad-3200
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: ef4262b82c6bb4479525e25b09b7296c73594bc3da31d4d6dbecb83b8c698de0
 ---
 # Phase 2 — AZ on 4³ with Dirichlet noise (second honest result)

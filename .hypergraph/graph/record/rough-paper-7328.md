@@ -7,11 +7,17 @@ parents:
 - billowing-dew-3640
 - mute-cloud-4824
 summary: 'INFRA-3 RUN 3: classical-anchored self-play on 5^3 (gate on cand-vs-classical, the OOD objective PASS-14 said was missing). In-loop n=32 anchor reported a 0.194->0.406 lift (1 promotion) — but well-powered n=128 A/B OVERTURNS it: champion 0.262@48 / 0.402@512 is statistically identical to the seed (0.234@48 / 0.414@512); CIs fully overlap. S5-absolute NOT met on 5^3 by either gate. The apparent gains (and the 0.594@512 n=32 reading) were small-sample noise; the gate promoted on a 32-game fluctuation. Lesson: gate/claim on n>=128 — even the seed''s ''parity@512=0.50'' [e7c35c64,n32] is 0.414 [0.332,0.501] at n128. $0/local.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: b3ea0b95-d37f-5c6e-94e2-b43d26633cae
   slug: rough-paper-7328
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 1297cdff-d9ed-50dc-a004-52d0806811fe
+  slug: summer-mountain-6648
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: 1ba9fb9f46ec18020fc348b5dcd94b96d045d6cae05729c16cfad950abe6b859
 ---
 # INFRA-3 RUN 3 — classical-anchored self-play on 5³: the gain was small-sample NOISE (S5-absolute NOT met)

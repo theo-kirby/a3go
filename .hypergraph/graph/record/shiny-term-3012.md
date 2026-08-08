@@ -6,11 +6,17 @@ created_at: '2026-06-07T11:32:09.869722+00:00'
 parents:
 - purple-fog-6345
 summary: 'flywheel-auto control — PASS 20 round-2: REP-3 my/opp liberty split directionally + (0.558 [.46,.66], 2/3 seeds beat plain libs, under-powered → confirm at higher n); SYMM-1 arm-A retest NULL (k=48 0.531 → pivot arm-B). Batch-3 geometry axis seeded (GEO-1 dim-ladder, ALGO-S1/2, ROBUST-1). PASS-20 total: 22 new STAGED dirs + 7 probes resolved. npm 48/48, crossval 60/60. Next: REP-3 higher-power confirm, GEO-1, ALGO-S1. stop=objective_met.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 62ab093f-98b2-5083-aadd-ed764fa9b28c
   slug: shiny-term-3012
   revision: 40
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 832b9659-cf8b-53a5-a41e-1a19d3bff1d1
+  slug: calm-glade-3133
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: 21c2dd03bdb856cecda72c7253197cd82b0aae70e419206efccb8e6c0558983c
 ---
 # Autonomous run controller (flywheel-auto) — multi-pass, LIVING

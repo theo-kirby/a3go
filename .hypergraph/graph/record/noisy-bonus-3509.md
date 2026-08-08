@@ -7,11 +7,17 @@ parents:
 - round-wave-9279
 - lively-meadow-0948
 summary: 'Warm-started AZ self-play from the distilled net (annealed Dirichlet + gating, 5 promos/10 gens) improved every self-referential metric (beats distilled 0.75, random 0.91, old self-play net 0.64) yet DROPPED absolute strength vs classical from 0.333 to 0.222. Net-vs-net gating let the net drift off the classical-quality target. Fix: anchor the gate to classical MCTS. Distillation-alone remains the best 4^3 lever.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 4d8fb650-a223-53fb-802e-fc37880c86ed
   slug: noisy-bonus-3509
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: e19488d4-aa8b-5837-8890-8f292e5d8ba5
+  slug: dark-shadow-9953
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: b3871574b846d2c3a8a62fcbc6a743a4764d61b5a3fc4958803b16123dbfd6b9
 ---
 # distill -> self-play (autogo pipeline): self-play IMPROVES every self-referential metric but DEGRADES absolute strength vs classical

@@ -7,11 +7,17 @@ parents:
 - lively-meadow-0948
 - mute-cloud-4824
 summary: Train ONE fully-convolutional net (no size-locked dense layers) on a mixture of board sizes so it plays any N^3, and test cross-size transfer/zero-shot generalization. autogo uses size-agnostic nets; it amortizes training and probes whether 3D-Go skill is scale-invariant. Pairs naturally with SCALE-3 (curriculum).
-flywheel:
+origin:
+  backend: flywheel
   node_id: 1e58a424-54f6-5dfa-bf50-75d842f7dcda
   slug: bitter-unit-9524
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: ef8b9f00-9399-518e-becc-49f585e928db
+  slug: old-leaf-4385
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 9e3716a875e52da8173e04f336153424ed583266269fa7f837756e028c24284c
 ---
 # SCALE-2 — Size-agnostic single net (fully-conv) across sizes [MED]

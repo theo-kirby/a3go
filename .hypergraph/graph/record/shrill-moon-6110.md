@@ -6,11 +6,17 @@ created_at: '2026-06-08T06:51:14.317791+00:00'
 parents:
 - mute-cloud-4824
 summary: 'DELIVERED. Sound history-threaded minimax: exact values 1x1x1=0, 2x1x1=0, 2x2x1=+1 (Black). Two findings: (1) position-memoization is UNSOUND for 3D Go — gives +2/+4 vs exact 0/+1 because it permits superko-forbidden ko recaptures (value is history-dependent); (2) the smallest genuine 3D board 2x2x2 already exceeds naive exact solving (>8M nodes) — the frontier is set by ko, not cell count. S3 oracle exists only for <=4-cell boards today. $0/local.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 22d59c45-09a2-5524-9943-b2687e52cb94
   slug: shrill-moon-6110
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 4f013a86-20c5-5a2f-9704-41191ac0cbf0
+  slug: morning-shadow-3418
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 68feecee8c1cca29cbbe1fc6c5c6440eaade6bbae8e27f0d27d37adcf44670b5
 ---
 # PROOF-3 — exact solving of the smallest 3D boards [DELIVERED + frontier]

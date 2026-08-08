@@ -7,11 +7,17 @@ parents:
 - silent-fire-7633
 - crimson-voice-3644
 summary: '640 net self-play games (4^3, komi=0): mean signed area margin (B-W) = 0.53, SE 0.386 <= 0.5 -> fair komi pinned. Win-rate-fair komi ~0 (black 0.478 at komi 0) agrees with margin-fair ~0.5. Precision limit is the heavy-tailed blowout distribution (std ~9.8), which M5 throughput makes affordable to average out.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 9a106027-6d5a-551f-a928-c7c63ff68e58
   slug: shrill-union-9485
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 929a365e-a61f-585b-8f3a-01b70bc12f1a
+  slug: autumn-night-6589
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 3020b70d3c75050d016f5d4463a51d8f58e4c557567f52d49102aac6a2158314
 ---
 # Q9 — pin fair komi on 4^3 with the trained net

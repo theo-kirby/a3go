@@ -6,11 +6,17 @@ created_at: '2026-06-08T06:51:08.915547+00:00'
 parents:
 - mute-cloud-4824
 summary: 'Operational definition of the Phase-3 target. Five criteria S1-S5: (S1) dominate classical at ALL search budgets, not just matched; (S2) anchored Elo ladder with the net''s gap over strongest classical reported in rating points; (S3) near-optimal vs exactly-solved small boards; (S4) decisive win on genuinely-3D 7^3; (S5) self-play that escapes the classical-teacher ceiling. Current status: only a weak form of S1 met (4^3 matched-budget).'
-flywheel:
+origin:
+  backend: flywheel
   node_id: fdb07ec9-ee87-55bf-997c-b30c1c5998ca
   slug: jolly-breeze-8643
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: c429fe41-8c0b-53f7-bbbe-bf5d7eca8bb2
+  slug: crimson-voice-8429
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 407031e3a494d1cbb40f81d246ac28e0a7e87865c16fec03bd83cd6f94cdb32b
 ---
 # Success bar v2 — 'strong AND provable' [GATE node]

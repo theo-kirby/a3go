@@ -7,11 +7,17 @@ parents:
 - purple-fog-6345
 - shiny-term-3012
 summary: 'New chapter: raise the bar from ''a strong agent CAN exist'' (proven on 4^3/5^3) to ''a strong agent that DOMINATES at all budgets, on genuinely-3D boards, and is PROVEN via an anchored rating ladder + exact-solve checks''. Organizes the Phase-3 frontier into Bar / Infra / Proof / Scale / 3D-science / Algorithms. Keystone enabler = GPU-batched MCTS server. $0/local.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: e917c9e4-fe12-5f0a-8e0d-1965c906f5a6
   slug: mute-cloud-4824
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 6f6ec13f-dc92-573f-a20a-18053c5b2ef6
+  slug: weathered-sky-8011
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 59bad44ea657ef7836b1c1672f1ee3b85c22a3ed3e8bc4272d18989a4212504b
 ---
 # Phase 3 — Toward a *provably strong* 3D-Go agent (frontier map, LIVING)

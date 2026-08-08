@@ -6,11 +6,17 @@ created_at: '2026-06-08T06:51:16.519532+00:00'
 parents:
 - mute-cloud-4824
 summary: Test whether pretraining on small boards (cheap, fast) then fine-tuning on big boards accelerates reaching strength on 7^3/9^3 vs training big from scratch — a sample-efficiency lever for the expensive big-board regime. Cleanest on top of SCALE-2's size-agnostic net. Could substantially cut the cost of the genuinely-3D strength push.
-flywheel:
+origin:
+  backend: flywheel
   node_id: adb11193-0501-5e63-98a6-101ea8bc591e
   slug: nameless-dream-4859
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 57c16562-f693-5f74-96c3-04970acff7f5
+  slug: calm-wood-7972
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 439b58cdc414f3e36df558ecda8f89910ae126bc8dddbcb051ef95b0813f6755
 ---
 # SCALE-3 — Curriculum / transfer (small -> big) [MED]

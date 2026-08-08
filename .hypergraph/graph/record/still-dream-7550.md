@@ -7,11 +7,17 @@ parents:
 - broken-firefly-1068
 - silent-dew-2840
 summary: '12-gen gated AZ at 5x M4 volume (80 games/gen, batched via M5): 5 promotions, loss 3.99->1.39, vs_random 0.61->0.94. Clean high-N (N=200) final eval: final net beats uniform-random 0.889 [0.839,0.926] and beats its own untrained gen-0 net 0.652 [0.582,0.713] at IDENTICAL MCTS budget (CI excludes 50%) — isolating learned skill from search. 44.6 min wall-clock vs M4''s 64-min plateau.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: c16643ba-e947-5d7e-82e6-7eda4dbb1bfb
   slug: still-dream-7550
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: d9eb2849-9de4-5673-98e7-d19d4706c55a
+  slug: lively-sky-9545
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 2179ed9858165d4093489b2eff9a9a576023c6f39c442ba615c83aadae7f25bf
 ---
 # Q10 — rising self-play strength (2nd half of the success bar)

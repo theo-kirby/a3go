@@ -6,11 +6,17 @@ created_at: '2026-06-18T13:58:06.971346+00:00'
 parents:
 - proud-king-2753
 summary: 'Edge hypothesis along the depth axis: train a size-agnostic net on (n,n,1)=2D Go and evaluate it zero-shot on (n,n,2)/(n,n,3). If 2D tactics transfer to thin 3D slabs, the vast body of 2D Go knowledge becomes a warm-start for 3D, and a depth-curriculum (d=1→n) could bootstrap full 3D cheaply. The depth-axis analogue of TRANSFER-1.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 3f5b8ced-032d-5faa-b7b7-6490aca088c7
   slug: noisy-dream-0116
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b832ff19-57d5-5004-b216-512e7ec1694d
+  slug: red-wood-1870
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: c40852661cdb4a8fc9b724b06a12591ab7c9797eab3c0426a8d4e15ec9d496f3
 ---
 # GEO-3 — Cross-depth transfer (does 2D knowledge climb the ladder?)

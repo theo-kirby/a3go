@@ -8,11 +8,17 @@ parents:
 - winter-water-4984
 - frosty-grass-9317
 summary: 'The trained net beats classical random-rollout MCTS at equal 48v48 budget, 0.612 [0.533,0.686] (N=160, decisive). Journey: 0.085 (self-play) -> 0.333 (distill 32x3) -> 0.484 (more/stronger teacher) -> 0.612 (64x6 net). Two levers: teacher-strength+data get to parity, net CAPACITY crosses the line. Success bar fully met on 4^3.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: b71da32b-c518-5a78-8a4f-0b6feaa6c82d
   slug: soft-waterfall-3492
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b390f189-a22c-55c7-a3dd-63005fa832ae
+  slug: damp-dew-5178
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 5521e921bd0249021d2cac3f06f3121eab27d718f610c3b9cc1a131ad4f038eb
 ---
 # MILESTONE: the neural agent now BEATS classical MCTS (0.612 [0.533,0.686] at equal budget)

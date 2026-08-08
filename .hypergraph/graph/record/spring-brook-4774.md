@@ -8,11 +8,17 @@ parents:
 - throbbing-unit-0557
 - proud-king-2753
 summary: Once AUX-2 lands, make MCTS optimize a blend of win-prob and expected score, and adjust komi during self-play so games aren't blowout-dominated. Unlocks honest komi/handicap evaluation and could make S4-style big-board comparisons meaningful. Extends Q9 komi 9a106027; depends on the AUX-2 score head.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 0b9fe131-8eff-543e-a6c7-42c24615c0b1
   slug: spring-brook-4774
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 4d321621-73b8-5781-9234-fb6234e40b0d
+  slug: snowy-hill-0371
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: 196b2d8506960112b7a33b1723bb8369330585d8e661f526a11e27cd0249e9b3
 ---
 # SEARCH-1 — Score-aware utility + dynamic komi at play time [MED]

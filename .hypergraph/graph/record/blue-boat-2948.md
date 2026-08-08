@@ -8,11 +8,17 @@ parents:
 - withered-boat-6047
 - lively-meadow-0948
 summary: Built a g++ C++ 3D-Go engine + classical self-play data generator (standalone binary, no pybind11). Cross-validates 60/60 vs TS fixtures on 3^3 AND 4^3. ~60x faster than Python on 4^3 (2.7s/game), ~7x on 5^3 (160 games in 3 min, 31k examples). Validated as a training drop-in (C++ data -> higher holdout acc 0.112 vs 0.068). Removes the data-gen wall that gated the bigger-board program (autogo's headline lever).
-flywheel:
+origin:
+  backend: flywheel
   node_id: cff3a5d1-b65b-5429-8903-bf5594ef7954
   slug: blue-boat-2948
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 58af2a43-022f-5a6b-b3a0-494640897aae
+  slug: yellow-tooth-8533
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: eccabefa1a58bd6caf40331ab38c4697ad06d87f0048bba3be0408b52395b162
 ---
 # C++ engine + self-play generator: 60/60 cross-validated, ~60x faster (4^3) / ~7x (5^3) — unblocks the bigger-board program

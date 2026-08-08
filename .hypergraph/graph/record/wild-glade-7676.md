@@ -6,11 +6,17 @@ created_at: '2026-06-18T12:25:09.086664+00:00'
 parents:
 - proud-king-2753
 summary: 'Measure the empirical ''influence'' of a stone in 3D: from many self-play games, the correlation between a stone at cell c and final ownership at distance r. 2D Go influence falls off in 2 dimensions; 3D''s 6-connectivity should spread it differently. Quantifies the reach that any influence-based feature or evaluation must capture. Engine/stats, cheap.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 48ef927d-c321-5140-8ebe-c5f9311917c3
   slug: wild-glade-7676
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: d4414910-aa78-5bf1-ab6c-fcba4276524b
+  slug: wispy-river-8363
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 743109af42b86cb8c1e084e8542d2319645947a9fcbedff2dd5399e6e4139e09
 ---
 # STRAT-2 — 3D influence / ownership-correlation function

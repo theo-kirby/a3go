@@ -6,11 +6,17 @@ created_at: '2026-06-07T11:32:47.242714+00:00'
 parents:
 - purple-fog-6345
 summary: 'Open question: do ladders/tactics work in 3D?'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 298467fd-58f6-58b6-bbd4-702291415d9b
   slug: solitary-bush-1534
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: baa2a2b8-efec-5e71-99be-ac25f6d79cb7
+  slug: super-hill-7291
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: b6e59b1fb651528e338d970e5e8c8cce04b523ed22210f550f5fa4709b39e18a
 ---
 # Q3 — Tactics under 6-connectivity

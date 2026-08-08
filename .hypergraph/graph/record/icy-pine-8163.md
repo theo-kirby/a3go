@@ -8,11 +8,17 @@ parents:
 - billowing-dew-3640
 - proud-king-2753
 summary: Improve self-play *data quality* (not absolute strength) with KataGo's playout-cap randomization (cheap moves + a fraction expensive), legal-move-scaled Dirichlet, and root softmax temperature — replacing az.py's flat Dirichlet(0.5). Value is better aux-head training data, since PASS-15 showed self-play does not lift absolute 5³ strength. Extends INFRA-3 8a724b1c and autogo b4fd8252.
-flywheel:
+origin:
+  backend: flywheel
   node_id: e3615791-6e33-54cf-989d-445e2c857aad
   slug: icy-pine-8163
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: f1284625-3512-586a-85a4-bdc3dbd72a43
+  slug: broken-hill-3418
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: 54387066d8e5898d70de69397587738b169cfb3719c6c57446b15f3f8bdc69a5
 ---
 # SEARCH-5 — Self-play exploration/efficiency: playout-cap randomization + shaped Dirichlet + root softmax temp [MED]

@@ -9,11 +9,17 @@ parents:
 - delicate-breeze-7763
 - proud-king-2753
 summary: 'Make the net fully-convolutional with global-pooling value/score heads and train it on mixed board sizes (zero-pad + mask), so ONE net plays 3³→9³. The keystone build for the whole SCALE theme: SCALE-2 size-agnostic net 1e58a424, SCALE-3 curriculum adb11193, and the cross-board scaling law 0bc38c41.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 5f4399f0-b761-5fb5-bc8c-d6ffbbf73793
   slug: tight-dust-1276
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: fe9adf42-650d-5e82-a1ab-a99eadac7457
+  slug: dawn-voice-9194
+  revision: 0
+  pushed_at: '2026-08-08T10:03:17+00:00'
   content_sha256: 198238d5abfd6ec987fb32ab2b4bb1c4a51d7694a566bf0cc4f632e4ee9decdf
 ---
 # ARCH-1 — Global-pooling size-agnostic heads + masked multi-board-size training [MED-HIGH, keystone]

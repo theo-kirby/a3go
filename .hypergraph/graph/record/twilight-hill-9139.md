@@ -10,11 +10,17 @@ parents:
 - proud-star-4959
 - proud-king-2753
 summary: 'Build an online-go-style 3D game-review UI: per-voxel ownership heatmap (from AUX-1), live score-estimate bar (from AUX-2), per-move win-rate graph, move-by-move review with variations, over an SGF-equivalent 3D record. Extends TOOL-1 1f59266a, TOOL-2 742a0aab; consumes AUX-1, AUX-2.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: f70cb8c1-b1d7-5aa9-b063-b86c3bc90762
   slug: twilight-hill-9139
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: e502b444-0c9c-51c9-a395-9a50e603c1fb
+  slug: floral-haze-2525
+  revision: 0
+  pushed_at: '2026-08-08T10:03:17+00:00'
   content_sha256: 42abb12645282ec7a86ab5ec9d12cb28e39e8a1e819eb69f5aaa907b27667195
 ---
 # TOOL-3 — 3D game-review UI: ownership heatmap + score-estimate bar + win-rate graph + SGF-equiv record [MED, after aux heads]

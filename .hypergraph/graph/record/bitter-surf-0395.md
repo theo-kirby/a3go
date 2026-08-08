@@ -6,11 +6,17 @@ created_at: '2026-06-07T12:59:17.681756+00:00'
 parents:
 - crimson-frog-9812
 summary: Milestone 1/4. uv project under neural/ with torch 2.11.0+cu128; torch.cuda.is_available()=True; device RTX 5090, capability (12,0); a 2048x2048 GPU matmul runs cleanly. Start gate (toolchain + GPU) satisfied.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 08e469c3-18c7-5b06-8716-5a0431482749
   slug: bitter-surf-0395
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: e30e94a2-6da4-51ed-b4d0-e65974e569c3
+  slug: wispy-shape-2944
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 5d15092308b9e1595d630f267f1a121621d773765d5d94b9f0802fec613ca6da
 ---
 # Phase 2 milestone 1 — toolchain stood up + GPU verified

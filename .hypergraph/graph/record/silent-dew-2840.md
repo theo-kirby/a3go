@@ -6,11 +6,17 @@ created_at: '2026-06-07T11:56:24.507848+00:00'
 parents:
 - purple-fog-6345
 summary: 'Success bar fully met on 4^3: neural agent beats random (0.9), beats classical MCTS (0.612 [0.53,0.69] equal budget, decisive), and shows rising self-play strength. Recipe: distill classical teacher + stronger data + bigger net.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: c6824c31-50bd-56f2-828b-26d5f5bb5c62
   slug: silent-dew-2840
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 6546c08d-347a-5e91-a45f-d8068b68fca6
+  slug: flat-snow-5417
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: 1b30efff1ca4763f1d00b26da86284d1c403ef42b460e35b5c34ea67bc2e7f4f
 ---
 # Success bar — beats baselines: **CLEARED**

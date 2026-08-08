@@ -9,11 +9,17 @@ parents:
 - gentle-glitter-1363
 - proud-king-2753
 summary: Add a KataGo-style score head (predict final area margin + its distribution), giving a dense, komi-sensitive target where win-rate alone is flat. Directly attacks komi-unidentifiable-on-3³ 2a2ca6b9 and feeds Q9 fair-komi 9a106027 and score-aware play (SEARCH-1) + dynamic komi. Extends ALGO-2 792c4ec2.
-flywheel:
+origin:
+  backend: flywheel
   node_id: d971bf0e-673d-5b30-a686-5acca18f2316
   slug: throbbing-unit-0557
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: fdc3f3bc-2963-5b85-b296-555c16adc035
+  slug: spring-firefly-6349
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: a398074a46b906d828004723d8c40e6fc6bfaada13565f3f1c00fdba5dca9559
 ---
 # AUX-2 — Score-margin + score-distribution head [MED, high-value]

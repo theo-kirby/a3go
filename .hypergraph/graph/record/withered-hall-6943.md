@@ -6,11 +6,17 @@ created_at: '2026-06-18T11:52:29.201341+00:00'
 parents:
 - proud-king-2753
 summary: 'Edge hypothesis: with a size-agnostic global-pooling head (ARCH-1), evaluate a net trained ONLY on 4³ directly on 5³ (and 5³→7³) with no fine-tuning. If transfer is non-trivial, 3D Go tactics are board-size-portable and a curriculum (small→big) could bootstrap the expensive big boards cheaply. Mostly eval; cheap.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 0bbe92d5-3b7f-552d-866a-ea63dec0c815
   slug: withered-hall-6943
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 38db5124-a6f6-55a5-b0a5-645e086957a8
+  slug: still-silence-0715
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 9ec75faab36453b7b98b569efd0bc499c1bfe950cc48114219e5cfb5639cba8c
 ---
 # TRANSFER-1 — Zero-shot cross-board transfer (4³ → 5³ → 7³)

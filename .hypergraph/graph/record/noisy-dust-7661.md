@@ -8,11 +8,17 @@ parents:
 - empty-lab-3357
 - proud-king-2753
 summary: 'Implement KataGo''s subtree value-bias correction adapted to 3D: bucket tree nodes by their local 3×3×3 pattern, learn each bucket''s systematic value bias online, and subtract it during search. KataGo banks 30–60 Elo. Extends PROOF-1 ladder 3ac354fd and ALGO-1 Gumbel 4cf07501 (both search-side).'
-flywheel:
+origin:
+  backend: flywheel
   node_id: b08727b4-5be8-58d2-a2a6-e747fce437de
   slug: noisy-dust-7661
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: beaf9380-2a8e-5822-a726-3018eb271eb9
+  slug: super-star-7049
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: 1726ca3845116ecd529b4827d8a8f7d59cfc51c043eefe7254cd406cb009e16f
 ---
 # SEARCH-2 — Subtree value-bias correction (3×3×3 local-pattern buckets) [MED, ~30–60 Elo]

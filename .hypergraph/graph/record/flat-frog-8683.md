@@ -7,11 +7,17 @@ parents:
 - withered-boat-6047
 - crimson-voice-3644
 summary: MCTS(96) self-play, komi 0, 60 games/size. Game length 35→74→138 moves; draws <5%; |margin| grows with N. Throughput 0.37→0.04→0.01 games/s/core (5³ ~37× slower than 3³ but still feasible in parallel). Mean-margin fair-komi estimates are noisy/blowout-dominated, agreeing with the komi node.
-flywheel:
+origin:
+  backend: flywheel
   node_id: dacc5f7d-c7c5-587f-abb6-69956af8f2a0
   slug: flat-frog-8683
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 32a0c712-726e-5729-84c1-454785dc1fd4
+  slug: withered-bread-8733
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: 7b860e48315604c4aeb3385aad325fa19d816a6456ec2385cc8070322337522d
 ---
 # Q2 — Which board sizes are interesting and tractable?

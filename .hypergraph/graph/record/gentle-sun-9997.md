@@ -6,11 +6,17 @@ created_at: '2026-06-07T11:42:53.292374+00:00'
 parents:
 - crimson-voice-3644
 summary: 200 games/komi MCTS(96) self-play on 3³. Black win-rate stays ~47–60% (all CIs overlap 50%) across the whole komi grid with no monotone trend, while |margin| holds ~10–13. Outcomes are decided by who gets the big group, not by a few komi points — so win-rate-fair komi is ill-posed at this strength/board.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 2a2ca6b9-68d3-59d5-8725-6eb5770d643e
   slug: gentle-sun-9997
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: ef08fa5a-2d4c-5330-b3c6-ed2768535eb1
+  slug: cool-sun-6645
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: 07e3a54587f71e544a0552e3f98c089b7a3d3d8d1d7f285cee706147d8d9417d
 ---
 # Q1 — Fair komi on 3³: not identifiable by win-rate at this strength

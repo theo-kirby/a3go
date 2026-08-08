@@ -7,11 +7,17 @@ parents:
 - floral-river-3044
 - frosty-bread-3825
 summary: 'Champion 64x6 net''s policy prior on the empty 4^3 board is near-uniform across position classes (mean/point ~0.0154 for corner/edge/face/interior alike = 1/65). Unlike 2D Go''s strong corner-first opening, 3D 4^3 has flat opening positional structure. Caveat: distilled policy is diffuse; MCTS-visit / value-of-stone is a sharper follow-up.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 853d7c2c-10cb-5c76-88c6-a448e8773d25
   slug: long-king-8643
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 4c1270ee-f138-5373-bc07-79984b086531
+  slug: fancy-queen-3548
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 20b6ba31386ccbf433550f5ef0714b27988e0aade77106b00785a0514c9628a2
 ---
 # Q8/Q5 — the strong net has NO opening positional preference on 4^3 (unlike 2D Go's corner-first)

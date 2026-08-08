@@ -8,11 +8,17 @@ parents:
 - shrill-morning-5745
 - proud-king-2753
 summary: 'RESOLVED. BN-free nested-bottleneck net (A3GoNetBR, 1.13M, ~20% fewer params) vs BN-64x6 baseline, same 5^3 data+soft-target, 3 seeds. STRENGTH PARITY (0.303 [0.259,0.351] vs 0.298 [0.254,0.345], CIs overlap; neither beats classical) but 13% SLOWER per CPU eval game (more sequential layers) + weaker policy-top1 (value head carries parity). ReZero gamma=0 too slow -> gamma0=0.3 needed (init risk confirmed). Criterion NOT met. THIRD consecutive non-decisive branch -> 5^3 ceiling resists target-rep (AUX-1,AUX-3) AND capacity-reshaping (ARCH-2). Next real levers: richer INPUT planes (ARCH-3), raw SCALE-UP (net+data), or the C++ engine.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 8cecf366-472e-5450-89c6-b149b3ed36f3
   slug: purple-field-4026
   revision: 3
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: c89cab89-9432-5f21-ac15-6cad04e172e3
+  slug: steep-term-3573
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: aae0c359faef38b7cf36bdb86908c47aa87c1eb98e66bc9907fc79da3d565fd3
 ---
 # ARCH-2 — BN-free nested-bottleneck + fixed-variance init [RESOLVED: strength parity, no efficiency win]

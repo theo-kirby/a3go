@@ -7,11 +7,17 @@ parents:
 - mute-cloud-4824
 - proud-star-4959
 summary: 'Go beyond the solver-proven basics (two-eye life=straight-four, seki exists & survives 6-connectivity) to catalog 3D-specific tactics the STRONG net discovers in real games: snapback frequency, seki frequency, minimal living shapes by volume, and whether 6-connectivity creates motifs with no 2D analog. Mines the agent''s games as a microscope on 3D Go''s structure.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 777d5c9e-70ce-588f-98e2-4f2a80dfebb6
   slug: proud-tree-3638
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 6757c805-e1ea-5435-9733-1a1cfe5f6d2e
+  slug: dark-shadow-3824
+  revision: 0
+  pushed_at: '2026-08-08T10:03:17+00:00'
   content_sha256: bda5047fef85e5fa36d1827af95da3e57d90cb7c3c380d89a58c5e31b9ad3e51
 ---
 # SCIENCE-2 — 3D life & death and tactics at scale [MED]

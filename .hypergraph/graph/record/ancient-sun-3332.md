@@ -6,11 +6,17 @@ created_at: '2026-06-09T06:55:00.378083+00:00'
 parents:
 - mute-cloud-4824
 summary: 'Catalog of KataGo''s methods we lack, each with mechanism + claimed Elo + how it maps to a3go gaps: ownership/score/short-term/soft-policy aux heads (KataGo''s biggest accelerator; hit our komi-flat 2a2ca6b9 and policy-weak 0bc38c41 spots), optimistic policy (+40-90), subtree value-bias (+30-60), variance-cPUCT+uncertainty (~+75), playout-cap randomization, global-pooling size-agnostic heads, nested-bottleneck blocks, richer input planes (ko-ban for ubiquitous-3D-ko 31dae43b), SPRT gating. Source material for the EXPANSION direction nodes.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 365b153f-75e1-54ee-9344-4794604da3a4
   slug: ancient-sun-3332
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 9bf431c9-dc5f-58d7-a8d6-62108086a51a
+  slug: rapid-forest-6634
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: df19e388ee495114e645d74cfb924e759bd54c6fad699d52a8739f7f8754039d
 ---
 # Reference: lightvector/KataGo — transferable methods for 3D Go

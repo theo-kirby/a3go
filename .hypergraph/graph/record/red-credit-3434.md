@@ -6,11 +6,17 @@ created_at: '2026-06-18T12:25:08.180655+00:00'
 parents:
 - proud-king-2753
 summary: On 4³ the champion net had NO positional opening preference (~uniform corner/edge/face/interior, node 853d7c2c) — unlike 2D Go. Does that uniformity hold on bigger boards, or does the 6-neighbour interior become decisively strong on 5³/7³? Measure first-stone value by cell-type via short classical playouts. Engine-only, cheap.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 1b196886-c68a-5e19-81ca-c1c771d32e8c
   slug: red-credit-3434
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: faa9483a-afc9-54d5-9266-ee5c6de2ab44
+  slug: misty-breeze-8497
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 0ab3970740273bd29f8ea85e30d2d46d8229a5a23807ab719b58287b005105c0
 ---
 # STRAT-1 — Center vs surface opening value on 5³/7³

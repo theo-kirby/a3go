@@ -7,11 +7,17 @@ parents:
 - crimson-frog-9812
 - broken-firefly-1068
 summary: 'Milestone 3/4. Full AZ self-play→train→eval loop runs on the RTX 5090: 6 gens on 3³, loss 2.90→1.78, net beats uniform-random 76-93%. BUT self-play draw rate ~70% and the trained net loses to the untrained gen0 net (vs_gen0 0.06-0.20) — a policy collapse to drawing. Pipeline proven; rising-strength (Q10) needs fixes (root Dirichlet noise, komi/larger board, more sims).'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 2119a00c-2218-54c8-b955-d74a21df8f2e
   slug: weathered-band-1160
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: be752eec-0f0f-5b42-9f3c-ab77aa1a3990
+  slug: jolly-thunder-8172
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: b7897b61124f607ef5f7553336ed4997b863a869ec2d580f8829a965df712c6b
 ---
 # Phase 2 milestone 3 — end-to-end AZ loop (honest first result)

@@ -7,11 +7,17 @@ parents:
 - crimson-frog-9812
 - broken-firefly-1068
 summary: 'Game-parallel MCTS with a single batched GPU forward per sim round lifts 4^3 self-play from 0.05 to 1.11 games/s (22x). Engine legal_moves fast-path adds ~13%. Verified: 460/460 legal-move equivalence, 60/60 TS crossval. Unblocks Q9/Q10.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 427f4188-31d9-5302-9ec3-78985791c344
   slug: wild-poetry-7539
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 936a28ac-df65-5024-af8b-6ef968d925ad
+  slug: snowy-haze-0551
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 0a186964be147fe32666a27dc78c41bcc17a99273aa2370c2117d91bedb7e085
 ---
 # M5 — batched / game-parallel MCTS self-play

@@ -8,11 +8,17 @@ parents:
 - snowy-brook-3358
 - proud-king-2753
 summary: Add KataGo's optimistic policy head — a second policy biased toward moves that historically over-performed their prior — to widen useful search at low sims (40–90 Elo claimed). Needs the soft-policy target machinery (AUX-3). Extends ALGO-2 792c4ec2.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 312d9495-eee2-552f-8fe8-3730840814fb
   slug: cold-butterfly-1441
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 831ce2e0-402e-5c38-a141-55f9f489fd92
+  slug: polished-cloud-3109
+  revision: 0
+  pushed_at: '2026-08-08T10:03:17+00:00'
   content_sha256: 7af2952888f904bb197da9f2270b2b805821a7f77a530b67c42db49f35fd3298
 ---
 # SEARCH-4 — Optimistic policy head [MED, ~40–90 Elo]

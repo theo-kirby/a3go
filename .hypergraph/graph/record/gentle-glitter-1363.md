@@ -8,11 +8,17 @@ parents:
 - soft-waterfall-3492
 - mute-cloud-4824
 summary: 'Net capacity (32x3 -> 64x6) was THE lever that crossed the line vs classical by fixing the value head deeper search amplifies. Push further: deeper/wider resnets, 3D-lattice attention, better value targets (MCTS-value bootstrapping / TD(lambda) instead of pure game outcome), and auxiliary heads (ownership/score). Systematically find the capacity & target recipe that maximizes value-head calibration per board size.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 792c4ec2-6cc6-51eb-a115-f44fe5dc0ff9
   slug: gentle-glitter-1363
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: bfddf6c1-59ea-55a9-8523-9f197457e9cf
+  slug: odd-feather-8715
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: c46246f769ee19a70ed2bdcc44ef9efd356ac4faff9078c8da3d5d011862959b
 ---
 # ALGO-2 — Architecture & value-target scaling (push the capacity lever) [MED]

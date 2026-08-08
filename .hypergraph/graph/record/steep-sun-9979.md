@@ -6,11 +6,17 @@ created_at: '2026-06-18T11:52:28.415934+00:00'
 parents:
 - proud-king-2753
 summary: 'Edge rules question: 2D Go has notorious cyclic positions (double-ko, sending-two-returning-one, triple-ko) that positional superko handles but situational superko doesn''t. Do 3D analogues exist, how common are they, and does the campaign''s superko implementation resolve them correctly? Engine-only construction + search; stresses the rules core and EVAL-2''s solver.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 73adb0d5-d1bc-58b2-a7ee-833ec3cce15b
   slug: steep-sun-9979
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: ba4432ca-eba6-53e4-8f61-4d1676ea9414
+  slug: spring-hat-5761
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: ecf95ac74922d867d06ed056847147fcf2995c2bb8772291439368a114e28f5b
 ---
 # 3DSCI-3 — Do 3D cyclic-ko pathologies exist?

@@ -7,11 +7,17 @@ parents:
 - soft-waterfall-3492
 - dawn-block-6253
 summary: With the calibrated 64x6 net, more sims HELP vs a fixed classical@48 (0.65->0.67->0.78) — opposite of the weak net (amplification was net-quality). But classical scales very well with playouts on 4^3 (rollouts near-perfect); net's edge shrinks at high equal budget (128v128=0.42) and net@256 loses to cls@128 (0.30). Win is decisive at matched 48v48 + via cheap scaling vs fixed-budget classical. Motivates 5^3 where rollouts should be weaker.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 28f66847-f443-5b25-b349-710365491fbb
   slug: hidden-forest-3847
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 0242be5f-93c5-5bf9-90b6-42510f26f9e4
+  slug: green-bush-8117
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: ace400386244cbbe1cf0e81c0bd8796f3a025bf76a4f2131b3f0d21fa9b3c9ab
 ---
 # Test-time scaling, re-characterized with the GOOD (64x6) net: it scales now — and a honest bound on the classical win

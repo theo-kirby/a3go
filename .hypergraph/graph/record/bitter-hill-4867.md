@@ -6,11 +6,17 @@ created_at: '2026-06-18T11:52:24.838391+00:00'
 parents:
 - proud-king-2753
 summary: RESOLVED. 3D value heads are already well-calibrated (ECE 0.007–0.009), mildly under-confident; temperature≈0.65 halves ECE as a free no-retrain inference fix. Not a scar. Implies MCTS is doing real look-ahead, not denoising a biased value (sharpens SEARCHX-1).
-flywheel:
+origin:
+  backend: flywheel
   node_id: 9867fdd6-8970-5ddb-a1cb-702155d96774
   slug: bitter-hill-4867
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 02fe2636-14d3-5c97-b524-cf364f56fc90
+  slug: quiet-resonance-2535
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 6110925a52c54cc4bfe776f9efdecef53c19566c8ec423df60d34786314bd018
 ---
 # PROBE-2 — value-head calibration vs Tromp-Taylor outcome (5³) [RESOLVED]

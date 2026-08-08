@@ -6,11 +6,17 @@ created_at: '2026-06-07T11:42:48.232139+00:00'
 parents:
 - green-queen-4645
 summary: 'A bounded minimax kill-search (attacker moves first) reproduces 2D L&D theory exactly and finds that for eye-space volumes ≤4, 3D verdicts MATCH the 2D analogue: two separated eyes alive, straight-3 dead, straight-4 alive, square-four dead. The 2×2×2 cube (vol 8) is alive.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 61f98193-0575-5820-8cca-61a622af8e72
   slug: bitter-firefly-3214
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 1f941f44-e931-58e9-b533-d40069d3812e
+  slug: little-credit-9965
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: 8501693f08cafec798fd565b114a1e450b7b426fb44da569a21e05a60f8ec95d
 ---
 # Q4 — Life & death in 3D Go (first constructive results)

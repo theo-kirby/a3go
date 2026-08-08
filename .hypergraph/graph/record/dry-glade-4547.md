@@ -6,11 +6,17 @@ created_at: '2026-06-18T12:25:09.676561+00:00'
 parents:
 - proud-king-2753
 summary: 'PASS-15 concluded the 5³ lever is DATA QUALITY, not more self-play. Test it directly: reweight (or oversample) the distill set toward positions where the net most disagrees with the teacher''s policy/value (high-loss / high-KL), retrain, and net-vs-net. A cheap, on-thesis data-quality bet that needs no new self-play. Bridges to the LD-3 tsumego hard-set.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 4e63c2d6-ce9f-5b7f-8b28-b5abb1058db9
   slug: dry-glade-4547
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 8456c71d-dc21-5055-80d3-be61a52e034d
+  slug: patient-glade-1362
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 47aa746a122b932804560a04119f301589cf9d961a914bcedb4b733a728ece9f
 ---
 # DATA-1 — Hard-position mining for distillation

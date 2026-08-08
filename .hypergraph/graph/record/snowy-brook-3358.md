@@ -8,11 +8,17 @@ parents:
 - gentle-glitter-1363
 - proud-king-2753
 summary: 'RESOLVED. Soft policy target (prune + visits^(1/4) + 8x weight) vs hard argmax, 5^3, 3 seeds, 52901-ex data. Soft beats hard on ALL 3 seeds (+2.9pp pooled, 0.269->0.298) and has lower value-MSE on all 3 seeds, but Wilson CIs OVERLAP -> consistent-but-NOT-decisive; neither beats classical at 5^3. Meta-finding with AUX-1: two target/aux-representation changes both give small consistent non-decisive gains -> the 5^3 strength ceiling is NOT the supervision target; pivot to input representation (ARCH-3) + capacity (ARCH-2/ALGO-2).'
-flywheel:
+origin:
+  backend: flywheel
   node_id: c017760b-671f-54f1-951d-50887754dad7
   slug: snowy-brook-3358
   revision: 3
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: e86b70d4-28bf-582a-9bb8-9b4332ca4e6b
+  slug: raspy-star-4294
+  revision: 0
+  pushed_at: '2026-08-08T10:03:17+00:00'
   content_sha256: 0c6502487a103e4a62b8ae93c7c3c9e6136f1808f28b8417ea365299aadafb5b
 ---
 # AUX-3 — Soft policy target (T=4, x8 weight, prune) [RESOLVED: small consistent gain, NOT decisive]

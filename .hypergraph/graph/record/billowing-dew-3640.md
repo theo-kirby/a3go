@@ -8,11 +8,17 @@ parents:
 - lively-meadow-0948
 - mute-cloud-4824
 summary: 'RUN 1 (4^3): anchored gate validated live (blocks drift) but no robust gain. RUN 2 (5^3, frozen-distilled-champion anchor): SPLIT VERDICT — self-play champion beats its own distilled seed 0.735 net-vs-net (relative S5 met, CI-lo~0.64) BUT is statistically identical to the seed vs classical (0.219@48, 0.50@512 — unchanged) → the relative gain does NOT translate to absolute strength vs the OOD baseline. Methodology: net-vs-net self-improvement overstates strength vs classical. $0/local.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 8a724b1c-c666-5571-87fc-e078c55a0223
   slug: billowing-dew-3640
   revision: 4
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b12fe8d0-8955-5197-b0f2-fb3cd00830de
+  slug: autumn-bread-8404
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: bde6f881e0b0945fb0d312ba5b1bc32190b3e9a16fd77ace4fba5fe660d6d1f0
 ---
 # INFRA-3 — AZ self-play to beat the teacher (S5) [RUN 1: 4³ · RUN 2: 5³]

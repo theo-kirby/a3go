@@ -7,11 +7,17 @@ parents:
 - delicate-breeze-7763
 - mute-cloud-4824
 summary: Run the distillation recipe on 9^3 (the most genuinely-3D board yet) and on non-cube shapes (e.g. NxNx2 slabs, 4x4x7 prisms) to test whether the cross-board scaling law (value easier, policy harder, sims grow) extends, and to quantify how the third dimension's extent changes the game. Depends on INFRA-1/2 for tractable big-board search. Directly feeds S4.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 884663c8-410f-55d3-9122-1f493ac9b419
   slug: tiny-rain-6373
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: dec6716d-86c8-560c-af65-06497d3ff111
+  slug: cool-shadow-2796
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: cca46714df194214ecf7457f83bc4b81cb78c475d582b87b27e5e8f35ae0f629
 ---
 # SCALE-1 — 9^3 and non-cube boards (extend the scaling law) [MED-HIGH]

@@ -6,11 +6,17 @@ created_at: '2026-06-07T11:32:47.865152+00:00'
 parents:
 - purple-fog-6345
 summary: 'Open question: what is life on a 6-neighbor lattice?'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 8fca18c1-0657-5330-a005-58253fa27535
   slug: green-queen-4645
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: db3ca53d-050d-539b-8805-4eba1a55ed37
+  slug: square-river-6565
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: e3fa69c8b1299d468e77bada35cf8db1bfe2437a89aa2f07dd44d4f7c137ca17
 ---
 # Q4 — Life & death

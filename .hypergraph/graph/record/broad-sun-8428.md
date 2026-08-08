@@ -6,11 +6,17 @@ created_at: '2026-06-07T11:44:26.066592+00:00'
 parents:
 - frosty-bread-3825
 summary: 'Degree distribution per N³: corners are degree 3 (vs 2 in 2D), bulk is degree 6 (vs 4). 3³ has a single interior point and mean degree exactly 4.0 — as connected as an infinite 2D board — while 9³ is 47% interior. This substrate explains the ladder/L&D differences.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: c85ce2bf-30fb-5784-82d4-a8033dc93bd3
   slug: broad-sun-8428
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 5d527de7-5112-5da1-b6bd-b8116e1bb826
+  slug: floral-dust-2030
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: 4cf0e870839b4e761ac0d13fcf86b4da9b639f4793219206e9b4205892e1d9f3
 ---
 # Q5 — How 6-connectivity reshapes the board (geometric substrate)

@@ -6,11 +6,17 @@ created_at: '2026-06-18T13:58:06.411038+00:00'
 parents:
 - proud-king-2753
 summary: 'Zoom in on the bottom of the dimensionality ladder: how do tactics and territory change from a (n,n,1) sheet to a (n,n,2) bilayer to (n,n,3)? Depth-2 is the minimal 3D — stones gain exactly one cross-layer liberty. Quantify how that single extra dimension changes capture economics, connection, and life, where 3D-ness first switches on.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 189adb1d-471a-5756-9cb3-27f29e9185df
   slug: lively-sun-0512
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 0c078be2-7afa-5cef-981a-b5c9b1a3a8e4
+  slug: proud-firefly-5461
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 513d106f8c94841ce790100e5d58ff5274836fef11e67c5f9d5f65b5df7d613e
 ---
 # GEO-2 — Value of the 3rd dimension (slab anisotropy, depth-2 tactics)

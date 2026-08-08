@@ -6,11 +6,17 @@ created_at: '2026-06-07T13:31:23.042813+00:00'
 parents:
 - tiny-night-5466
 summary: Instrumented random self-play (200 games/size). Captures/game 6.3→10.8→13.8 (3³→4³→5³); single-stone captures 3.3→6.3→8.9/game; and ~98% of single-stone captures are immediately superko-illegal to recapture (652/665, 1235/1254, 1766/1782) — i.e. nearly every single-stone capture is a real ko. Ko fights scale up with the board.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 31dae43b-f212-51b4-a9d9-2f08d6e6fa70
   slug: weathered-frog-1610
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: bb158c50-00ec-5902-a166-eb2bdc6a4775
+  slug: long-pine-8724
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 77a762934e2f02b3c93849f50fa571d0a9ace26390bab1307b7368f2e8e3a8ae
 ---
 # Q7 — Ko / superko frequency & dynamics in 3D

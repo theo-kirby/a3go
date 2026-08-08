@@ -7,11 +7,17 @@ parents:
 - icy-rain-9864
 - green-queen-4645
 summary: 'Exact bounded-minimax capture solver + eye detector confirm seki (mutual life, no two eyes) on a 4x3x1 2D slice, and that the SAME standoff stays seki when opened into 3D (dame box gains z-liberties): the extra liberties don''t rescue the filling player. Controls pass (capturable group detected; two-eye group detected).'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 5f10c19e-3e85-52f8-b0dd-ac675108a364
   slug: shrill-morning-5745
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 5751f5e0-661f-5b62-9047-81833313c575
+  slug: falling-meadow-2470
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: a70ca976f5b45fd70513b0de650c1901c3dd29932ce65b185367ecc35f28ffe4
 ---
 # Q6 — Does seki occur in 3D, and does 6-connectivity change it?

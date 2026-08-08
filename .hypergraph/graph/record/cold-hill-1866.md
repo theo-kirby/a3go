@@ -6,11 +6,17 @@ created_at: '2026-06-18T12:25:06.741740+00:00'
 parents:
 - proud-king-2753
 summary: 2D Go has a famous finite catalogue of nakade ('dead shapes' — enclosed regions that are one big eye and thus killable). The 3D catalogue is unknown. Enumerate small enclosed volumes and solve whether the surrounding group lives or dies, producing the first 3D nakade table. Pure engine/solver, cheap.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 1cb25477-1a78-525e-a8aa-8e0d1b0c27ab
   slug: cold-hill-1866
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 5c624059-0ecc-5ddc-a653-4c7e419b6a22
+  slug: sparkling-cell-4654
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: fd9ebab558ed0d568791a0f532631bbbd38866613a4cf874b7a12aef6952bc76
 ---
 # LD-2 — 3D nakade / killable-shape taxonomy

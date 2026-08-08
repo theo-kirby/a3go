@@ -8,11 +8,17 @@ parents:
 - blue-boat-2948
 - withered-boat-6047
 summary: 'C++ engine made 7^3 tractable (33.8k examples in 15 min). Distilled 64x6 net reveals 3 monotone cross-board trends: value MSE falls (bigger boards all-decisive -> cleaner targets), policy acc falls (bigger action space), required MCTS sims grow (48->512->>>512). 7^3 value head near-perfect (MSE 0.006); strength is sim-bound on CPU eval -> next bottleneck is GPU-batched MCTS for big-board high-sim play.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 0bc38c41-87d9-5623-be09-0fc6a8b65ecf
   slug: delicate-breeze-7763
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 57323920-3871-56d1-aee0-a6dce1130dde
+  slug: patient-waterfall-0962
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: cef259f21fd0ecdc7c9f481e544d9fcef49f3682a432cfcfb025645b6acbe047
 ---
 # 7^3 characterization (via the C++ engine): a clean cross-board scaling LAW for 3D Go

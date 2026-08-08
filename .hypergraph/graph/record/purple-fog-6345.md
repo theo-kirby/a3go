@@ -5,11 +5,17 @@ title: 'a3go: autonomous three dimensional baud research campaign'
 created_at: '2026-06-07T11:30:28.244143+00:00'
 parents: []
 summary: 'Campaign root for autonomous 3D-Go (N^3, 6-connectivity) research: train a strong agent and characterize how the game differs from 2D, derived empirically from the vendored engine + self-play stack.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 73d510e5-875e-59b2-ad07-f4711ee0b748
   slug: purple-fog-6345
   revision: 3
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 72fce5bc-f1a3-5412-8888-785d0824d5b0
+  slug: cold-snowflake-5644
+  revision: 0
+  pushed_at: '2026-08-08T10:00:55+00:00'
   content_sha256: ff5b4bfe4e87744bda6e62270bfce43b719cee710555276891b642bb938347c6
 ---
 # a3go — autonomous 3D-Go research campaign

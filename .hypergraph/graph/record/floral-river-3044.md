@@ -6,11 +6,17 @@ created_at: '2026-06-07T12:52:31.027423+00:00'
 parents:
 - frosty-bread-3825
 summary: 'Follow-up to Q5/Q2: what is the first-move / occupancy value of the four position classes (degree 3/4/5/6) the geometry node identified? Does the high-degree interior or the boundary hold more value?'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 23ef7556-518f-5d58-8fa1-2827cf39985c
   slug: floral-river-3044
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 18bcdeda-bd3e-5c51-9b8b-9b2a7dcccdba
+  slug: crimson-thunder-5354
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: 9c9c073469d9d088f1b3535af1be1e6760659de92b537d720e49e38b4091205c
 ---
 # Q8 — Positional value of the four classes (← Q5, Q2)

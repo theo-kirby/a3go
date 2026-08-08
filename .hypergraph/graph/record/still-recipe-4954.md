@@ -6,11 +6,17 @@ created_at: '2026-06-18T13:58:05.434703+00:00'
 parents:
 - proud-king-2753
 summary: The engine supports non-cube (w,h,d) boards, so Go on (n,n,1)=pure 2D up to (n,n,n)=full 3D is a free interpolation no one has run. Map how komi, first-move value, capture economics, and net/classical strength change as the 3rd dimension grows from a slab to a cube — turning '2D vs 3D Go' from a dichotomy into a measured continuum.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 7390a76f-efa7-56c6-9052-a7513eb57030
   slug: still-recipe-4954
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 51158c87-2169-560f-8fce-5b0c65c8bf79
+  slug: winter-bonus-7652
+  revision: 1
+  pushed_at: '2026-08-08T10:06:14+00:00'
   content_sha256: 1df4a627d1037606d20d0a9d3a61894d6c1ddcf0ab8e934fcd3f54dac3ffe570
 ---
 # GEO-1 — The 2D→3D dimensionality ladder

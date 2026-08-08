@@ -7,11 +7,17 @@ parents:
 - withered-boat-6047
 - broken-firefly-1068
 summary: 'M5 makes 5^3 neural self-play feasible: 0.122 games/s (12x pass-1 classical), 0 draws (less degenerate than 3^3/4^3). But an 8-gen x 28-game (224 total) gated run got 0 promotions — below 4^3''s first-promotion volume (~320 games). 5^3 strength is volume-gated; binding constraint is wall-clock (~9x slower/game). Follow-up: a >=960-game 5^3 run.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 5d318812-9ce7-5e3e-a6dc-360091ee8413
   slug: spring-cherry-3158
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: d7b281bf-b3ad-5e2e-ae05-2aa1219be35e
+  slug: patient-glitter-4462
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: e87b685660b6e521283d880de7248125bf8f45b3646ecbc976aa61b902c848be
 ---
 # 5^3 neural self-play — tractability (Q2) and a volume-gated strength attempt (Q10)

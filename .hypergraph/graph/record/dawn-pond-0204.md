@@ -9,11 +9,17 @@ parents:
 - rough-paper-7328
 - proud-king-2753
 summary: 'EVAL-1 SPRT harness BUILT + VALIDATED (P19): sprt.py wraps net-vs-classical in a Wald SPRT (early-stop). Cross-check on libs@64 s0 decided not_a_winner at n=98 (llr −3.70), wr 0.337 [0.251,0.435] — overlaps fixed-n 0.383, CI-consistent; confirms libs@64 sub-parity. Reserved for anchoring net-vs-net winners; n≥128 audit via the fixed-n baseline.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 259c2ebe-e702-5525-a4eb-a7291e5c857a
   slug: dawn-pond-0204
   revision: 3
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: a0efa66a-f802-5dcb-aaaa-bc8305b83968
+  slug: steep-cake-8700
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: 2fdf576ffd97b6842889f695d5847a154773e8d56b5d32dcc476d3307c1a0711
 ---
 # EVAL-1 — SPRT / sequential-testing gate + n≥128 re-power audit of headline claims [MED, do early]

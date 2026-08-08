@@ -6,11 +6,17 @@ created_at: '2026-06-07T11:42:43.519227+00:00'
 parents:
 - solitary-bush-1534
 summary: 'Exact minimax ladder solver: the ladder captures in a depth=1 plane but FAILS on a 3D surface and in the open 3D interior. The extra connectivity lets the victim gain liberties past the escape cap.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 01d82e67-c9ad-59a5-8ccc-95e9a7d6adf7
   slug: aged-silence-1618
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 3b9e975d-6f1e-5ab7-ac87-f6b898a95085
+  slug: raspy-cherry-4435
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: 16fd87aee7e422ffddb05c2480b26f96ba0e99a2e1029221158fee3b378e3e9b
 ---
 # Q3 — Do ladders work in 3D Go? **No (except in genuinely-2D topology).**

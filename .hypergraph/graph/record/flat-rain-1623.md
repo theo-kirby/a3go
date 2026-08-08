@@ -8,11 +8,17 @@ parents:
 - frosty-bar-2241
 - mute-cloud-4824
 summary: 'online-go.com is a web frontend over the same online-go/goban board we vendored. Its transferable value is the game-review/analysis UI: ownership/territory overlay, score-estimate bar, win-rate-over-time graph, move-by-move review with variation branches, and an opening/joseki explorer over an SGF-equivalent game record. Source material for TOOL-3 (3D review UI) and SCI-1 (3D opening explorer); pairs with the ownership/score aux heads (AUX-1/2) that produce the overlays.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: ba69d0a3-f344-5413-8b0f-e4d65aa947bc
   slug: flat-rain-1623
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 1a1b95a3-f5b6-535b-83cd-a82f22e22bcc
+  slug: odd-forest-2637
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 1343c6fbdedbca1fada5851a05eaa1164021ab39f3b56710c7de78faf2fdc10c
 ---
 # Reference: online-go.com — 3D game-review / analysis UI inspiration

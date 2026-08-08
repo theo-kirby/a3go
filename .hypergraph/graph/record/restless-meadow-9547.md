@@ -6,11 +6,17 @@ created_at: '2026-06-07T12:59:20.815513+00:00'
 parents:
 - crimson-frog-9812
 summary: 'Milestone 2/4. A NumPy 3D-Go engine (a3go_engine.py) reproduces the TS reference engine exactly: replaying TS-dumped seeded random games, the Python Tromp-Taylor breakdown matches field-by-field on 60/60 games at both 3³ and 4³. Fast self-play substrate for neural training is ready and trustworthy.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: f69c2fa1-cbbb-5a25-be52-d02d04c6f686
   slug: restless-meadow-9547
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b3f9de46-d081-576e-99b1-dde5ee0c060c
+  slug: royal-glitter-5684
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: ea7ac37a16aedfdb429bdf273ee63aca111a8553fe5a28806012e15352d10147
 ---
 # Phase 2 milestone 2 — Python engine port + cross-validation

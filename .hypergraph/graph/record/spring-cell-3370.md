@@ -7,11 +7,17 @@ parents:
 - blue-boat-2948
 - mute-cloud-4824
 summary: RESOLVED. Vectorized legal-move mask (numpy shifts + native legal_move_mask) + Zobrist incremental superko (np.isin, no tobytes) -> 3.53x on 7^3 / 1.9x 5^3 / 1.3x 4^3; profiled 11.85s->3.14s (3.8x), GPU util 7^3 4%->15%. Validated 460/460 brute, 485/485 vec+zobrist invariants, 60/60 crossval, npm 48/48. Unblocks PROOF-1/S4/PROOF-2/INFRA-3. Union-find liberties deferred (diminishing). $0/local.
-flywheel:
+origin:
+  backend: flywheel
   node_id: 14377685-99ff-581d-8208-e4d8519b2b28
   slug: spring-cell-3370
   revision: 3
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 9f44c087-b204-584f-8323-eda5ebb272ed
+  slug: billowing-firefly-1877
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: ebf0dc3d88b1496a04b4b9bb151e7d2eb73fa8938d5e5713c4b33e8b57506e9e
 ---
 # INFRA-2 — Incremental engine (vectorized legal mask + Zobrist superko) [RESOLVED — 3.5x on 7^3]

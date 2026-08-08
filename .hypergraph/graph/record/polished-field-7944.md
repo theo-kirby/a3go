@@ -8,11 +8,17 @@ parents:
 - weathered-frog-1610
 - proud-king-2753
 summary: 'RESOLVED (PASS 18) — decision criterion MET, the FIRST EXPANSION branch to beat its 3-plane baseline decisively. Richer KataGo-style input planes lift 5³ strength vs classical: liberties-alone 0.449 [0.400,0.499] (+0.144, CI-separated) and full-stack 0.411 (+0.106); ablation isolates LIBERTY planes as the carrier (strongest arm, even > full stack). ko-ban does NOT help on 5³ (−0.027; KataGo prior falsified — ko too sparse). Wall-clock neutral, +12k params only → genuine input effect. Closest-to-parity 5³ net yet but still short of beating classical absolutely (lo 0.400<0.5). Revises PASS-17: 5³ ceiling NOT robust to input representation. Next: push liberties toward parity (capacity/sims/7³).'
-flywheel:
+origin:
+  backend: flywheel
   node_id: bcf93cd3-8d8b-5924-a570-3232f7f1d065
   slug: polished-field-7944
   revision: 3
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 1ef5fdae-ff08-50f7-ac84-39b9e6d64b46
+  slug: purple-mountain-1967
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: a7a10162670e0bbd8375e1b883f9ff5953d1ca42160c5bf55e2ca7322c7ef2a7
 ---
 # ARCH-3 — Richer input planes (history, liberties, ko-ban, capture-parity) [MED, cheap high-upside]

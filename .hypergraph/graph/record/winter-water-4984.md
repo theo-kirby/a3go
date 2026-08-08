@@ -7,11 +7,17 @@ parents:
 - dawn-block-6253
 - round-wave-9279
 summary: Distilling from a stronger teacher (128+192-playout classical, 22k examples) lifts the 32x3 net to 0.458 [0.326,0.597] vs classical at equal budget — statistically at parity, up from 0.085 (self-play) and 0.333 (128-playout distill). Confirms the scaling-node prediction that net quality (value targets), not search, was the wall. One more data round running to cross 0.5 decisively.
-flywheel:
+origin:
+  backend: flywheel
   node_id: f490a174-5462-580b-bdf6-fe2db6b4ee2f
   slug: winter-water-4984
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 1ce76b22-0997-5171-8cfc-8a757ff8a413
+  slug: yellow-sunset-3271
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 9523ef7572b4b194ab895054669eb49301e355fc05c60c98cf19a3d2c7d57182
 ---
 # Stronger-teacher distillation brings the net to PARITY with classical (0.085 -> 0.333 -> 0.458)

@@ -6,11 +6,17 @@ created_at: '2026-06-07T13:06:22.680586+00:00'
 parents:
 - icy-rain-9864
 summary: 'Extended the exact life/death solver to compact 3D shapes (vol 4-8). Every shape''s 3D verdict equals its 2D analogue: straight-4 alive, square-four & 3D-tripod-4 dead, straight-5/cross-5/octahedron-7/cube-8 alive. 6-connectivity does not lower the minimal-life threshold. Seki (two-group) deferred to its own careful sub-pass.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 897fb2e0-d11a-5a49-8cdf-3d086d42c1ca
   slug: polished-snow-4561
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: adbc423e-b1f5-5254-b3da-2b4b2618e8fd
+  slug: broken-lab-0170
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: 7130165cd468040a0f29fff0b8f0ddd1795d3789ec223a8c40285cdf4c1bee25
 ---
 # Q6 — Does 6-connectivity change minimal life? **No (per-volume).**

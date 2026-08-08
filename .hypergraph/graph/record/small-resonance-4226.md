@@ -7,11 +7,17 @@ parents:
 - crimson-frog-9812
 - broken-firefly-1068
 summary: 'AZ + replay buffer + best-net gating on 4³ (8 gens, 64 min). Gating prevented all regression: candidate never beat best (cand_vs_best 0.24-0.48 < 0.55), so best stayed = gen0 and best_vs_random held 0.58-0.79. But training never surpassed the untrained-MCTS baseline. Method is now correct+stable; the binding constraint is self-play data volume (un-batched per-node GPU calls are too slow). Next: batched/vectorized self-play.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 2f9033d9-42b9-5b75-bc40-d1309fc85e37
   slug: small-resonance-4226
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: b099526b-cf1b-5d7e-904e-c986b62b473a
+  slug: white-sunset-9656
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: e52238b0abc7ae46a8e5d8aa5f602d42720f0b183faae48df7a1924d3a2b5727
 ---
 # Phase 2 milestone 4 — replay buffer + best-net gating (stability achieved; scale is the new wall)

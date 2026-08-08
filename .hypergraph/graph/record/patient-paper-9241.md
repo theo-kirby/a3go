@@ -6,11 +6,17 @@ created_at: '2026-06-18T12:25:05.724416+00:00'
 parents:
 - proud-king-2753
 summary: 'The most basic unknown of 3D Go: what is the smallest living group? In 2D, two eyes = life and the minimal living shapes are catalogued; in 3D (6-connectivity) the eye/false-eye/life conditions are unstudied. Enumerate small enclosed shapes and solve life/death with the engine — a foundational science result the whole campaign rests on but never measured.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 2341cdd9-1006-5043-bf76-5a6c19883925
   slug: patient-paper-9241
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 2bb4dfb2-4038-5768-8ccc-f36d52c1abf0
+  slug: yellow-unit-1940
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 7ad6fd2c6a29b6df5852eca7f9e58f38d8b9aa892fc5b27e13489616fadebc17
 ---
 # LD-1 — Minimal living shape / two-eye condition in 3D

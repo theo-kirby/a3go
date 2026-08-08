@@ -6,11 +6,17 @@ created_at: '2026-06-18T13:58:08.267882+00:00'
 parents:
 - proud-king-2753
 summary: 3D Go has many transpositions (move orders reaching the same position). The engine already maintains a zobrist hash; reuse it to merge tree nodes that share a position (graph MCTS / TT), so visit counts and values pool across paths. Cheaper effective search + stronger play, especially as boards grow. The superko history makes correctness subtle — a genuine 3D twist.
-flywheel:
+origin:
+  backend: flywheel
   node_id: bea50f57-5bd9-5c87-a78e-11279248a88a
   slug: cool-leaf-5231
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 38a754c6-36c3-58b2-a06a-a3efb267385e
+  slug: jolly-art-2079
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 80d046c72294a01d58ab410e9678789fb51efa883c9d7593b865f87f0056eb11
 ---
 # ALGO-S2 — Graph MCTS with a superko-aware transposition table

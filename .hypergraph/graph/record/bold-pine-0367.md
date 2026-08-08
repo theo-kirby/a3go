@@ -6,11 +6,17 @@ created_at: '2026-06-07T12:52:28.718977+00:00'
 parents:
 - purple-fog-6345
 summary: 'LIVING methodology log. Latest (PASS-15): under-powered n<=32 win-rate evals (+-0.16 CI) overstate magnitude — a 5^3 self-play ''lift'' to 0.406/0.594 vanished at n=128 (==seed, ~0.40); even seed ''parity@512=0.50'' is 0.414 at n=128. Gate/claim on n>=128. Prior lesson: net-vs-net gates mislead on direction. Real claim needs OOD opponent AND n>=128.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: dcd0a5db-a4a6-5bdb-8e13-d82591ed4b31
   slug: bold-pine-0367
   revision: 10
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: befc2f75-d3f8-5e9f-aa83-bdd35de17b36
+  slug: little-hall-9089
+  revision: 0
+  pushed_at: '2026-08-08T10:01:24+00:00'
   content_sha256: b300578a7d86f96db08e9b8615e978288ecfa7be45331bdbbf10d79737154df5
 ---
 # Methodology lessons — what worked / what didn't (LIVING)

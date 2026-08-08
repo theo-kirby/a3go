@@ -6,11 +6,17 @@ created_at: '2026-06-18T11:52:26.049144+00:00'
 parents:
 - proud-king-2753
 summary: '3D boards have structurally distinct cells the net is blind to: an interior cell has 6 neighbors, a face has 5, an edge 4, a corner 3 — vs 2D''s flat 4/3/2. Encode neighbor-count (max-liberty ceiling) and distance-to-nearest-surface as static input planes. Hypothesis: handing the net the board geometry it can''t infer lifts strength like liberties did.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 42747f38-817c-542c-9561-5966c8c96cf0
   slug: rapid-salad-8510
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 92a9ac9b-c664-56ca-a664-f364d6ffb569
+  slug: gentle-meadow-7851
+  revision: 0
+  pushed_at: '2026-08-08T10:02:15+00:00'
   content_sha256: 588e8a2beea9beede1b46f1b01a92e6eea4ca138691c58b7fbc489d133f96cf2
 ---
 # REP-1 — 3D structural-geometry planes (neighbor-count / distance-to-surface)

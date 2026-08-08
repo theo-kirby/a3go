@@ -8,11 +8,17 @@ parents:
 - rapid-hat-7732
 - proud-king-2753
 summary: 'Reframe the campaign''s cross-board law as autogo''s central scaling thesis: map strength as a joint surface over training compute (net size × data) × test-time search × board size. A strong ''science'' headline once the aux/capacity nets exist. Extends scaling-law 0bc38c41 and PROOF-2 search-scaling 75615ad2.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 8c790338-cbbd-598c-ac01-d8f6d95fc321
   slug: cold-poetry-1723
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 88318670-24fb-51cf-b054-aea5255fcf8d
+  slug: damp-mouse-9842
+  revision: 0
+  pushed_at: '2026-08-08T10:03:17+00:00'
   content_sha256: 733212d47276b930ed03514d56dcafbe868b42697fb25bd4e522c1c81e04dddc
 ---
 # EVAL-3 — Train-time × test-time scaling-law characterization (strength surface) [MED]

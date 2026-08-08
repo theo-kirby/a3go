@@ -7,11 +7,17 @@ parents:
 - purple-fog-6345
 - bold-pine-0367
 summary: 'External sister project (Claude-automated 2D-Go research). Validates our M5 (their 19.4x C++ ~ our 22x Python). Pass 5 incorporates: classical-MCTS distillation warm-start + Dirichlet-noise annealing (targets our ''net loses to classical'' result). Skips multi-node/managed infra. C++ engine + leaf-parallelism left as high-value frontier.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: b4fd8252-d081-5898-9e8a-117bbc918757
   slug: lively-meadow-0948
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: f62254bb-014f-5901-be30-7daa414d98cd
+  slug: morning-smoke-2870
+  revision: 0
+  pushed_at: '2026-08-08T10:01:49+00:00'
   content_sha256: cdfd474ba86cf29b5dca31b6cc83405e49f8b9204ced044240db97cb7cbec88b
 ---
 # External source: ericjang/autogo — transferable findings

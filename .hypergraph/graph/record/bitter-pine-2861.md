@@ -8,11 +8,17 @@ parents:
 - gentle-glitter-1363
 - proud-king-2753
 summary: 'SCALE-libs RESOLVED (P19 replan): GPU net-vs-net Elo screen shows capacity does NOT lift the 5³ liberty net. libs@64 (Elo 70.9) ≈ libs96×8 (78.6) tied at top; libs128×10 over-scales to Elo −11, below the 3-plane base. libs@64×6 stays the strongest 5³ net. Null result for the capacity lever; methodology pivot (net-vs-net + SPRT) unblocks the frontier.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: faddae67-0dc0-566e-9054-9869f0e627f6
   slug: bitter-pine-2861
   revision: 2
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 036980f9-019d-5948-9a8f-1c1b562a2a81
+  slug: silent-sun-8934
+  revision: 0
+  pushed_at: '2026-08-08T10:03:07+00:00'
   content_sha256: 9bd4a1afb57df4ff6f30acbf5471a3d9a6abd505d368ad32035cbc71ee59d514
 ---
 > **STATUS: RESOLVED (PASS-19 replan) — null result; capacity is not the 5³ lever.**

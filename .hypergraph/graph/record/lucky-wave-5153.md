@@ -6,11 +6,17 @@ created_at: '2026-06-18T12:25:07.574745+00:00'
 parents:
 - proud-king-2753
 summary: 'Use LD-1/LD-2 to auto-generate solved 3D life-and-death problems, then test whether the EXISTING trained nets read them: does the policy find the vital point, does the value head know alive-vs-dead? A forward-pass interpretability probe connecting tactical ground truth to net behaviour — cheap, and a hard-position source for DATA mining.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 7ae71a3a-10de-51a6-afaf-17065ada97d8
   slug: lucky-wave-5153
   revision: 0
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 9463c221-954a-5d9f-a8d4-6827ffa73e82
+  slug: young-cloud-6399
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: ebc21a3c4739905f68c80c92ca00c24153631d98477e1e00b4506f4608b8135f
 ---
 # LD-3 — Generated 3D tsumego + net life-and-death reading accuracy

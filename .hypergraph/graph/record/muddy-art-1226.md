@@ -8,11 +8,17 @@ parents:
 - long-king-8643
 - proud-king-2753
 summary: 'Mine a strong net''s self-play for 3D opening theory: does the third dimension create a center/interior preference (2D Go opens in corners; our 4³ net showed NO preference, 853d7c2c)? Build a browsable 3D opening explorer / joseki book. Extends SCIENCE-1 5e34766d and Q8 853d7c2c.'
-flywheel:
+origin:
+  backend: flywheel
   node_id: 5b0393b7-72f1-5dc1-88fe-f7a56c1cccdc
   slug: muddy-art-1226
   revision: 1
-  pushed_at: '2026-08-07T20:21:22.456999+00:00'
+  exported_at: '2026-08-08T09:53:04.831757+00:00'
+flywheel:
+  node_id: 86db6269-10b7-5d5a-9669-2f2b60e857a5
+  slug: dark-dust-5567
+  revision: 0
+  pushed_at: '2026-08-08T10:02:40+00:00'
   content_sha256: 70a985636f0bc189de0ba1ee2366946749b85ada33c42b537aedf191e0325477
 ---
 # SCI-1 — Center/positional value + 3D opening explorer (joseki book) [MED, after strong net]
